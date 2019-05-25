@@ -1,0 +1,4 @@
+@article{WangDisconnected,
+  title={Disconnected Recurrent Neural Networks for Text Categorization},
+  author={Wang, Baoxin},
+}

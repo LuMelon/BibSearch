@@ -1,0 +1,8 @@
+Named Entity Recognition with Bidirectional LSTM-CNN
+A large annotated corpus for learning natural language inference
+Named Entity Recognition with Bidirectional LSTM-CNN
+A large annotated corpus for learning natural language inference
+A Credibility Analysis System for Assessing Information on Twitter
+A large annotated corpus for learning natural language inference
+Disconnected Recurrent Neural Networks for Text Categorization
+Sentence-State LSTM for Text Representation
