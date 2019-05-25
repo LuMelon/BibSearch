@@ -27,7 +27,6 @@ def ConstructSession():
     # proxy = requests.get('http://localhost:5000/get').text  # 获取本地代理池代理
     idx = np.random.randint(len(proxies))
     proxy = '%s:%s' % (proxies[idx]['ip'], proxies[idx]['port'])
-
     if proxies[idx]["type"] == "https":
         thisproxies = {'https': 'https://{}'.format(proxy)}
     else:
@@ -37,12 +36,13 @@ def ConstructSession():
 
 
 def ToBib(datalink, datasign, diversion):
-    print("--------------into Bib function-------------")
     bib_url_format = 'http://xueshu.baidu.com/u/citation?&url={datalink}&sign={datasign}&diversion={diversion}&t=bib'
     bib_url = bib_url_format.format(datalink=datalink, datasign=datasign, diversion=diversion)
+    print("bib_url:", bib_url)
     while True:
         sess = ConstructSession()
         html = sess.get(bib_url)
+        print("Bib_Response:", html)
         if html.status_code == 200:
             break
         elif html.status_code ==404:
