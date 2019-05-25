@@ -1,0 +1,6 @@
+A Credibility Analysis System for Assessing Information on Twitter 
+A large annotated corpus for learning natural language inference
+Disconnected Recurrent Neural Networks for Text Categorization
+Joint Embedding of Words and Labels for Text Classification
+Named Entity Recognition with Bidirectional LSTM-CNN
+Sentence-State LSTM for Text Representation
