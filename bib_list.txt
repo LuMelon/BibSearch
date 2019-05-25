@@ -2,3 +2,38 @@
   title={Disconnected Recurrent Neural Networks for Text Categorization},
   author={Wang, Baoxin},
 }
+@article{Chiu2016Named,
+  title={Named Entity Recognition with Bidirectional LSTM-CNNs},
+  author={Chiu, Jason P. C. and Nichols, Eric},
+  journal={Computer Science},
+  year={2016},
+}
+@article{Wang2018Joint,
+  title={Joint Embedding of Words and Labels for Text Classification},
+  author={Wang, Guoyin and Li, Chunyuan and Wang, Wenlin and Zhang, Yizhe and Shen, Dinghan and Zhang, Xinyuan and Henao, Ricardo and Carin, Lawrence},
+  year={2018},
+}
+@article{Zhang2018Sentence,
+  title={Sentence-State LSTM for Text Representation},
+  author={Zhang, Yue and Liu, Qi and Song, Linfeng},
+  year={2018},
+}
+@article{WangDisconnected,
+  title={Disconnected Recurrent Neural Networks for Text Categorization},
+  author={Wang, Baoxin},
+}
+@article{Alrubaian2016A,
+  title={A Credibility Analysis System for Assessing Information on Twitter},
+  author={Alrubaian, Majed and Al-Qurishi, Muhammad and Hassan, Mohammad and Alamri, Atif},
+  journal={IEEE Transactions on Dependable & Secure Computing},
+  volume={PP},
+  number={99},
+  pages={1-1},
+  year={2016},
+}
+@inproceedings{Gahlot2009Shallow,
+  title={Shallow Parsing for Hindi - An extensive analysis of sequential learning algorithms using a large annotated corpus},
+  author={Gahlot, H and Krishnarao, A. A and Kushwaha, D. S},
+  booktitle={IEEE International Advance Computing Conference},
+  year={2009},
+}

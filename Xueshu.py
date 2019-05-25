@@ -53,13 +53,11 @@ def ToBib(datalink, datasign, diversion):
 
 def ExtractTheSearchPage(html, title):
     soup = Soup(html.text, 'html.parser')
-    paper = soup.find(id= "1")
-    if paper is not None:
-        paras = list(paper.children)[-2]
-        print('\n\n\n\n\nParas:', paras, '\n\n\n\n\n')
-        link = paras['url']
-        sign = paras['longsign']
-        diver = paras['diversion']
+    paper_paras = soup.find(class_= "reqdata")
+    if paper_paras is not None:
+        link = paper_paras['url']
+        sign = paper_paras['longsign']
+        diver = paper_paras['diversion']
         return True, link, sign, diver
     else:
         return False, '', '', ''
