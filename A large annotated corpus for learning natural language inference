@@ -1,0 +1,1846 @@
+
+<!DOCTYPE html>
+<!--STATUS OK-->
+
+
+ 
+ 
+ 
+ 
+
+
+	
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<html>
+	<head>
+		<meta name="referrer" content="always" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="Description" content="百度学术搜索，是一个提供海量中英文文献检索的学术资源搜索平台，涵盖了各类学术期刊、学位、会议论文，旨在为国内外学者提供最好的科研体验。">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="manifest" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/manifest_69e8554.json">
+		
+<title>
+A large annotated corpus for learning natural language inference_百度学术
+</title>
+
+		
+<style>
+/*解决iconfont跨越问题*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('/cache/mid/static/xueshu_wise/iconfont/iconfont.ttf') format('truetype'),
+        url('/cache/mid/static/xueshu_wise/iconfont/iconfont.svg#iconfont') format('svg');
+}
+</style>
+    	<link type="text/css" rel="stylesheet" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/css/page_wise_1eb6b91.css">
+    
+		
+	<script>
+var name,navigate,bdQid="c060bf9e00060cc2";
+var bds={
+    se:{},
+    util:{},
+    //结果页js通用数据
+    comm : {
+        domain:"http://www.baidu.com",
+        ubsurl : "http://sclick.baidu.com/w.gif",
+        tn:"SE_baiduxueshuwise_y5e9t2rx",
+        queryEnc:"A%2Blarge%2Bannotated%2Bcorpus%2Bfor%2Blearning%2Bnatural%2Blanguage%2Binference",
+        queryId:"c060bf9e00060cc2",
+        ishome : 0,
+        isTransShow: 0,
+        query : "A large annotated corpus for learning natural language inference",
+        queryShow : "A large annotated corpus for learning natural language inference",
+        qid : "c060bf9e00060cc2",
+        cid : "0",
+        sid : "",
+        f : "0",
+        pn : "0",
+        oq : "",
+        rsp : "",
+        sc_f_para : "",
+        stoken : "",
+        serverTime : "1558791451",
+        user : "",
+        username : "",
+        isLogin : "0",
+        loginAction : [],
+        useFavo : "",
+        pinyin : "",
+        favoOn : "",
+        personalData : "",
+        curResultNum:"10",
+        rightResultExist:false,
+        protectNum:0,
+        zxlNum:0,
+        pageNum:parseInt('1')||1,
+        pageSize:parseInt('10')||10,
+        taskTipsShow: 1,
+        subpro: 'xueshu_respage',
+        isSchoolShow: 0,
+        schoolEname: "",
+        resultTn:"SE_baiduxueshu_c1gjeupa",
+        scFrom:"",
+        scAsPara:"",
+        isdetailpage: 0,
+        // topBannerInfo: {
+        //     startDate: "2018\/05\/28",
+        //     endDate: "2018\/10\/11",
+        //     width: "260",
+        //     height: "130",
+        //     id: "jiangxuejin",
+        //     imgUrl: "http:\/\/ps-scholar-static.bj.bcebos.com\/homepage%2Fbaidujiangxuejing.jpeg",
+        //     jumpUrl: "http:\/\/scholarship.baidu.com\/"
+        // },
+        pageBannerInfo: {
+            startDate: "2018\/01\/01",
+			endDate: "2099\/01\/01",
+			id: "jiandan"
+        },
+        detailJumpVars: "scholar_single_hit=&scholar_single_hit_jump=&no_jump="
+    }
+};
+
+bds.comm.upn = {"browser":"safari","ie":"","os":"linux","win":"","browsertype":"safari"};
+
+var selfOpen = window.open;
+eval("var open = selfOpen;");
+
+function G(id){
+    return document.getElementById(id);
+}
+
+function TagQ(tag,obj){
+	return obj.getElementsByTagName(tag);
+}
+
+/**
+* @description 增加sclick统计
+* @function
+* @name c
+* @grammar c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function c(q){
+    var p = window.document.location.href, sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = escape(q[v]);
+                break;
+            default:
+                sV = q[v];
+        }
+        sQ += "&" + v + "=" + sV;
+    }
+    try{
+        if (("p2" in q)&&G(q["p1"]).getAttribute("mu") && q["fm"]!="pl") {
+            mu= "&mu=" + escape(G(q["p1"]).getAttribute("mu"));
+        }
+    }catch(e){};
+	img.src = "http://sclick.baidu.com/w.gif?q=" + bds.comm.queryEnc + sQ + mu + "&rsv_sid=" + bds.comm.sid + "&cid="+bds.comm.cid+"&qid="+bds.comm.qid+"&t="+new Date().getTime()+"&path="+p;
+    return true;
+}
+
+/**
+* @description 增加nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function ns_c(q){
+	ns_c_xs(q);
+}
+
+/**
+* @description 增加xueshu nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+
+function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd=bds.comm.queryEnc, sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+
+    // mod当前搜索是否为图书馆模式
+    var mod = bds.comm.schoolEname ? '&mod=lib_' + bds.comm.schoolEname : '';
+    //fr是否来自详情页
+    var fr = bds.comm.isdetailpage ? '&fr=detailpage' : '';
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&rsv_sid=" + bds.comm.sid + "&wd=" + wd + "&" + sQ + "f=" + bds.comm.f + "&oq=" + bds.comm.oq + "&rsp=" + bds.comm.rsp + "&path=" + p + "&tn=" + bds.comm.tn + "&t=" + new Date().getTime() + '&pn=' + bds.comm.pn + mod + fr;
+    return true;
+}
+
+/**
+* @description 为搜索请求添加query，并增加ie参数
+* @function
+* @name setHeadUrl
+* @grammar setHeadUrl(el)
+* @param {Object} el 点击的链接对象
+*/
+function setHeadUrl(el){
+    var word = G("kw").value;
+    word = encodeURIComponent(word);
+    var url = el.href;
+    url = url.replace(new RegExp("(" + el.getAttribute('wdfield') + "=)[^&]*"), '\x241' + word+"&ie=utf-8");
+    el.href = url;
+}
+
+bds.util.getWinWidth = function(){
+    return window.document.documentElement.clientWidth;
+};
+//设置页面主体宽度
+//由于此时tangram还没加载，所以不能使用baidu.dom.addClass/removeClass
+bds.util.setContainerWidth = function(){
+    var c = G('container'),w = G('wrapper'),
+    remove = function(r,o){o.className = o.className.replace(r, '');},
+
+    add = function(cls,o){o.className = (o.className+' '+cls).replace(/^\s+/g, "");},
+    has = function(r,o){return r.test(o.className)};
+    if(bds.util.getWinWidth()<1310){
+        remove(/\bcontainer_l\b/g,c);
+        remove(/\bwrapper_l\b/g,w);
+        if(!has(/\bcontainer_s\b/,c)) add('container_s',c);
+        if(!has(/\bwrapper_s\b/,w)) add('wrapper_s',w);
+    bds.comm.containerSize = "s";
+    }else{
+        remove(/\bcontainer_s\b/g,c);
+        remove(/\bwrapper_s\b/g,w);
+        if(!has(/\bcontainer_l\b/,c)) add('container_l',c);
+        if(!has(/\bwrapper_l\b/,w)) add('wrapper_l',w);
+    bds.comm.containerSize = "l";
+    }
+};
+// ie版本
+bds.util.Ieversion = function() {
+    var ua = navigator.userAgent,
+        iereg = /MSIE (\d+).*/,
+        version = ua.match(iereg);
+
+    if (version && version[1]) {
+        return parseInt(version[1]);
+    }
+    return -1;
+};
+
+//阿拉丁命名空间
+window.A =  bds.aladdin = {
+    ids: [],
+    has: true,
+    list: [],
+    logs: [],
+    loadTimes: []
+};
+
+(function(){
+    var fns = [], isReady = false;
+    var exec = function(fn, thisobj){
+        try{
+            fn.call(thisobj);
+        }catch(e){
+            if(window.debugFlag) throw e;
+        }
+    };
+
+    //在js基础库加载完成后执行fn
+    bds.ready = function(fn){
+        if(typeof fn != 'function') return;
+        if(isReady){exec(fn)}
+        else{fns.push(fn);}
+    };
+
+    //手动触发ready
+    bds.doReady = function(){
+        isReady = true;
+        while(fns.length) exec(fns.shift());
+    };
+
+    //通过json字符串获取对象
+    var getJson = function(jsonString){
+        var result = {};
+        if(jsonString){
+            try{
+                var r = new Function("return " + jsonString)();
+                if(r) result = r;
+            }catch(e){}
+        }
+        return result;
+    },
+
+
+    // 获取当前阿拉丁DOM容器
+    getCurrentAladdin = (function(){
+        var scripts = document.getElementsByTagName("script");
+        return function(){
+            var script = scripts[scripts.length - 1], container = script;
+            while(container){
+                if( container.className ){
+                    if( /(?:^|\s)result(?:-op)?(?:$|\s)/.test(container.className)){
+                        if( tplname = container.getAttribute("tpl") ){
+                            return container;
+                        }
+                    }
+                }
+                container = container.parentNode;
+            }
+        };
+    })(),
+
+    // 筛选出阿拉丁结果
+    getResults = function(){
+        var els = $(".result-op").get().concat( $(".result").get() ),
+        alaEls = {};
+
+        for(var i = 0, name, el; el = els[i]; i++ ){
+            if(name = el.getAttribute("tpl")){
+                if( alaEls[name] ){
+                    alaEls[name].push(el);
+                }else{
+                    alaEls[name] = [el];
+                }
+            }
+        }
+        return alaEls;
+    },
+
+    // 入口事件队列
+    readyedHandlers = [],
+
+    //销毁函数列表，每项内容为
+    //{obj:instance, fn: fn}
+    //每项执行fn后即删除
+    disposeOnceHandlers = [],
+
+    //每项格式同disposeOnceHandlers
+    //每项执行后仍保留
+    //即每次销毁实例时都执行一次
+    disposeAlwaysHandlers = [],
+
+    currentSetupContainer = null,
+
+    // merge在bds.ready前的队列
+    mergeHandlers = [],
+
+    // 阿拉丁实例构造函数
+    Ala = A._Aladdin = function(){
+        this.p1 = 0;
+        this.mu = null;
+    };
+
+    A.merge = function(tplname, fn){
+        mergeHandlers.push({tplname: tplname, fn: fn});
+    };
+
+    // 阿拉丁入口函数
+    A.init = A.setup = function(k, v){
+
+        // 页面可能存在的空 init
+        if( k === undefined || k === null){
+            return;
+        }
+
+        var object, container = currentSetupContainer || getCurrentAladdin();
+        if( !container){
+            return;
+        }
+
+        object = {container: container};
+
+        if(typeof k == "function"){
+            object.handler = k;
+
+        }else if(typeof k == 'object'){
+            object.data = k;
+
+        }else{
+            object.data = {};
+            object.data[k] = v;
+        }
+
+        readyedHandlers.push( object );
+    };
+
+    // 注册每次销毁均执行的函数
+    A.addDisposeHandler = function(item){
+        disposeAlwaysHandlers.push(item);
+    };
+
+    //全局阿拉丁销毁函数，在删除阿拉丁dom节点前调用
+    A.dispose = function(){
+        // 执行阿拉丁实例dispose队列
+        while(disposeOnceHandlers.length){
+            var d = disposeOnceHandlers.shift();
+            exec(d.fn, d.obj);
+        }
+        // 顺序执行销毁函数
+        var handlers = disposeAlwaysHandlers;
+        for(var i=0;i<handlers.length;i++){
+            var d = handlers[i];
+            exec(d.fn, d.obj);
+        }
+    };
+
+    // 遍历执行所有阿拉丁实例
+    bds.ready(function(){
+
+        // 将所有的merge队列转换为setup队列
+        if( mergeHandlers.length ){
+            var results = getResults();
+            for(var i = 0, item; item = mergeHandlers[i]; i++){
+                var els = results[item.tplname];
+                if(els){
+                    for(var j = 0, el; el = els[j]; j++){
+                        currentSetupContainer = el;
+                        item.fn();
+                        currentSetupContainer = null;
+                    }
+                }
+            }
+        }
+
+        // 整理出的每个Aladding JS数据
+        var groupData = [],
+        getGroupData = function(el){
+            if(!isNaN(el.initIndex)){
+                return  groupData[ el.initIndex * 1];
+            }
+            var data = { data:{}, handlers: [], container: el };
+            groupData.push(data);
+            el.initIndex = groupData.length - 1;
+            return data;
+        };
+
+        // 整理setup队列顺序
+        for(var i = 0, item; item = readyedHandlers[i]; i++){
+            var elData = getGroupData(item.container);
+
+            if( item.data ){
+                for(var k in item.data){
+                    if(item.data.hasOwnProperty(k)){
+                        elData.data[k] = item.data[k];
+                    }
+                }
+
+            }else if (item.handler){
+                elData.handlers.push( item.handler );
+            }
+        }
+
+        // 遍历所有的setup
+        for(var i = 0, item; item = groupData[i]; i++){
+            var fn,
+            sTime,
+            eTime,
+            obj = {},
+            ala = new Ala();
+
+            ala.data = item.data;
+            ala.container = item.container;
+            ala._init();
+            A.list.push(ala);
+
+            // 执行setup队列
+            sTime = new Date();
+            while( fn = item.handlers.shift() ){
+                exec(fn, ala);
+                //执行完fn后，如果示例上定义了dispose方法
+                //则将其保存到队列中
+                if(typeof ala.dispose == 'function'){
+                    disposeOnceHandlers.push({
+                        obj:ala,
+                        fn: ala.dispose
+                    });
+                    ala.dispose = null;
+                }
+            }
+            eTime = new Date();
+
+            // 统计执行时间
+            obj = { srcid: ala.srcid };
+            obj.tpl  = ala.container.getAttribute('tpl');
+            obj.time = eTime - sTime;
+            A.loadTimes.push( obj );
+
+            $.each( A._Aladdin.fixs, function(i, f){
+                f.call(ala, ala);
+            });
+        }
+
+    });
+
+    Ala.prototype = {
+
+        //初始化实例属性
+        _init: function() {
+            var attrs = getJson(this.container.getAttribute('data-click'));
+            this.p1 = attrs.p1 || this.container.id;
+            this.mu = attrs.mu || this.container.getAttribute('mu');
+            this.srcid = attrs.rsv_srcid || this.container.getAttribute('srcid');
+        }
+    };
+
+
+})();
+</script>
+<script type="text/javascript">
+																					            																										
+
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "upload.xueshu.baidu.com":"http://upload.xueshu.baidu.com",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+	var get = function(url) {
+		if(location.protocol === "http:") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+		matches = url.match(reg);
+		//判断传入参数是域名还是地址，分别做处理
+		url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+		return url;
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			
+    <div id="page-top" class="c-flexbox">
+    <span class="logowr">
+    <a class="logo" href="//xueshu.baidu.com/" ontouchstart="return ns_c_xs({'fm':'xueshu','tab':'logo'})"><img src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/img/logo_w2_21fb37b.png"/></a>
+    </span>
+    <div class="topform_wr">
+<form id="topform" action="/s" name="f">
+    <div class="iptwr">
+        <!--输入框-->
+        <input type="text" name="wd" id="kw" value="A large annotated corpus for learning natural language inference" maxlength="64" class="ipt" autocomplete="off">
+        <i class="c-icon searchicon">&#xe602;</i>
+        <span class="clear_btn">
+            <span class="clear_iconwr"><i class="c-icon clearicon OP_LOG_BTN" data-click="{'button_tp':'clear_wd','fm':'beha'}">&#xe605;</i></span>
+        </span>
+    </div>
+
+                <input type="hidden" name="tn" value="SE_baiduxueshuwise_y5e9t2rx">
+        <input type="hidden" name="cl" value="3">                    <input type="hidden" name="ie" value="utf-8">        <input type="hidden" name="bs" value="A large annotated corpus for learning natural language inference">
+    <input type="hidden" name="f" value="8">
+    <input type="hidden" name="rsv_bp" value="1">
+    <input type="hidden" name="rsv_sug2" value="1">
+    </form>
+</div>
+
+
+    <span class="loginwr">
+                <a class="login c-icon" href="http://wappass.baidu.com/passport/?login&tpl=xueshu&ssid=0&from=844b&uid=&pu=&bd_page_type=1&tn=&regtype=1&u=" ontouchstart="return ns_c_xs({'fm':'set','tab':'login'})">&#xe60a;</a>
+                <span class="ipt_cancel">取消</span>
+    </span>
+</div>
+
+			
+            
+    
+<div id="page-nav" class="c-flexbox xpath-log" data-click="{'fm':'beha'}">
+    <div class="flexitem1">
+    <!-- <div class="c-flexbox"> -->
+    	<a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="nav nav_sel" data-click="{'button_tp':'filter_all'}">全部</a>
+            	<a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B1%7D" class="nav " data-click="{'button_tp':'filter_jour'}">期刊</a>
+            	<a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B3%7D" class="nav " data-click="{'button_tp':'filter_conf'}">会议</a>
+                <a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B2%7D" class="nav " data-click="{'button_tp':'filter_degree'}">学位</a>
+    <!-- </div> -->
+    </div>
+            <div class="flexitem2 itemsingle">
+    <div class="c-flexbox">
+    <!--中英文切换组件-->
+        <!--排序下拉框-->
+    
+
+
+
+
+
+
+
+
+<div class="sortwr xpath-log" data-click="{'fm':'beha'}">
+    <!--<span class="text">时间不限</span>-->
+    <span class="filter_btn"><i class="c-icon iconfilter">&#xe609;</i>筛选</span>
+
+    <div class="content_wr">
+        <div class="filterlist c-flexbox">
+        <span class="label">筛选：</span>
+        <ul class="filterul">
+        <!--时间不限-->
+                <li class="select"><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="leftnav_sel_close" data-click="{'button_tp':'filter_close'}">时间不限</a></li>
+
+        <!--近3年以来-->
+                
+                                                                                        
+                                                                        <li >
+                <a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2019%2C%2B%7D" class="" data-val="2019以来" data-index="2019,+" data-click="{'button_tp':'filter_year'}">2019以来<span class="li_num">(            12
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2018%2C%2B%7D" class="" data-val="2018以来" data-index="2018,+" data-click="{'button_tp':'filter_year'}">2018以来<span class="li_num">(            128
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2017%2C%2B%7D" class="" data-val="2017以来" data-index="2017,+" data-click="{'button_tp':'filter_year'}">2017以来<span class="li_num">(            332
+    )</span></a>
+            </li>
+                </ul>
+        </div>
+        <div class="sortlist c-flexbox">
+        <!--按相关性、被引量、按时间降序-->
+                                            <span class="label">排序：</span>
+        <ul class="sortul c-flexbox">
+            <li class="select"><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8" data-click="{'fm':'beha','button_tp':'asso'}">按相关性</a></li>
+            <li ><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_cited" data-click="{'fm':'beha','button_tp':'refer_num'}">按被引量</a></li>
+            <li ><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_time" data-click="{'fm':'beha','button_tp':'pub_t'}">按时间降序</a></li>
+        </ul>
+        </div>
+    </div>
+<script>
+bds.ready(function() {
+    var $sortwr = $('.sortwr'),
+        $filterBtn = $('.sortwr .filter_btn'),
+        $ul = $sortwr.find('.sortlist'),
+        $a = $ul.find('a');
+
+    $filterBtn.on('touchend', function(event) {
+        $sortwr.toggleClass('sortopen');
+        if ($sortwr.hasClass('sortopen')) {
+            showBg();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "show_filter"
+            });
+        } else {
+            $('.w_sort_bgcover').hide();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "hide_filter"
+            });
+        }
+    });
+    function showBg () {
+        if (!$('.w_sort_bgcover').length) {
+            var top = $('#page-top').height() * 1 + $('#page-nav').height() * 1;
+            var html = '<div class="w_sort_bgcover" style="top:' + top + 'px;"></div>';
+            $(html).appendTo($('body'));
+        }
+        var h = Math.max($(window).height(), $('body').height());
+        $('.w_sort_bgcover').css({
+            height: h,
+            display: 'block'
+        });
+    }
+    $('body').on('touchend', '.w_sort_bgcover', function(event) {
+        $sortwr.removeClass('sortopen');
+        $('.w_sort_bgcover').hide();
+
+        // 防止事件透传
+        event.preventDefault();
+        event.stopPropagation();
+    });
+})
+</script>
+</div>
+    </div>
+    </div>
+</div>
+
+
+
+
+    <div id="content">
+	<div id="toolbar">
+				<span class="nums">
+    找到约28,000条相关结果
+</span>
+			</div>
+
+	<div id="w_result_lists">
+        	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="1" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4809178
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%281b6a965fcaf22c0cfd3fa8543552a0dd%29&filter=sc_long_sign&sc_f_para=q%3DShallow%20Parsing%20for%20Hindi%20-%20An%20extensive%20analysis%20of%20sequential%20learning%20algorithms%20using%20a%20large%20annotated%20corpus&sc_us=13978095766847806953&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Shallow Parsing for Hindi - An extensive analysis of sequential <em>learning</em> algorithms using <em>a</em> <em>large</em> <em>annotated</em> <em>corpus</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Gahlot%2C%20H%29%20Motilal%20Nehru%20Nat.%20Inst.%20of%20Technol.%2C%20Allahabad&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">H Gahlot</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%28e8b1abf94591aec%29%20IEEE%20International%20Advance%20Computing%20Conference&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="IEEE International Advance Computing Conference">
+    IEEE International...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2009">2009</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4809178
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%281b6a965fcaf22c0cfd3fa8543552a0dd%29&filter=sc_long_sign&sc_f_para=q%3DShallow%20Parsing%20for%20Hindi%20-%20An%20extensive%20analysis%20of%20sequential%20learning%20algorithms%20using%20a%20large%20annotated%20corpus&sc_us=13978095766847806953&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                 analysis of sequential <em>learning</em> algorithms using <em>a</em> <em>large</em> <em>annotated</em> <em>corpus</em>...<em>learning</em> (artificial intelligence<em>natural</em> <em>language</em> processingsupport vector ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=grammars&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            grammars</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=learning%20%28artificial%20intelligence&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>learning</em> (artificial intelligence</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=natural%20language%20processing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>natural</em> <em>language</em> processing</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=support%20vector%20machines&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            support vector machines</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=word%20processing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            word processing</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Hindi%20language&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Hindi <em>language</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=South%20Asian%20Languages&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            South Asian <em>Languages</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=South%20East%20Asian%20Languages&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            South East Asian <em>Languages</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=conditional%20random%20fields%20algorithm&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            conditional random fields algorithm</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=language%20independent%20features&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>language</em> independent features</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(1b6a965fcaf22c0cfd3fa8543552a0dd)&sc_f_para=sc_cita%3D%7BShallow%20Parsing%20for%20Hindi%20-%20An%20extensive%20analysis%20of%20sequential%20learning%20algorithms%20using%20a%20large%20annotated%20corpus%2C%20%20%20%20%20%20%20%20%20%20%20%208%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            8
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Shallow%20Parsing%20for%20Hindi%20-%20An%20extensive%20analysis%20of%20sequential%20learning%20algorithms%20using%20a%20large%20annotated%20corpus&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="2" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4368014
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28f4c945c334d08d1d70391ffac27273b3%29&filter=sc_long_sign&sc_f_para=q%3DRecognizing%20Biomedical%20Named%20Entities%20in%20the%20Absence%20of%20Human%20Annotated%20Corpora&sc_us=12152249876918582057&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Recognizing Biomedical Named Entities in the Absence of Human <em>Annotated</em> <em>Corpora</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28B.%20Gu%29%20Simon%20Fraser%20Univ.%20Burnaby%2C%20Burnaby&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">B Gu</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%28bfe0b28ac924377c%29%20International%20Conference%20on%20Natural%20Language%20Processing%20%26%20Knowledge%20Engineering&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="International Conference on Natural Language Processing &amp; Knowledge Engineering">
+    International Conf...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2007">2007</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4368014
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28f4c945c334d08d1d70391ffac27273b3%29&filter=sc_long_sign&sc_f_para=q%3DRecognizing%20Biomedical%20Named%20Entities%20in%20the%20Absence%20of%20Human%20Annotated%20Corpora&sc_us=12152249876918582057&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                <em>learning</em>, which requires a sufficiently <em>large</em> human <em>annotated</em> <em>corpus</em> <em>for</em> ...<em>Annotated</em> <em>CorporaNatural</em> <em>Language</em> Processing and Knowledge Engineering (NLP-...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=character%20recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            character recognition</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            classification</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=data%20mining&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            data mining</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=learning%20%28artificial%20intelligence&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>learning</em> (artificial intelligence</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=medical%20computing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            medical computing</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=support%20vector%20machines&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            support vector machines</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=biomedical%20named%20entities%20recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            biomedical named entities recognition</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=biomedical%20text%20mining&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            biomedical text mining</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=dictionary%20lookup&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            dictionary lookup</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=human%20annotated%20corpora&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            human <em>annotated</em> <em>corpora</em></a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(f4c945c334d08d1d70391ffac27273b3)&sc_f_para=sc_cita%3D%7BRecognizing%20Biomedical%20Named%20Entities%20in%20the%20Absence%20of%20Human%20Annotated%20Corpora%2C%20%20%20%20%20%20%20%20%20%20%20%2010%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            10
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Recognizing%20Biomedical%20Named%20Entities%20in%20the%20Absence%20of%20Human%20Annotated%20Corpora&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    131.2K
+</p>
+                                    <p class="saveurl">http://www2.fas.sfu.ca/ftp/fas-info/ftp/pub/cs/TR/2007/CMPT2007-14.pdf</p>
+            <p class="saveanchor">www2.fas.sfu.ca</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    176.2K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Fred_Popowich/publication/4284978_Recognizing_Biomedical_Named_Entities_In_the_Absence_of_Human_Annotated_Corpus/links/09e4150645800641d2000000.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    131.2K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/1de0/628f9ea61f9be46ebac1f90fe96ae1faa4f9.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    117.4K
+</p>
+                                    <p class="saveurl">http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=12E3F0463CC9B7A7071C872C618D6B1C?doi=10.1.1.137.5276&rep=rep1&type=pdf</p>
+            <p class="saveanchor">Citeseer</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="3" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://www.aclweb.org/anthology/W/W03
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2870ff44ab984bcc11fed291bbef5d939e%29&filter=sc_long_sign&sc_f_para=q%3DProceedings%20of%20the%20HLT-NAACL%202003%20Workshop%20on%20Analysis%20of%20Geographic%20References&sc_us=8914617784020513599&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Proceedings of the HLT-NAACL 2003 Workshop on Analysis of Geographic References</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Entire%20volume%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">E Volume</a>
+                    </span>        
+        
+        
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://www.aclweb.org/anthology/W/W03
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            aclweb.org
+    ">            aclweb.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2870ff44ab984bcc11fed291bbef5d939e%29&filter=sc_long_sign&sc_f_para=q%3DProceedings%20of%20the%20HLT-NAACL%202003%20Workshop%20on%20Analysis%20of%20Geographic%20References&sc_us=8914617784020513599&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    Conference on <em>Natural</em> <em>Language</em> <em>Learning</em> at HLT-...Linguistically Interpreted <em>Corpora</em> (LINC-03) at ...Open Mind Word Expert: Creating <em>Large</em> <em>Annotated</em> ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(70ff44ab984bcc11fed291bbef5d939e)&sc_f_para=sc_cita%3D%7BProceedings%20of%20the%20HLT-NAACL%202003%20Workshop%20on%20Analysis%20of%20Geographic%20References%2C%20%20%20%20%20%20%20%20%20%20%20%2033%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            33
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Proceedings%20of%20the%20HLT-NAACL%202003%20Workshop%20on%20Analysis%20of%20Geographic%20References&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="4" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://dl.acm.org/citation.cfm?id=974472
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%281fef585512a81d42bff773f6671faf1e%29&filter=sc_long_sign&sc_f_para=q%3DRestricted%20representation%20of%20phrase%20structure%20grammar%20for%20building%20a%20tree%20annotated%20corpus%20of%20Korean&sc_us=4968077403103158433&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Restricted representation of phrase structure grammar for building a tree <em>annotated</em> <em>corpus</em> of Korean</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Lee%2C%20Kong%20Joo%29%20Korea%20Advanced%20Institute%20of%20Science%20and%20Technology%2C%20Taejon%2C%20Korea&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">KJ Lee</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%282fab30b5008cccd5%29%20%E3%80%8ANatural%20Language%20Engineering%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Natural Language Engineering》">
+    《<em>Natural</em> <em>Language</em>...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="1997">1997</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://dl.acm.org/citation.cfm?id=974472
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            ACM
+    ">            ACM
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%281fef585512a81d42bff773f6671faf1e%29&filter=sc_long_sign&sc_f_para=q%3DRestricted%20representation%20of%20phrase%20structure%20grammar%20for%20building%20a%20tree%20annotated%20corpus%20of%20Korean&sc_us=4968077403103158433&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    structure grammars for building <em>a</em> <em>large</em> <em>annotated</em> <em>corpus</em> of Korean syntactic ...a Tree Annotation <em>Corpus</em> of Korean,&#39; In <em>Natural</em> <em>language</em> Engineering, Vol...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(1fef585512a81d42bff773f6671faf1e)&sc_f_para=sc_cita%3D%7BRestricted%20representation%20of%20phrase%20structure%20grammar%20for%20building%20a%20tree%20annotated%20corpus%20of%20Korean%2C%20%20%20%20%20%20%20%20%20%20%20%209%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            9
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Restricted%20representation%20of%20phrase%20structure%20grammar%20for%20building%20a%20tree%20annotated%20corpus%20of%20Korean&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="5" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://link.springer.com/10.1007/978-1-4419-7713-7_1
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28386bda529d700bd98bea15ca23ab0abf%29&filter=sc_long_sign&sc_f_para=q%3DData%20Acquisition%20and%20Linguistic%20Resources&sc_us=5105499433363892440&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Data Acquisition and Linguistic Resources</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Stephanie%20Strassel%29%20Linguistic%20Data%20Consortium%2C%20University%20of%20Pennsylvania&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">S Strassel</a>
+        ，                                            ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2011">2011</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://link.springer.com/10.1007/978-1-4419-7713-7_1
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28386bda529d700bd98bea15ca23ab0abf%29&filter=sc_long_sign&sc_f_para=q%3DData%20Acquisition%20and%20Linguistic%20Resources&sc_us=5105499433363892440&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    George Foster, eds., <em>Learning</em> <em>for</em> Machine ...<em>Natural</em> <em>Language</em> Processing and Very <em>Large</em> <em>Corpora</em>/...1993. Building <em>a</em> <em>Large</em> <em>Annotated</em> <em>Corpus</em> of ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(386bda529d700bd98bea15ca23ab0abf)&sc_f_para=sc_cita%3D%7BData%20Acquisition%20and%20Linguistic%20Resources%2C%20%20%20%20%20%20%20%20%20%20%20%201%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            1
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Data%20Acquisition%20and%20Linguistic%20Resources&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="6" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://dl.acm.org/citation.cfm?id=1654500
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28a979f4a9480dfbe9f82de0b99d35e6be%29&filter=sc_long_sign&sc_f_para=q%3DBetter%20k%20-best%20parsing&sc_us=8427010390390358787&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Better k -best parsing</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Liang%20Huang%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">H Liang</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%28270e3ea7a5252b90%29%20%E3%80%8AParsing%20Proceedings%20of%20the%20Ninth%20International%20Workshop%20on%20Parsing%20Technology%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Parsing Proceedings of the Ninth International Workshop on Parsing Technology》">
+    《Parsing Proceedi...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2005">2005</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://dl.acm.org/citation.cfm?id=1654500
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            ACM
+    ">            ACM
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28a979f4a9480dfbe9f82de0b99d35e6be%29&filter=sc_long_sign&sc_f_para=q%3DBetter%20k%20-best%20parsing&sc_us=8427010390390358787&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    <em>natural</em> <em>language</em> pro- cessing, and develop ...representation, exact <em>inference</em> would be intractable...A. (1993). Building <em>a</em> <em>large</em> <em>annotated</em> <em>corpus</em> ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(a979f4a9480dfbe9f82de0b99d35e6be)&sc_f_para=sc_cita%3D%7BBetter%20k%20-best%20parsing%2C%20%20%20%20%20%20%20%20%20%20%20%20352%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            352
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Better%20k%20-best%20parsing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://dl.acm.org/ft_gateway.cfm?id=1654500&type=pdf</p>
+            <p class="saveanchor">ACM</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    127.5K
+</p>
+                                    <p class="saveurl">http://www.seas.upenn.edu/~lhuang3/huang.pdf</p>
+            <p class="saveanchor">seas.upenn.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://www.osti.gov/cgi-bin/eprints/redirectEprintsUrl?http%3A%2F%2Fwww.cis.upenn.edu%2F~lhuang3%2Fkbest-iwpt.pdf</p>
+            <p class="saveanchor">osti.gov</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    265.6K
+</p>
+                                    <p class="saveurl">http://www.aclweb.org/anthology/W05-1506</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    265.6K
+</p>
+                                    <p class="saveurl">http://wing.comp.nus.edu.sg/~antho/W/W05/W05-1506.pdf</p>
+            <p class="saveanchor">wing.comp.nus.edu.sg</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/9797/1e850655cc47d060a13606040f6155f64af3.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    202.4K
+</p>
+                                    <p class="saveurl">http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=001CEB7C1A917E605403CF80460D0FF2?doi=10.1.1.129.5161&rep=rep1&type=pdf</p>
+            <p class="saveanchor">Citeseer</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    202.4K
+</p>
+                                    <p class="saveurl">http://citeseer.ist.psu.edu/viewdoc/download;jsessionid=8794796504E7943ADB57C5F6B0FDD45B?doi=10.1.1.129.5161&rep=rep1&type=pdf</p>
+            <p class="saveanchor">citeseer.ist.psu.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    265.6K
+</p>
+                                    <p class="saveurl">http://acl-arc.comp.nus.edu.sg/archives/acl-arc-090501d4/data/pdf/anthology-PDF/W/W05/W05-1506.pdf</p>
+            <p class="saveanchor">acl-arc.comp.nus.edu.sg</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="7" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://bioinformatics.oxfordjournals.org/external-ref?access_num=10.1371/journal.pcbi.0010010&link_type=DOI
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%288a8b5f66669f8ebab95c55ecb7b6f015%29&filter=sc_long_sign&sc_f_para=q%3DExtraction%20of%20Transcript%20Diversity%20from%20Scientific%20Literature&sc_us=3085706203253240056&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Extraction of Transcript Diversity from Scientific Literature</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Parantu%20K%20Shah%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">PK Shah</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%28f5c95ed3b91ac4a9%29%20%E3%80%8APlos%20Computational%20Biology%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Plos Computational Biology》">
+    《Plos Computation...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2005">2005</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://bioinformatics.oxfordjournals.org/external-ref?access_num=10.1371/journal.pcbi.0010010&link_type=DOI
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Oxford Univ Press
+    ">            Oxford Univ Pr...
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%288a8b5f66669f8ebab95c55ecb7b6f015%29&filter=sc_long_sign&sc_f_para=q%3DExtraction%20of%20Transcript%20Diversity%20from%20Scientific%20Literature&sc_us=3085706203253240056&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                 are becoming prevalent in <em>natural</em> <em>language</em> ...<em>learning</em> [25] on an <em>annotated</em> <em>corpus</em> [19–21]...currently in use for detecting AS on <em>a</em> <em>large</em> ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=chloroplast&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            chloroplast</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Lithocarpus&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Lithocarpus</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=mitochondria&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            mitochondria</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=N-phenacylthiazolium%20bromide&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            N-phenacylthiazolium bromide</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Ramin&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Ramin</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Shorea&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Shorea</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(8a8b5f66669f8ebab95c55ecb7b6f015)&sc_f_para=sc_cita%3D%7BExtraction%20of%20Transcript%20Diversity%20from%20Scientific%20Literature%2C%20%20%20%20%20%20%20%20%20%20%20%2053%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            53
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Extraction%20of%20Transcript%20Diversity%20from%20Scientific%20Literature&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Stephanie_Boue/publication/7656557_Extraction_of_Transcript_Diversity_from_Scientific_Literature/links/0c9605208bb879b825000000/Extraction-of-Transcript-Diversity-from-Scientific-Literature.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://www.ploscompbiol.org/article/fetchObject.action;jsessionid=670DB1C8AF846F94BC3BD282C2E0D0A2?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.0010010&representation=PDF</p>
+            <p class="saveanchor">ploscompbiol.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183516/pdf/pcbi.0010010.pdf</p>
+            <p class="saveanchor">NCBI</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://pmcc.web-t.cisti.nrc.ca/picrender.cgi?accid=PMC1183516&blobtype=pdf</p>
+            <p class="saveanchor">pmcc.web-t.cisti.nrc.ca</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.4K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/8c1e/ab30beedde236c3cd31db3ce2263dda7dcd9.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://journals.plos.org/ploscompbiol/article/asset?id=10.1371/journal.pcbi.0010010.PDF</p>
+            <p class="saveanchor">journals.plos.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://europepmc.org/articles/PMC1183516/pdf/pcbi.0010010.pdf</p>
+            <p class="saveanchor">Europe PMC</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.4K
+</p>
+                                    <p class="saveurl">http://edoc.mdc-berlin.de/7973/1/7973oa.pdf</p>
+            <p class="saveanchor">edoc.mdc-berlin.de</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://dx.plos.org/10.1371/journal.pcbi.0010010.pdf</p>
+            <p class="saveanchor">dx.plos.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://core.ac.uk/download/pdf/3711515.pdf</p>
+            <p class="saveanchor">core.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    222.0K
+</p>
+                                    <p class="saveurl">http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=19D59C9068DBF3D2350787E10B9FE2FB?doi=10.1.1.281.6901&rep=rep1&type=pdf</p>
+            <p class="saveanchor">Citeseer</p>
+        </div>
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://www.ixueshu.com/document/81298a480700f997318947a18e7f9386.html</p>
+            <p class="saveanchor">爱学术</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="8" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://link.springer.com/chapter/10.1007/978-3-642-34630-9_9
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28a55bd993f63d95dd2d273156d5b550be%29&filter=sc_long_sign&sc_f_para=q%3DA%20Hybrid%20Approach%20of%20Pattern%20Extraction%20and%20Semi-supervised%20Learning%20for%20Vietnamese%20Named%20Entity%20Recognition&sc_us=10970966504682194037&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">A Hybrid Approach of Pattern Extraction and Semi-supervised <em>Learning</em> <em>for</em> Vietnamese Named Entity Recognition</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Duc-Thuan%20Vo%29%20University%20of%20Ulsan&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">DT Vo</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%28cd56bd07c0d91181%29%20International%20Conference%20on%20Computational%20Collective%20Intelligence&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="International Conference on Computational Collective Intelligence">
+    International Conf...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2012">2012</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://link.springer.com/chapter/10.1007/978-3-642-34630-9_9
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28a55bd993f63d95dd2d273156d5b550be%29&filter=sc_long_sign&sc_f_para=q%3DA%20Hybrid%20Approach%20of%20Pattern%20Extraction%20and%20Semi-supervised%20Learning%20for%20Vietnamese%20Named%20Entity%20Recognition&sc_us=10970966504682194037&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                JointSIGDAT Conference on Empirical Methods in <em>Natural</em> <em>Language</em> Processing, pp...Requiring <em>a</em> <em>large</em> hand-<em>annotated</em> <em>corpus</em> in supervised <em>learning</em> of conte...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=named%20entity%20recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            named entity recognition</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=part-of-speech&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            part-of-speech</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=chunking&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            chunking</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=rule-based&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            rule-based</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=pattern%20extraction&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            pattern extraction</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=semi-supervised%20learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            semi-supervised <em>learning</em></a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(a55bd993f63d95dd2d273156d5b550be)&sc_f_para=sc_cita%3D%7BA%20Hybrid%20Approach%20of%20Pattern%20Extraction%20and%20Semi-supervised%20Learning%20for%20Vietnamese%20Named%20Entity%20Recognition%2C%20%20%20%20%20%20%20%20%20%20%20%204%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            4
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=A%20Hybrid%20Approach%20of%20Pattern%20Extraction%20and%20Semi-supervised%20Learning%20for%20Vietnamese%20Named%20Entity%20Recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="9" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://rd.springer.com/referenceworkentry/10.1007/978-3-540-49127-9_31
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%281c3a4e00460689a9da887f0d6af92b72%29&filter=sc_long_sign&sc_f_para=q%3DNatural%20language%20understanding.%202nd%20ed.&sc_us=3887363621396521265&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Natural</em> <em>language</em> understanding. 2nd ed.</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Allen%2C%20James%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">J Allen</a>
+                    </span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2008">2008</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://rd.springer.com/referenceworkentry/10.1007/978-3-540-49127-9_31
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%281c3a4e00460689a9da887f0d6af92b72%29&filter=sc_long_sign&sc_f_para=q%3DNatural%20language%20understanding.%202nd%20ed.&sc_us=3887363621396521265&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Marcinkiewicz: Building <em>a</em> <em>large</em> <em>annotated</em> <em>corpus</em> of English: The Penn Tree...Luo, S. Roukos: Active <em>learning</em> <em>for</em> statistical <em>natural</em> <em>language</em> parsing, ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Programming%20languages%20%28Electronic%20computers&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Programming <em>languages</em> (Electronic comp...</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(1c3a4e00460689a9da887f0d6af92b72)&sc_f_para=sc_cita%3D%7BNatural%20language%20understanding.%202nd%20ed.%2C%20%20%20%20%20%20%20%20%20%20%20%20143%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            143
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Natural%20language%20understanding.%202nd%20ed.&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="10" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://www.sciencedirect.com/science/article/pii/S1098301514035992
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%284ed36f1082205333321774278ae7ce6c%29&filter=sc_long_sign&sc_f_para=q%3DUsing%20Hashtags%20to%20Capture%20Fine%20Emotion%20Categories%20from%20Tweets&sc_us=10021905723811565750&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Using Hashtags to Capture Fine Emotion Categories from Tweets</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28P.%20Kawalec%29%20Jagiellonian%20University%20Medical%20College%2C%20Krakow%2C%20Poland&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">P Kawalec</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2015">2015</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://www.sciencedirect.com/science/article/pii/S1098301514035992
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Elsevier
+    ">            Elsevier
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%284ed36f1082205333321774278ae7ce6c%29&filter=sc_long_sign&sc_f_para=q%3DUsing%20Hashtags%20to%20Capture%20Fine%20Emotion%20Categories%20from%20Tweets&sc_us=10021905723811565750&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                000 words <em>annotated</em> <em>for</em> eight emotions (six of ...<em>a</em> <em>large</em> <em>corpus</em> of tweets, the Hashtag Emotion ...<em>Natural</em> <em>Language</em> Processing, pages 1277–1287, ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Big%205%20model&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Big</em> 5 model</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=affect&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            affect</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=basic%20emotions&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            basic emotions</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=hashtags&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            hashtags</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=personality%20detection&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            personality detection</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=sentiment%20analysis&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            sentiment analysis</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=social%20media&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            social media</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=tweets&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            tweets</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=word-emotion%20associations&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            word-emotion associations</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(4ed36f1082205333321774278ae7ce6c)&sc_f_para=sc_cita%3D%7BUsing%20Hashtags%20to%20Capture%20Fine%20Emotion%20Categories%20from%20Tweets%2C%20%20%20%20%20%20%20%20%20%20%20%2086%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            86
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Using%20Hashtags%20to%20Capture%20Fine%20Emotion%20Categories%20from%20Tweets&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    298.5K
+</p>
+                                    <p class="saveurl">http://www.saifmohammad.com/WebDocs/hashtagMK-CI-2.pdf</p>
+            <p class="saveanchor">saifmohammad.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    298.5K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Saif_Mohammad/publication/260306233_USING_HASHTAGS_TO_CAPTURE_FINE_EMOTION_CATEGORIES_FROM_TWEETS/links/53dab40a0cf2631430cb1049</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    298.5K
+</p>
+                                    <p class="saveurl">http://saifmohammad.com/WebDocs/hashtagMK-CI-2.pdf</p>
+            <p class="saveanchor">saifmohammad.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    298.5K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/5a00/24685d31416a478df97bc665ae7a3511516f.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                    </div>
+</div>
+    <div id="pager">
+				<i class="w-icon w-icon-left-def left"></i>
+	
+		<div class="pager_mid">
+	<strong><span class="pc">1</span></strong><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">2</span></a><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&pn=20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">3</span></a><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&pn=30&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">4</span></a><a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&pn=40&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">5</span></a>	</div>
+		<a href="/s?wd=A%20large%20annotated%20corpus%20for%20learning%20natural%20language%20inference&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1&rsv_page=1" class="n n_right"><i class="w-icon w-icon-right"></i></a>
+	</div>
+
+
+
+
+
+    <div id="wise_bombbox">
+	<div class="downloadBox">
+		<div class="dl_title">免费下载</div>
+		<div class="dl_content"></div>
+	</div>
+    <div class="box_close">取消</div>
+</div>
+
+    
+		</div>
+	</body>
+	
+    <div style="display:none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?43115ae30293b511088d3cbe41ec099c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/zepto/zepto.min_4064ae0.js"></script>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/webb/webb.min_08cab1e.js"></script>
+
+    <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/common_wise_a81c989.js" charset="utf-8"></script>
+        <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/page_wise_eb0edc1.js" charset="utf-8"></script>
+    
+</html>
+

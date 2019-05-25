@@ -1,0 +1,2091 @@
+
+<!DOCTYPE html>
+<!--STATUS OK-->
+
+
+ 
+ 
+ 
+ 
+
+
+	
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<html>
+	<head>
+		<meta name="referrer" content="always" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="Description" content="百度学术搜索，是一个提供海量中英文文献检索的学术资源搜索平台，涵盖了各类学术期刊、学位、会议论文，旨在为国内外学者提供最好的科研体验。">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="manifest" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/manifest_69e8554.json">
+		
+<title>
+A Credibility Analysis System for Assessing Information on Twitter_百度学术
+</title>
+
+		
+<style>
+/*解决iconfont跨越问题*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('/cache/mid/static/xueshu_wise/iconfont/iconfont.ttf') format('truetype'),
+        url('/cache/mid/static/xueshu_wise/iconfont/iconfont.svg#iconfont') format('svg');
+}
+</style>
+    	<link type="text/css" rel="stylesheet" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/css/page_wise_1eb6b91.css">
+    
+		
+	<script>
+var name,navigate,bdQid="b4ed174700070faf";
+var bds={
+    se:{},
+    util:{},
+    //结果页js通用数据
+    comm : {
+        domain:"http://www.baidu.com",
+        ubsurl : "http://sclick.baidu.com/w.gif",
+        tn:"SE_baiduxueshuwise_y5e9t2rx",
+        queryEnc:"A%2BCredibility%2BAnalysis%2BSystem%2Bfor%2BAssessing%2BInformation%2Bon%2BTwitter",
+        queryId:"b4ed174700070faf",
+        ishome : 0,
+        isTransShow: 0,
+        query : "A Credibility Analysis System for Assessing Information on Twitter",
+        queryShow : "A Credibility Analysis System for Assessing Information on Twitter",
+        qid : "b4ed174700070faf",
+        cid : "0",
+        sid : "",
+        f : "0",
+        pn : "0",
+        oq : "",
+        rsp : "",
+        sc_f_para : "",
+        stoken : "",
+        serverTime : "1558791451",
+        user : "",
+        username : "",
+        isLogin : "0",
+        loginAction : [],
+        useFavo : "",
+        pinyin : "",
+        favoOn : "",
+        personalData : "",
+        curResultNum:"10",
+        rightResultExist:false,
+        protectNum:0,
+        zxlNum:0,
+        pageNum:parseInt('1')||1,
+        pageSize:parseInt('10')||10,
+        taskTipsShow: 1,
+        subpro: 'xueshu_respage',
+        isSchoolShow: 0,
+        schoolEname: "",
+        resultTn:"SE_baiduxueshu_c1gjeupa",
+        scFrom:"",
+        scAsPara:"",
+        isdetailpage: 0,
+        // topBannerInfo: {
+        //     startDate: "2018\/05\/28",
+        //     endDate: "2018\/10\/11",
+        //     width: "260",
+        //     height: "130",
+        //     id: "jiangxuejin",
+        //     imgUrl: "http:\/\/ps-scholar-static.bj.bcebos.com\/homepage%2Fbaidujiangxuejing.jpeg",
+        //     jumpUrl: "http:\/\/scholarship.baidu.com\/"
+        // },
+        pageBannerInfo: {
+            startDate: "2018\/01\/01",
+			endDate: "2099\/01\/01",
+			id: "jiandan"
+        },
+        detailJumpVars: "scholar_single_hit=&scholar_single_hit_jump=&no_jump="
+    }
+};
+
+bds.comm.upn = {"browser":"safari","ie":"","os":"linux","win":"","browsertype":"safari"};
+
+var selfOpen = window.open;
+eval("var open = selfOpen;");
+
+function G(id){
+    return document.getElementById(id);
+}
+
+function TagQ(tag,obj){
+	return obj.getElementsByTagName(tag);
+}
+
+/**
+* @description 增加sclick统计
+* @function
+* @name c
+* @grammar c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function c(q){
+    var p = window.document.location.href, sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = escape(q[v]);
+                break;
+            default:
+                sV = q[v];
+        }
+        sQ += "&" + v + "=" + sV;
+    }
+    try{
+        if (("p2" in q)&&G(q["p1"]).getAttribute("mu") && q["fm"]!="pl") {
+            mu= "&mu=" + escape(G(q["p1"]).getAttribute("mu"));
+        }
+    }catch(e){};
+	img.src = "http://sclick.baidu.com/w.gif?q=" + bds.comm.queryEnc + sQ + mu + "&rsv_sid=" + bds.comm.sid + "&cid="+bds.comm.cid+"&qid="+bds.comm.qid+"&t="+new Date().getTime()+"&path="+p;
+    return true;
+}
+
+/**
+* @description 增加nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function ns_c(q){
+	ns_c_xs(q);
+}
+
+/**
+* @description 增加xueshu nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+
+function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd=bds.comm.queryEnc, sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+
+    // mod当前搜索是否为图书馆模式
+    var mod = bds.comm.schoolEname ? '&mod=lib_' + bds.comm.schoolEname : '';
+    //fr是否来自详情页
+    var fr = bds.comm.isdetailpage ? '&fr=detailpage' : '';
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&rsv_sid=" + bds.comm.sid + "&wd=" + wd + "&" + sQ + "f=" + bds.comm.f + "&oq=" + bds.comm.oq + "&rsp=" + bds.comm.rsp + "&path=" + p + "&tn=" + bds.comm.tn + "&t=" + new Date().getTime() + '&pn=' + bds.comm.pn + mod + fr;
+    return true;
+}
+
+/**
+* @description 为搜索请求添加query，并增加ie参数
+* @function
+* @name setHeadUrl
+* @grammar setHeadUrl(el)
+* @param {Object} el 点击的链接对象
+*/
+function setHeadUrl(el){
+    var word = G("kw").value;
+    word = encodeURIComponent(word);
+    var url = el.href;
+    url = url.replace(new RegExp("(" + el.getAttribute('wdfield') + "=)[^&]*"), '\x241' + word+"&ie=utf-8");
+    el.href = url;
+}
+
+bds.util.getWinWidth = function(){
+    return window.document.documentElement.clientWidth;
+};
+//设置页面主体宽度
+//由于此时tangram还没加载，所以不能使用baidu.dom.addClass/removeClass
+bds.util.setContainerWidth = function(){
+    var c = G('container'),w = G('wrapper'),
+    remove = function(r,o){o.className = o.className.replace(r, '');},
+
+    add = function(cls,o){o.className = (o.className+' '+cls).replace(/^\s+/g, "");},
+    has = function(r,o){return r.test(o.className)};
+    if(bds.util.getWinWidth()<1310){
+        remove(/\bcontainer_l\b/g,c);
+        remove(/\bwrapper_l\b/g,w);
+        if(!has(/\bcontainer_s\b/,c)) add('container_s',c);
+        if(!has(/\bwrapper_s\b/,w)) add('wrapper_s',w);
+    bds.comm.containerSize = "s";
+    }else{
+        remove(/\bcontainer_s\b/g,c);
+        remove(/\bwrapper_s\b/g,w);
+        if(!has(/\bcontainer_l\b/,c)) add('container_l',c);
+        if(!has(/\bwrapper_l\b/,w)) add('wrapper_l',w);
+    bds.comm.containerSize = "l";
+    }
+};
+// ie版本
+bds.util.Ieversion = function() {
+    var ua = navigator.userAgent,
+        iereg = /MSIE (\d+).*/,
+        version = ua.match(iereg);
+
+    if (version && version[1]) {
+        return parseInt(version[1]);
+    }
+    return -1;
+};
+
+//阿拉丁命名空间
+window.A =  bds.aladdin = {
+    ids: [],
+    has: true,
+    list: [],
+    logs: [],
+    loadTimes: []
+};
+
+(function(){
+    var fns = [], isReady = false;
+    var exec = function(fn, thisobj){
+        try{
+            fn.call(thisobj);
+        }catch(e){
+            if(window.debugFlag) throw e;
+        }
+    };
+
+    //在js基础库加载完成后执行fn
+    bds.ready = function(fn){
+        if(typeof fn != 'function') return;
+        if(isReady){exec(fn)}
+        else{fns.push(fn);}
+    };
+
+    //手动触发ready
+    bds.doReady = function(){
+        isReady = true;
+        while(fns.length) exec(fns.shift());
+    };
+
+    //通过json字符串获取对象
+    var getJson = function(jsonString){
+        var result = {};
+        if(jsonString){
+            try{
+                var r = new Function("return " + jsonString)();
+                if(r) result = r;
+            }catch(e){}
+        }
+        return result;
+    },
+
+
+    // 获取当前阿拉丁DOM容器
+    getCurrentAladdin = (function(){
+        var scripts = document.getElementsByTagName("script");
+        return function(){
+            var script = scripts[scripts.length - 1], container = script;
+            while(container){
+                if( container.className ){
+                    if( /(?:^|\s)result(?:-op)?(?:$|\s)/.test(container.className)){
+                        if( tplname = container.getAttribute("tpl") ){
+                            return container;
+                        }
+                    }
+                }
+                container = container.parentNode;
+            }
+        };
+    })(),
+
+    // 筛选出阿拉丁结果
+    getResults = function(){
+        var els = $(".result-op").get().concat( $(".result").get() ),
+        alaEls = {};
+
+        for(var i = 0, name, el; el = els[i]; i++ ){
+            if(name = el.getAttribute("tpl")){
+                if( alaEls[name] ){
+                    alaEls[name].push(el);
+                }else{
+                    alaEls[name] = [el];
+                }
+            }
+        }
+        return alaEls;
+    },
+
+    // 入口事件队列
+    readyedHandlers = [],
+
+    //销毁函数列表，每项内容为
+    //{obj:instance, fn: fn}
+    //每项执行fn后即删除
+    disposeOnceHandlers = [],
+
+    //每项格式同disposeOnceHandlers
+    //每项执行后仍保留
+    //即每次销毁实例时都执行一次
+    disposeAlwaysHandlers = [],
+
+    currentSetupContainer = null,
+
+    // merge在bds.ready前的队列
+    mergeHandlers = [],
+
+    // 阿拉丁实例构造函数
+    Ala = A._Aladdin = function(){
+        this.p1 = 0;
+        this.mu = null;
+    };
+
+    A.merge = function(tplname, fn){
+        mergeHandlers.push({tplname: tplname, fn: fn});
+    };
+
+    // 阿拉丁入口函数
+    A.init = A.setup = function(k, v){
+
+        // 页面可能存在的空 init
+        if( k === undefined || k === null){
+            return;
+        }
+
+        var object, container = currentSetupContainer || getCurrentAladdin();
+        if( !container){
+            return;
+        }
+
+        object = {container: container};
+
+        if(typeof k == "function"){
+            object.handler = k;
+
+        }else if(typeof k == 'object'){
+            object.data = k;
+
+        }else{
+            object.data = {};
+            object.data[k] = v;
+        }
+
+        readyedHandlers.push( object );
+    };
+
+    // 注册每次销毁均执行的函数
+    A.addDisposeHandler = function(item){
+        disposeAlwaysHandlers.push(item);
+    };
+
+    //全局阿拉丁销毁函数，在删除阿拉丁dom节点前调用
+    A.dispose = function(){
+        // 执行阿拉丁实例dispose队列
+        while(disposeOnceHandlers.length){
+            var d = disposeOnceHandlers.shift();
+            exec(d.fn, d.obj);
+        }
+        // 顺序执行销毁函数
+        var handlers = disposeAlwaysHandlers;
+        for(var i=0;i<handlers.length;i++){
+            var d = handlers[i];
+            exec(d.fn, d.obj);
+        }
+    };
+
+    // 遍历执行所有阿拉丁实例
+    bds.ready(function(){
+
+        // 将所有的merge队列转换为setup队列
+        if( mergeHandlers.length ){
+            var results = getResults();
+            for(var i = 0, item; item = mergeHandlers[i]; i++){
+                var els = results[item.tplname];
+                if(els){
+                    for(var j = 0, el; el = els[j]; j++){
+                        currentSetupContainer = el;
+                        item.fn();
+                        currentSetupContainer = null;
+                    }
+                }
+            }
+        }
+
+        // 整理出的每个Aladding JS数据
+        var groupData = [],
+        getGroupData = function(el){
+            if(!isNaN(el.initIndex)){
+                return  groupData[ el.initIndex * 1];
+            }
+            var data = { data:{}, handlers: [], container: el };
+            groupData.push(data);
+            el.initIndex = groupData.length - 1;
+            return data;
+        };
+
+        // 整理setup队列顺序
+        for(var i = 0, item; item = readyedHandlers[i]; i++){
+            var elData = getGroupData(item.container);
+
+            if( item.data ){
+                for(var k in item.data){
+                    if(item.data.hasOwnProperty(k)){
+                        elData.data[k] = item.data[k];
+                    }
+                }
+
+            }else if (item.handler){
+                elData.handlers.push( item.handler );
+            }
+        }
+
+        // 遍历所有的setup
+        for(var i = 0, item; item = groupData[i]; i++){
+            var fn,
+            sTime,
+            eTime,
+            obj = {},
+            ala = new Ala();
+
+            ala.data = item.data;
+            ala.container = item.container;
+            ala._init();
+            A.list.push(ala);
+
+            // 执行setup队列
+            sTime = new Date();
+            while( fn = item.handlers.shift() ){
+                exec(fn, ala);
+                //执行完fn后，如果示例上定义了dispose方法
+                //则将其保存到队列中
+                if(typeof ala.dispose == 'function'){
+                    disposeOnceHandlers.push({
+                        obj:ala,
+                        fn: ala.dispose
+                    });
+                    ala.dispose = null;
+                }
+            }
+            eTime = new Date();
+
+            // 统计执行时间
+            obj = { srcid: ala.srcid };
+            obj.tpl  = ala.container.getAttribute('tpl');
+            obj.time = eTime - sTime;
+            A.loadTimes.push( obj );
+
+            $.each( A._Aladdin.fixs, function(i, f){
+                f.call(ala, ala);
+            });
+        }
+
+    });
+
+    Ala.prototype = {
+
+        //初始化实例属性
+        _init: function() {
+            var attrs = getJson(this.container.getAttribute('data-click'));
+            this.p1 = attrs.p1 || this.container.id;
+            this.mu = attrs.mu || this.container.getAttribute('mu');
+            this.srcid = attrs.rsv_srcid || this.container.getAttribute('srcid');
+        }
+    };
+
+
+})();
+</script>
+<script type="text/javascript">
+																					            																										
+
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "upload.xueshu.baidu.com":"http://upload.xueshu.baidu.com",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+	var get = function(url) {
+		if(location.protocol === "http:") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+		matches = url.match(reg);
+		//判断传入参数是域名还是地址，分别做处理
+		url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+		return url;
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			
+    <div id="page-top" class="c-flexbox">
+    <span class="logowr">
+    <a class="logo" href="//xueshu.baidu.com/" ontouchstart="return ns_c_xs({'fm':'xueshu','tab':'logo'})"><img src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/img/logo_w2_21fb37b.png"/></a>
+    </span>
+    <div class="topform_wr">
+<form id="topform" action="/s" name="f">
+    <div class="iptwr">
+        <!--输入框-->
+        <input type="text" name="wd" id="kw" value="A Credibility Analysis System for Assessing Information on Twitter" maxlength="64" class="ipt" autocomplete="off">
+        <i class="c-icon searchicon">&#xe602;</i>
+        <span class="clear_btn">
+            <span class="clear_iconwr"><i class="c-icon clearicon OP_LOG_BTN" data-click="{'button_tp':'clear_wd','fm':'beha'}">&#xe605;</i></span>
+        </span>
+    </div>
+
+                <input type="hidden" name="tn" value="SE_baiduxueshuwise_y5e9t2rx">
+        <input type="hidden" name="cl" value="3">                    <input type="hidden" name="ie" value="utf-8">        <input type="hidden" name="bs" value="A Credibility Analysis System for Assessing Information on Twitter">
+    <input type="hidden" name="f" value="8">
+    <input type="hidden" name="rsv_bp" value="1">
+    <input type="hidden" name="rsv_sug2" value="1">
+    </form>
+</div>
+
+
+    <span class="loginwr">
+                <a class="login c-icon" href="http://wappass.baidu.com/passport/?login&tpl=xueshu&ssid=0&from=844b&uid=&pu=&bd_page_type=1&tn=&regtype=1&u=" ontouchstart="return ns_c_xs({'fm':'set','tab':'login'})">&#xe60a;</a>
+                <span class="ipt_cancel">取消</span>
+    </span>
+</div>
+
+			
+            
+    
+<div id="page-nav" class="c-flexbox xpath-log" data-click="{'fm':'beha'}">
+    <div class="flexitem1">
+    <!-- <div class="c-flexbox"> -->
+    	<a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="nav nav_sel" data-click="{'button_tp':'filter_all'}">全部</a>
+            	<a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B1%7D" class="nav " data-click="{'button_tp':'filter_jour'}">期刊</a>
+            	<a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B3%7D" class="nav " data-click="{'button_tp':'filter_conf'}">会议</a>
+                <a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B2%7D" class="nav " data-click="{'button_tp':'filter_degree'}">学位</a>
+    <!-- </div> -->
+    </div>
+            <div class="flexitem2 itemsingle">
+    <div class="c-flexbox">
+    <!--中英文切换组件-->
+        <!--排序下拉框-->
+    
+
+
+
+
+
+
+
+
+<div class="sortwr xpath-log" data-click="{'fm':'beha'}">
+    <!--<span class="text">时间不限</span>-->
+    <span class="filter_btn"><i class="c-icon iconfilter">&#xe609;</i>筛选</span>
+
+    <div class="content_wr">
+        <div class="filterlist c-flexbox">
+        <span class="label">筛选：</span>
+        <ul class="filterul">
+        <!--时间不限-->
+                <li class="select"><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="leftnav_sel_close" data-click="{'button_tp':'filter_close'}">时间不限</a></li>
+
+        <!--近3年以来-->
+                
+                                                                                        
+                                                                        <li >
+                <a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2019%2C%2B%7D" class="" data-val="2019以来" data-index="2019,+" data-click="{'button_tp':'filter_year'}">2019以来<span class="li_num">(            2
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2018%2C%2B%7D" class="" data-val="2018以来" data-index="2018,+" data-click="{'button_tp':'filter_year'}">2018以来<span class="li_num">(            25
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2017%2C%2B%7D" class="" data-val="2017以来" data-index="2017,+" data-click="{'button_tp':'filter_year'}">2017以来<span class="li_num">(            78
+    )</span></a>
+            </li>
+                </ul>
+        </div>
+        <div class="sortlist c-flexbox">
+        <!--按相关性、被引量、按时间降序-->
+                                            <span class="label">排序：</span>
+        <ul class="sortul c-flexbox">
+            <li class="select"><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8" data-click="{'fm':'beha','button_tp':'asso'}">按相关性</a></li>
+            <li ><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_cited" data-click="{'fm':'beha','button_tp':'refer_num'}">按被引量</a></li>
+            <li ><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_time" data-click="{'fm':'beha','button_tp':'pub_t'}">按时间降序</a></li>
+        </ul>
+        </div>
+    </div>
+<script>
+bds.ready(function() {
+    var $sortwr = $('.sortwr'),
+        $filterBtn = $('.sortwr .filter_btn'),
+        $ul = $sortwr.find('.sortlist'),
+        $a = $ul.find('a');
+
+    $filterBtn.on('touchend', function(event) {
+        $sortwr.toggleClass('sortopen');
+        if ($sortwr.hasClass('sortopen')) {
+            showBg();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "show_filter"
+            });
+        } else {
+            $('.w_sort_bgcover').hide();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "hide_filter"
+            });
+        }
+    });
+    function showBg () {
+        if (!$('.w_sort_bgcover').length) {
+            var top = $('#page-top').height() * 1 + $('#page-nav').height() * 1;
+            var html = '<div class="w_sort_bgcover" style="top:' + top + 'px;"></div>';
+            $(html).appendTo($('body'));
+        }
+        var h = Math.max($(window).height(), $('body').height());
+        $('.w_sort_bgcover').css({
+            height: h,
+            display: 'block'
+        });
+    }
+    $('body').on('touchend', '.w_sort_bgcover', function(event) {
+        $sortwr.removeClass('sortopen');
+        $('.w_sort_bgcover').hide();
+
+        // 防止事件透传
+        event.preventDefault();
+        event.stopPropagation();
+    });
+})
+</script>
+</div>
+    </div>
+    </div>
+</div>
+
+
+
+
+    <div id="content">
+	<div id="toolbar">
+				<span class="nums">
+    找到约33,200条相关结果
+</span>
+			</div>
+
+	<div id="w_result_lists">
+        	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="1" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/document/7551232/
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%287949cd9be22e905155b9c98389300be7%29&filter=sc_long_sign&sc_f_para=q%3DA%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&sc_us=9568645210990799649&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>A</em> <em>Credibility Analysis System</em> <em>for</em> <em>Assessing</em> <em>Information</em> <em>on</em> <em>Twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Majed%20Alrubaian%29%20Majed%20Alrubaian%20is%20with%20the%20Research%20Chair%20of%20Pervasive%20and%20Mobile%20Computing%2C%20College%20of%20Computer%20and%20Information%20Sciences%2C%20King%20Saud%20University%2C%20Riyadh%2011543%2C%20Saudi%20Arabia.%28Email%3A%20malrubaian.c%40ksu.edu.sa&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">M Alrubaian</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%2889ea8f1481b3387c%29%20%E3%80%8AIEEE%20Transactions%20on%20Dependable%20%26%20Secure%20Computing%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《IEEE Transactions on Dependable &amp; Secure Computing》">
+    《IEEE Transaction...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/document/7551232/
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%287949cd9be22e905155b9c98389300be7%29&filter=sc_long_sign&sc_f_para=q%3DA%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&sc_us=9568645210990799649&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                <em>Information</em> <em>credibility</em> <em>on</em> <em>Twitter</em> has been a topic of interest among researchers in the fields of both computer and social sciences, primarily because ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Credibility&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Credibility</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=reputation&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            reputation</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            classification</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=user%20experience&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            user experience</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=feature-ranking&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            feature-ranking</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Twitter</em></a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(7949cd9be22e905155b9c98389300be7)&sc_f_para=sc_cita%3D%7BA%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter%2C%20%20%20%20%20%20%20%20%20%20%20%202%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            2
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://www.gntsuntechnologies.com/Projects/2016_dotnet_ieee/01.pdf" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="2" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/document/7752431/
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28d16d4acbede0b6c18574126a467ea460%29&filter=sc_long_sign&sc_f_para=q%3DCredFinder%3A%20A%20real-time%20tweets%20credibility%20assessing%20system&sc_us=5091985172923418950&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">CredFinder: A real-time tweets <em>credibility</em> <em>assessing</em> <em>system</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Majed%20AlRubaian%29%20College%20of%20Computer%20and%20Information%20Sciences%2C%20Research%20Chair%20of%20Pervasive%20and%20Mobile%20Computing%2C%20King%20Saud%20University%2C%20Riyadh%2C%20Saudi%20Arabia&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">M Alrubaian</a>
+        ，                                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%285711fb2bc7b53693%29%20IEEE%2FACM%20International%20Conference%20on%20Advances%20in%20Social%20Networks%20Analysis%20%26%20Mining&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="IEEE/ACM International Conference on Advances in Social Networks Analysis &amp; Mining">
+    IEEE/ACM Internati...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/document/7752431/
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28d16d4acbede0b6c18574126a467ea460%29&filter=sc_long_sign&sc_f_para=q%3DCredFinder%3A%20A%20real-time%20tweets%20credibility%20assessing%20system&sc_us=5091985172923418950&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Lately, <em>Twitter</em> has grown to be one of the most favored ways of disseminating <em>information</em> to people around the globe. However, the main challenge faced ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Twitter</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Social%20Networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Social Networks</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Credibility&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Credibility</em></a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=CredFinder%3A%20A%20real-time%20tweets%20credibility%20assessing%20system&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="3" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://doi.ieeecomputersociety.org/10.1109/SITIS.2013.148
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%287959f437f2cddc8b5483810bcd38e63e%29&filter=sc_long_sign&sc_f_para=q%3DHigh%20Precision%20Credibility%20Analysis%20of%20Information%20on%20Twitter&sc_us=14119355903513173594&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">High Precision <em>Credibility Analysis</em> of <em>Information</em> <em>on</em> <em>Twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Yoshimi%20Namihira%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Y Namihira</a>
+        ，                                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%28c40535182e365406%29%20International%20Conference%20on%20Signal-image%20Technology%20%26%20Internet-based%20Systems&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="International Conference on Signal-image Technology &amp; Internet-based Systems">
+    International Conf...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2014">2014</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://doi.ieeecomputersociety.org/10.1109/SITIS.2013.148
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEE Computer Society
+    ">            IEEE Computer ...
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%287959f437f2cddc8b5483810bcd38e63e%29&filter=sc_long_sign&sc_f_para=q%3DHigh%20Precision%20Credibility%20Analysis%20of%20Information%20on%20Twitter&sc_us=14119355903513173594&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                On and after the Great Eastern Japan Earthquake, various false <em>information</em> and rumor have been spread <em>on</em> <em>Twitter</em>. To cope with this, we proposed the met...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=information%20credibility&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>information</em> <em>credibility</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=expertise%20score&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            expertise score</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=sentiment%20analysis&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            sentiment <em>analysis</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=topic%20classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            topic classification</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=topic%20model&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            topic model</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>twitter</em></a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(7959f437f2cddc8b5483810bcd38e63e)&sc_f_para=sc_cita%3D%7BHigh%20Precision%20Credibility%20Analysis%20of%20Information%20on%20Twitter%2C%20%20%20%20%20%20%20%20%20%20%20%203%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            3
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=High%20Precision%20Credibility%20Analysis%20of%20Information%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="4" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://link.springer.com/chapter/10.1007%2F978-3-319-13734-6_16
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28309877872dc6c8972993725cc55390c7%29&filter=sc_long_sign&sc_f_para=q%3DTweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter&sc_us=17321282416613543011&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">TweetCred: Real-Time <em>Credibility</em> Assessment of Content <em>on</em> <em>Twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Aditi%20Gupta%29%20Indraprastha%20Institute%20of%20Information%20Technology&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">A Gupta</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2014">2014</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://link.springer.com/chapter/10.1007%2F978-3-319-13734-6_16
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28309877872dc6c8972993725cc55390c7%29&filter=sc_long_sign&sc_f_para=q%3DTweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter&sc_us=17321282416613543011&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Abstract: During sudden onset crisis events, the presence of spam, rumors and fake content <em>on</em> <em>Twitter</em> reduces the value of <em>information</em> contained on its ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Computer%20Science%20-%20Cryptography%20and%20Security&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Cryptography and Se...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Social%20and%20Information%20Networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Social and Informat...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Physics%20-%20Physics%20and%20Society&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Physics - Physics and Society</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(309877872dc6c8972993725cc55390c7)&sc_f_para=sc_cita%3D%7BTweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter%2C%20%20%20%20%20%20%20%20%20%20%20%2096%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            96
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=TweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://xxx.tau.ac.il/pdf/1405.5490.pdf</p>
+            <p class="saveanchor">xxx.tau.ac.il</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    664.4K
+</p>
+                                    <p class="saveurl">http://precog.iiitd.edu.in/Publications_files/socinfo_paper_102.pdf</p>
+            <p class="saveanchor">precog.iiitd.edu.in</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/743d/da41540066d377e9f17c7f31c02fb012e5e5.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://lib-arxiv-008.serverfarm.cornell.edu/pdf/1405.5490v2.pdf</p>
+            <p class="saveanchor">lib-arxiv-008.serverfarm.cornell.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1405.5490</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://www.ixueshu.com/document/81f0bdcd5c08399c318947a18e7f9386.html</p>
+            <p class="saveanchor">爱学术</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="5" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://arxiv.org/abs/1405.5490v1
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2867aea1e567fdac521b08ef5a061ddb3f%29&filter=sc_long_sign&sc_f_para=q%3DTweetCred%3A%20A%20Real-time%20Web-based%20System%20for%20Assessing%20Credibility%20of%20Content%20on%20Twitter&sc_us=12675565094452500201&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">TweetCred: A Real-time Web-based <em>System</em> <em>for</em> <em>Assessing</em> <em>Credibility</em> of Content <em>on</em> <em>Twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Aditi%20Gupta%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">A Gupta</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%28257fad1fa84a65c3%29%20%E3%80%8AEprint%20Arxiv%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Eprint Arxiv》">
+    《Eprint Arxiv》
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2014">2014</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://arxiv.org/abs/1405.5490v1
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2867aea1e567fdac521b08ef5a061ddb3f%29&filter=sc_long_sign&sc_f_para=q%3DTweetCred%3A%20A%20Real-time%20Web-based%20System%20for%20Assessing%20Credibility%20of%20Content%20on%20Twitter&sc_us=12675565094452500201&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                During large scale events, a large volume of content is posted <em>on</em> <em>Twitter</em>, but not all of this content is trustworthy. The presence of spam, advertiseme...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Computer%20Science%20-%20Cryptography%20and%20Security&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Cryptography and Se...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Social%20and%20Information%20Networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Social and Informat...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Physics%20-%20Physics%20and%20Society&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Physics - Physics and Society</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(67aea1e567fdac521b08ef5a061ddb3f)&sc_f_para=sc_cita%3D%7BTweetCred%3A%20A%20Real-time%20Web-based%20System%20for%20Assessing%20Credibility%20of%20Content%20on%20Twitter%2C%20%20%20%20%20%20%20%20%20%20%20%2025%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            25
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=TweetCred%3A%20A%20Real-time%20Web-based%20System%20for%20Assessing%20Credibility%20of%20Content%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Carlos_Castillo/publication/262526065_TweetCred_A_Real-time_Web-based_System_for_Assessing_Credibility_of_Content_on_Twitter/links/0c96053a6c638bb430000000</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://www.elastic.org/~fche/mirrors/cryptome.org/2014/05/tweetcred.pdf</p>
+            <p class="saveanchor">elastic.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://www.cryptome.org/2014/05/tweetcred.pdf</p>
+            <p class="saveanchor">cryptome.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://www.arxiv.org/pdf/1405.5490v1.pdf</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://web.elastic.org/~fche/mirrors/www.cryptome.org/2014/05/tweetcred.pdf</p>
+            <p class="saveanchor">web.elastic.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://research3.fit.edu/sealevelriselibrary/documents/doc_mgr/1006/Gupta%20et%20al.%202014.%20Assessing%20Credibility%20on%20Twitter.pdf</p>
+            <p class="saveanchor">research3.fit.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/a5a4/db6b066d58c1281d1e83be821216d22696f3.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://elastic.org/~fche/mirrors/cryptome.org/2014/05/tweetcred.pdf</p>
+            <p class="saveanchor">elastic.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://de.arxiv.org/pdf/1405.5490</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://cryptome.org/2014/05/tweetcred.pdf</p>
+            <p class="saveanchor">cryptome.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://core.ac.uk/download/pdf/25028481.pdf</p>
+            <p class="saveanchor">core.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.0M
+</p>
+                                    <p class="saveurl">http://cm.1-s.es/~admissions/Cryptome-update-14-0602/2014/05/tweetcred.pdf</p>
+            <p class="saveanchor">cm.1-s.es</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.747.6112&rep=rep1&type=pdf</p>
+            <p class="saveanchor">Citeseer</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://chato.cl/papers/gupta_kumaraguru_castillo_meier_2014_tweetcred.pdf</p>
+            <p class="saveanchor">chato.cl</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.1M
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1405.5490v1</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://www.ixueshu.com/document/ec16bbea186ecd1f318947a18e7f9386.html</p>
+            <p class="saveanchor">爱学术</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="6" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://dl.acm.org/citation.cfm?id=1963500
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2871b60acbf28249593809cdafd239722d%29&filter=sc_long_sign&sc_f_para=q%3DInformation%20credibility%20on%20twitter&sc_us=5048844632148614360&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Information</em> <em>credibility</em> <em>on</em> <em>twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Carlos%20Castillo%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">C Castillo</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%281c6ef29dd730ef27%29%20International%20Conference%20on%20World%20Wide%20Web&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="International Conference on World Wide Web">
+    International Conf...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2011">2011</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://dl.acm.org/citation.cfm?id=1963500
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            ACM
+    ">            ACM
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2871b60acbf28249593809cdafd239722d%29&filter=sc_long_sign&sc_f_para=q%3DInformation%20credibility%20on%20twitter&sc_us=5048844632148614360&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                We analyze the <em>information</em> <em>credibility</em> of news propagated through <em>Twitter</em>, <em>a</em> popular microblogging service. Previous research has shown that most of the...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=social%20media%20analytics&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            social media analytics</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=social%20media%20credibility&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            social media <em>credibility</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>twitter</em></a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(71b60acbf28249593809cdafd239722d)&sc_f_para=sc_cita%3D%7BInformation%20credibility%20on%20twitter%2C%20%20%20%20%20%20%20%20%20%20%20%20913%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            913
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Information%20credibility%20on%20twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://wwwconference.org/proceedings/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">wwwconference.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    641.4K
+</p>
+                                    <p class="saveurl">http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2014/01/Information%20Credibility%20on%20Twitter.pdf</p>
+            <p class="saveanchor">zerohedge.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.wwwconference.org/proceedings/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">wwwconference.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    740.6K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Carlos_Castillo/publication/221023878_Information_credibility_on_Twitter/links/0912f50fbf9ec36a41000000.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.ramb.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ramb.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.ra.ethz.ch/cdstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ra.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.chato.cl/papers/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">chato.cl</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.ambuehler.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ambuehler.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    682.8K
+</p>
+                                    <p class="saveurl">http://students.csci.unt.edu/~zl0054/papers/Information.pdf</p>
+            <p class="saveanchor">students.csci.unt.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    554.4K
+</p>
+                                    <p class="saveurl">http://research.yahoo.com/files/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">research.yahoo.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://ramb.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ramb.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://ra.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ra.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/37c9/0fcd3016171e9f3ac86f7f88b390fe86ee99.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    554.4K
+</p>
+                                    <p class="saveurl">http://labs.yahoo.com/files/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">labs.yahoo.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://dougleschan.com/the-recruitment-guru/wp-content/uploads/2014/01/Information-Credibility-on-Twitter-Ra.ethz_.ch_.pdf</p>
+            <p class="saveanchor">dougleschan.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2BECB9167C4AE50D4625049615AEA60E?doi=10.1.1.205.8841&rep=rep1&type=pdf</p>
+            <p class="saveanchor">Citeseer</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://chato.cl/papers/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">chato.cl</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="7" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://portal.acm.org/citation.cfm?id=1963405.1963500
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2896db8d47904860a2e681713c1df31754%29&filter=sc_long_sign&sc_f_para=q%3DInformation%20credibility%20on%20twitter&sc_us=7231859263451460531&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Information</em> <em>credibility</em> <em>on</em> <em>twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Castillo%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Castillo</a>
+        ，                                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+    《Www》
+
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2011">2011</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://portal.acm.org/citation.cfm?id=1963405.1963500
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            portal.acm.org
+    ">            portal.acm.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2896db8d47904860a2e681713c1df31754%29&filter=sc_long_sign&sc_f_para=q%3DInformation%20credibility%20on%20twitter&sc_us=7231859263451460531&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    ABSTRACT We analyze the <em>information</em> <em>credibility</em> of news propagated through <em>Twitter</em>, <em>a</em> popular microblogging service. Previous research has shown that most of the messages posted <em>on</em> <em>Twitter</em> are truthful, but the service is also used to...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(96db8d47904860a2e681713c1df31754)&sc_f_para=sc_cita%3D%7BInformation%20credibility%20on%20twitter%2C%20%20%20%20%20%20%20%20%20%20%20%20873%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            873
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Information%20credibility%20on%20twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://wwwconference.org/proceedings/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">wwwconference.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    641.4K
+</p>
+                                    <p class="saveurl">http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2014/01/Information%20Credibility%20on%20Twitter.pdf</p>
+            <p class="saveanchor">zerohedge.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.wwwconference.org/proceedings/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">wwwconference.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    740.6K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Carlos_Castillo/publication/221023878_Information_credibility_on_Twitter/links/0912f50fbf9ec36a41000000.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.ramb.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ramb.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.ra.ethz.ch/cdstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ra.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.chato.cl/papers/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">chato.cl</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://www.ambuehler.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ambuehler.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    682.8K
+</p>
+                                    <p class="saveurl">http://students.csci.unt.edu/~zl0054/papers/Information.pdf</p>
+            <p class="saveanchor">students.csci.unt.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    554.4K
+</p>
+                                    <p class="saveurl">http://research.yahoo.com/files/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">research.yahoo.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://ramb.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ramb.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://ra.ethz.ch/CDstore/www2011/proceedings/p675.pdf</p>
+            <p class="saveanchor">ra.ethz.ch</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/37c9/0fcd3016171e9f3ac86f7f88b390fe86ee99.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    554.4K
+</p>
+                                    <p class="saveurl">http://labs.yahoo.com/files/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">labs.yahoo.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://dougleschan.com/the-recruitment-guru/wp-content/uploads/2014/01/Information-Credibility-on-Twitter-Ra.ethz_.ch_.pdf</p>
+            <p class="saveanchor">dougleschan.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2BECB9167C4AE50D4625049615AEA60E?doi=10.1.1.205.8841&rep=rep1&type=pdf</p>
+            <p class="saveanchor">Citeseer</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    785.0K
+</p>
+                                    <p class="saveurl">http://chato.cl/papers/castillo_mendoza_poblete_2010_twitter_credibility.pdf</p>
+            <p class="saveanchor">chato.cl</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="8" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://rd.springer.com/chapter/10.1007/978-3-319-13734-6_16
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28f2518f73ff6ba6d6a8baafaf51bbb21c%29&filter=sc_long_sign&sc_f_para=q%3DTweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter&sc_us=2697401856279125288&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">TweetCred: Real-Time <em>Credibility</em> Assessment of Content <em>on</em> <em>Twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Aditi%20Gupta%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">A Gupta</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2015">2015</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://rd.springer.com/chapter/10.1007/978-3-319-13734-6_16
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28f2518f73ff6ba6d6a8baafaf51bbb21c%29&filter=sc_long_sign&sc_f_para=q%3DTweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter&sc_us=2697401856279125288&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                During sudden onset crisis events, the presence of spam, rumors and fake content <em>on</em> <em>Twitter</em> reduces the value of <em>information</em> contained on its messages (...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Computer%20Science%20-%20Cryptography%20and%20Security&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Cryptography and Se...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Social%20and%20Information%20Networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Social and Informat...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Physics%20-%20Physics%20and%20Society&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Physics - Physics and Society</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(f2518f73ff6ba6d6a8baafaf51bbb21c)&sc_f_para=sc_cita%3D%7BTweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter%2C%20%20%20%20%20%20%20%20%20%20%20%20101%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            101
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=TweetCred%3A%20Real-Time%20Credibility%20Assessment%20of%20Content%20on%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Carlos_Castillo/publication/278703799_TweetCred_Real-Time_Credibility_Assessment_of_Content_on_Twitter/links/5588fe0c08aeb2994444be35.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://xxx.tau.ac.il/pdf/1405.5490.pdf</p>
+            <p class="saveanchor">xxx.tau.ac.il</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    664.4K
+</p>
+                                    <p class="saveurl">http://precog.iiitd.edu.in/Publications_files/socinfo_paper_102.pdf</p>
+            <p class="saveanchor">precog.iiitd.edu.in</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/743d/da41540066d377e9f17c7f31c02fb012e5e5.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://lib-arxiv-008.serverfarm.cornell.edu/pdf/1405.5490v2.pdf</p>
+            <p class="saveanchor">lib-arxiv-008.serverfarm.cornell.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.1K
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1405.5490</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://www.ixueshu.com/document/81f0bdcd5c08399c318947a18e7f9386.html</p>
+            <p class="saveanchor">爱学术</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="9" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://link.springer.com/chapter/10.1007%2F978-3-319-46298-1_31
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28eced1c654ddacb467c60fc4996c7c70b%29&filter=sc_long_sign&sc_f_para=q%3DGatekeeping%20Behavior%20Analysis%20for%20Information%20Credibility%20Assessment%20on%20Weibo.&sc_us=11767022375434013707&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Gatekeeping Behavior <em>Analysis</em> <em>for</em> <em>Information</em> <em>Credibility</em> Assessment on Weibo.</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Xie%2C%20Bailin%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">B Xie</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%2839df2b71d03fb326%29%20International%20Conference%20on%20Network%20%26%20System%20Security&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="International Conference on Network &amp; System Security">
+    International Conf...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://link.springer.com/chapter/10.1007%2F978-3-319-46298-1_31
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28eced1c654ddacb467c60fc4996c7c70b%29&filter=sc_long_sign&sc_f_para=q%3DGatekeeping%20Behavior%20Analysis%20for%20Information%20Credibility%20Assessment%20on%20Weibo.&sc_us=11767022375434013707&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Microblogging sites, such as Sina Weibo and <em>Twitter</em>, have gained significantly in popularity and become an important source for real-time <em>information</em> di...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Online%20social%20networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Online social networks</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Microblogging&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Microblogging</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Weibo&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Weibo</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Information%20credibility&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Information</em> <em>credibility</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=HMM&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            HMM</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Gatekeeping%20Behavior%20Analysis%20for%20Information%20Credibility%20Assessment%20on%20Weibo.&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="10" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://www.emeraldinsight.com/doi/full/10.1108/17440081111141772
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2888264a785c0b1457213d132954bdf2b8%29&filter=sc_long_sign&sc_f_para=q%3DAn%20experimental%20system%20for%20measuring%20the%20credibility%20of%20news%20content%20in%20Twitter&sc_us=9805574719813374842&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">An experimental <em>system</em> <em>for</em> measuring the <em>credibility</em> of news content in <em>Twitter</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Hend%20S.%20Al%E2%80%90Khalifa%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Hend S. Al‐Khalifa</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%285a57dc9728dd0a90%29%20%E3%80%8AInternational%20Journal%20of%20Web%20Information%20Systems%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《International Journal of Web Information Systems》">
+    《International Jo...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2011">2011</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://www.emeraldinsight.com/doi/full/10.1108/17440081111141772
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Emerald
+    ">            Emerald
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2888264a785c0b1457213d132954bdf2b8%29&filter=sc_long_sign&sc_f_para=q%3DAn%20experimental%20system%20for%20measuring%20the%20credibility%20of%20news%20content%20in%20Twitter&sc_us=9805574719813374842&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                AbstractPurpose – Owing to the large amount of <em>information</em> available <em>on</em> <em>Twitter</em> (<em>a</em> micro-blogging service)that is not necessarily true or believable, c...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Blogs&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Blogs</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Information%20media&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Information</em> media</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Communication&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Communication</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Trust&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Trust</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Twitter</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Credibility&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Credibility</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Web%20content&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Web content</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Natural%20language%20processing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Natural language processing</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Arabic%20language&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Arabic language</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(88264a785c0b1457213d132954bdf2b8)&sc_f_para=sc_cita%3D%7BAn%20experimental%20system%20for%20measuring%20the%20credibility%20of%20news%20content%20in%20Twitter%2C%20%20%20%20%20%20%20%20%20%20%20%2057%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            57
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=An%20experimental%20system%20for%20measuring%20the%20credibility%20of%20news%20content%20in%20Twitter&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                    </div>
+</div>
+    <div id="pager">
+				<i class="w-icon w-icon-left-def left"></i>
+	
+		<div class="pager_mid">
+	<strong><span class="pc">1</span></strong><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">2</span></a><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&pn=20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">3</span></a><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&pn=30&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">4</span></a><a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&pn=40&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">5</span></a>	</div>
+		<a href="/s?wd=A%20Credibility%20Analysis%20System%20for%20Assessing%20Information%20on%20Twitter&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1&rsv_page=1" class="n n_right"><i class="w-icon w-icon-right"></i></a>
+	</div>
+
+
+
+
+
+    <div id="wise_bombbox">
+	<div class="downloadBox">
+		<div class="dl_title">免费下载</div>
+		<div class="dl_content"></div>
+	</div>
+    <div class="box_close">取消</div>
+</div>
+
+    
+		</div>
+	</body>
+	
+    <div style="display:none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?43115ae30293b511088d3cbe41ec099c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/zepto/zepto.min_4064ae0.js"></script>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/webb/webb.min_08cab1e.js"></script>
+
+    <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/common_wise_a81c989.js" charset="utf-8"></script>
+        <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/page_wise_eb0edc1.js" charset="utf-8"></script>
+    
+</html>
+

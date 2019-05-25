@@ -1,0 +1,1810 @@
+
+<!DOCTYPE html>
+<!--STATUS OK-->
+
+
+ 
+ 
+ 
+ 
+
+
+	
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<html>
+	<head>
+		<meta name="referrer" content="always" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="Description" content="百度学术搜索，是一个提供海量中英文文献检索的学术资源搜索平台，涵盖了各类学术期刊、学位、会议论文，旨在为国内外学者提供最好的科研体验。">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="manifest" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/manifest_69e8554.json">
+		
+<title>
+Sentence-State LSTM for Text Representation_百度学术
+</title>
+
+		
+<style>
+/*解决iconfont跨越问题*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('/cache/mid/static/xueshu_wise/iconfont/iconfont.ttf') format('truetype'),
+        url('/cache/mid/static/xueshu_wise/iconfont/iconfont.svg#iconfont') format('svg');
+}
+</style>
+    	<link type="text/css" rel="stylesheet" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/css/page_wise_1eb6b91.css">
+    
+		
+	<script>
+var name,navigate,bdQid="df2adfae000a19d8";
+var bds={
+    se:{},
+    util:{},
+    //结果页js通用数据
+    comm : {
+        domain:"http://www.baidu.com",
+        ubsurl : "http://sclick.baidu.com/w.gif",
+        tn:"SE_baiduxueshuwise_y5e9t2rx",
+        queryEnc:"Sentence%252DState%2BLSTM%2Bfor%2BText%2BRepresentation",
+        queryId:"df2adfae000a19d8",
+        ishome : 0,
+        isTransShow: 0,
+        query : "Sentence-State LSTM for Text Representation",
+        queryShow : "Sentence-State LSTM for Text Representation",
+        qid : "df2adfae000a19d8",
+        cid : "0",
+        sid : "",
+        f : "0",
+        pn : "0",
+        oq : "",
+        rsp : "",
+        sc_f_para : "",
+        stoken : "",
+        serverTime : "1558791451",
+        user : "",
+        username : "",
+        isLogin : "0",
+        loginAction : [],
+        useFavo : "",
+        pinyin : "",
+        favoOn : "",
+        personalData : "",
+        curResultNum:"10",
+        rightResultExist:false,
+        protectNum:0,
+        zxlNum:0,
+        pageNum:parseInt('1')||1,
+        pageSize:parseInt('10')||10,
+        taskTipsShow: 1,
+        subpro: 'xueshu_respage',
+        isSchoolShow: 0,
+        schoolEname: "",
+        resultTn:"SE_baiduxueshu_c1gjeupa",
+        scFrom:"",
+        scAsPara:"",
+        isdetailpage: 0,
+        // topBannerInfo: {
+        //     startDate: "2018\/05\/28",
+        //     endDate: "2018\/10\/11",
+        //     width: "260",
+        //     height: "130",
+        //     id: "jiangxuejin",
+        //     imgUrl: "http:\/\/ps-scholar-static.bj.bcebos.com\/homepage%2Fbaidujiangxuejing.jpeg",
+        //     jumpUrl: "http:\/\/scholarship.baidu.com\/"
+        // },
+        pageBannerInfo: {
+            startDate: "2018\/01\/01",
+			endDate: "2099\/01\/01",
+			id: "jiandan"
+        },
+        detailJumpVars: "scholar_single_hit=&scholar_single_hit_jump=&no_jump="
+    }
+};
+
+bds.comm.upn = {"browser":"safari","ie":"","os":"linux","win":"","browsertype":"safari"};
+
+var selfOpen = window.open;
+eval("var open = selfOpen;");
+
+function G(id){
+    return document.getElementById(id);
+}
+
+function TagQ(tag,obj){
+	return obj.getElementsByTagName(tag);
+}
+
+/**
+* @description 增加sclick统计
+* @function
+* @name c
+* @grammar c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function c(q){
+    var p = window.document.location.href, sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = escape(q[v]);
+                break;
+            default:
+                sV = q[v];
+        }
+        sQ += "&" + v + "=" + sV;
+    }
+    try{
+        if (("p2" in q)&&G(q["p1"]).getAttribute("mu") && q["fm"]!="pl") {
+            mu= "&mu=" + escape(G(q["p1"]).getAttribute("mu"));
+        }
+    }catch(e){};
+	img.src = "http://sclick.baidu.com/w.gif?q=" + bds.comm.queryEnc + sQ + mu + "&rsv_sid=" + bds.comm.sid + "&cid="+bds.comm.cid+"&qid="+bds.comm.qid+"&t="+new Date().getTime()+"&path="+p;
+    return true;
+}
+
+/**
+* @description 增加nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function ns_c(q){
+	ns_c_xs(q);
+}
+
+/**
+* @description 增加xueshu nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+
+function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd=bds.comm.queryEnc, sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+
+    // mod当前搜索是否为图书馆模式
+    var mod = bds.comm.schoolEname ? '&mod=lib_' + bds.comm.schoolEname : '';
+    //fr是否来自详情页
+    var fr = bds.comm.isdetailpage ? '&fr=detailpage' : '';
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&rsv_sid=" + bds.comm.sid + "&wd=" + wd + "&" + sQ + "f=" + bds.comm.f + "&oq=" + bds.comm.oq + "&rsp=" + bds.comm.rsp + "&path=" + p + "&tn=" + bds.comm.tn + "&t=" + new Date().getTime() + '&pn=' + bds.comm.pn + mod + fr;
+    return true;
+}
+
+/**
+* @description 为搜索请求添加query，并增加ie参数
+* @function
+* @name setHeadUrl
+* @grammar setHeadUrl(el)
+* @param {Object} el 点击的链接对象
+*/
+function setHeadUrl(el){
+    var word = G("kw").value;
+    word = encodeURIComponent(word);
+    var url = el.href;
+    url = url.replace(new RegExp("(" + el.getAttribute('wdfield') + "=)[^&]*"), '\x241' + word+"&ie=utf-8");
+    el.href = url;
+}
+
+bds.util.getWinWidth = function(){
+    return window.document.documentElement.clientWidth;
+};
+//设置页面主体宽度
+//由于此时tangram还没加载，所以不能使用baidu.dom.addClass/removeClass
+bds.util.setContainerWidth = function(){
+    var c = G('container'),w = G('wrapper'),
+    remove = function(r,o){o.className = o.className.replace(r, '');},
+
+    add = function(cls,o){o.className = (o.className+' '+cls).replace(/^\s+/g, "");},
+    has = function(r,o){return r.test(o.className)};
+    if(bds.util.getWinWidth()<1310){
+        remove(/\bcontainer_l\b/g,c);
+        remove(/\bwrapper_l\b/g,w);
+        if(!has(/\bcontainer_s\b/,c)) add('container_s',c);
+        if(!has(/\bwrapper_s\b/,w)) add('wrapper_s',w);
+    bds.comm.containerSize = "s";
+    }else{
+        remove(/\bcontainer_s\b/g,c);
+        remove(/\bwrapper_s\b/g,w);
+        if(!has(/\bcontainer_l\b/,c)) add('container_l',c);
+        if(!has(/\bwrapper_l\b/,w)) add('wrapper_l',w);
+    bds.comm.containerSize = "l";
+    }
+};
+// ie版本
+bds.util.Ieversion = function() {
+    var ua = navigator.userAgent,
+        iereg = /MSIE (\d+).*/,
+        version = ua.match(iereg);
+
+    if (version && version[1]) {
+        return parseInt(version[1]);
+    }
+    return -1;
+};
+
+//阿拉丁命名空间
+window.A =  bds.aladdin = {
+    ids: [],
+    has: true,
+    list: [],
+    logs: [],
+    loadTimes: []
+};
+
+(function(){
+    var fns = [], isReady = false;
+    var exec = function(fn, thisobj){
+        try{
+            fn.call(thisobj);
+        }catch(e){
+            if(window.debugFlag) throw e;
+        }
+    };
+
+    //在js基础库加载完成后执行fn
+    bds.ready = function(fn){
+        if(typeof fn != 'function') return;
+        if(isReady){exec(fn)}
+        else{fns.push(fn);}
+    };
+
+    //手动触发ready
+    bds.doReady = function(){
+        isReady = true;
+        while(fns.length) exec(fns.shift());
+    };
+
+    //通过json字符串获取对象
+    var getJson = function(jsonString){
+        var result = {};
+        if(jsonString){
+            try{
+                var r = new Function("return " + jsonString)();
+                if(r) result = r;
+            }catch(e){}
+        }
+        return result;
+    },
+
+
+    // 获取当前阿拉丁DOM容器
+    getCurrentAladdin = (function(){
+        var scripts = document.getElementsByTagName("script");
+        return function(){
+            var script = scripts[scripts.length - 1], container = script;
+            while(container){
+                if( container.className ){
+                    if( /(?:^|\s)result(?:-op)?(?:$|\s)/.test(container.className)){
+                        if( tplname = container.getAttribute("tpl") ){
+                            return container;
+                        }
+                    }
+                }
+                container = container.parentNode;
+            }
+        };
+    })(),
+
+    // 筛选出阿拉丁结果
+    getResults = function(){
+        var els = $(".result-op").get().concat( $(".result").get() ),
+        alaEls = {};
+
+        for(var i = 0, name, el; el = els[i]; i++ ){
+            if(name = el.getAttribute("tpl")){
+                if( alaEls[name] ){
+                    alaEls[name].push(el);
+                }else{
+                    alaEls[name] = [el];
+                }
+            }
+        }
+        return alaEls;
+    },
+
+    // 入口事件队列
+    readyedHandlers = [],
+
+    //销毁函数列表，每项内容为
+    //{obj:instance, fn: fn}
+    //每项执行fn后即删除
+    disposeOnceHandlers = [],
+
+    //每项格式同disposeOnceHandlers
+    //每项执行后仍保留
+    //即每次销毁实例时都执行一次
+    disposeAlwaysHandlers = [],
+
+    currentSetupContainer = null,
+
+    // merge在bds.ready前的队列
+    mergeHandlers = [],
+
+    // 阿拉丁实例构造函数
+    Ala = A._Aladdin = function(){
+        this.p1 = 0;
+        this.mu = null;
+    };
+
+    A.merge = function(tplname, fn){
+        mergeHandlers.push({tplname: tplname, fn: fn});
+    };
+
+    // 阿拉丁入口函数
+    A.init = A.setup = function(k, v){
+
+        // 页面可能存在的空 init
+        if( k === undefined || k === null){
+            return;
+        }
+
+        var object, container = currentSetupContainer || getCurrentAladdin();
+        if( !container){
+            return;
+        }
+
+        object = {container: container};
+
+        if(typeof k == "function"){
+            object.handler = k;
+
+        }else if(typeof k == 'object'){
+            object.data = k;
+
+        }else{
+            object.data = {};
+            object.data[k] = v;
+        }
+
+        readyedHandlers.push( object );
+    };
+
+    // 注册每次销毁均执行的函数
+    A.addDisposeHandler = function(item){
+        disposeAlwaysHandlers.push(item);
+    };
+
+    //全局阿拉丁销毁函数，在删除阿拉丁dom节点前调用
+    A.dispose = function(){
+        // 执行阿拉丁实例dispose队列
+        while(disposeOnceHandlers.length){
+            var d = disposeOnceHandlers.shift();
+            exec(d.fn, d.obj);
+        }
+        // 顺序执行销毁函数
+        var handlers = disposeAlwaysHandlers;
+        for(var i=0;i<handlers.length;i++){
+            var d = handlers[i];
+            exec(d.fn, d.obj);
+        }
+    };
+
+    // 遍历执行所有阿拉丁实例
+    bds.ready(function(){
+
+        // 将所有的merge队列转换为setup队列
+        if( mergeHandlers.length ){
+            var results = getResults();
+            for(var i = 0, item; item = mergeHandlers[i]; i++){
+                var els = results[item.tplname];
+                if(els){
+                    for(var j = 0, el; el = els[j]; j++){
+                        currentSetupContainer = el;
+                        item.fn();
+                        currentSetupContainer = null;
+                    }
+                }
+            }
+        }
+
+        // 整理出的每个Aladding JS数据
+        var groupData = [],
+        getGroupData = function(el){
+            if(!isNaN(el.initIndex)){
+                return  groupData[ el.initIndex * 1];
+            }
+            var data = { data:{}, handlers: [], container: el };
+            groupData.push(data);
+            el.initIndex = groupData.length - 1;
+            return data;
+        };
+
+        // 整理setup队列顺序
+        for(var i = 0, item; item = readyedHandlers[i]; i++){
+            var elData = getGroupData(item.container);
+
+            if( item.data ){
+                for(var k in item.data){
+                    if(item.data.hasOwnProperty(k)){
+                        elData.data[k] = item.data[k];
+                    }
+                }
+
+            }else if (item.handler){
+                elData.handlers.push( item.handler );
+            }
+        }
+
+        // 遍历所有的setup
+        for(var i = 0, item; item = groupData[i]; i++){
+            var fn,
+            sTime,
+            eTime,
+            obj = {},
+            ala = new Ala();
+
+            ala.data = item.data;
+            ala.container = item.container;
+            ala._init();
+            A.list.push(ala);
+
+            // 执行setup队列
+            sTime = new Date();
+            while( fn = item.handlers.shift() ){
+                exec(fn, ala);
+                //执行完fn后，如果示例上定义了dispose方法
+                //则将其保存到队列中
+                if(typeof ala.dispose == 'function'){
+                    disposeOnceHandlers.push({
+                        obj:ala,
+                        fn: ala.dispose
+                    });
+                    ala.dispose = null;
+                }
+            }
+            eTime = new Date();
+
+            // 统计执行时间
+            obj = { srcid: ala.srcid };
+            obj.tpl  = ala.container.getAttribute('tpl');
+            obj.time = eTime - sTime;
+            A.loadTimes.push( obj );
+
+            $.each( A._Aladdin.fixs, function(i, f){
+                f.call(ala, ala);
+            });
+        }
+
+    });
+
+    Ala.prototype = {
+
+        //初始化实例属性
+        _init: function() {
+            var attrs = getJson(this.container.getAttribute('data-click'));
+            this.p1 = attrs.p1 || this.container.id;
+            this.mu = attrs.mu || this.container.getAttribute('mu');
+            this.srcid = attrs.rsv_srcid || this.container.getAttribute('srcid');
+        }
+    };
+
+
+})();
+</script>
+<script type="text/javascript">
+																					            																										
+
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "upload.xueshu.baidu.com":"http://upload.xueshu.baidu.com",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+	var get = function(url) {
+		if(location.protocol === "http:") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+		matches = url.match(reg);
+		//判断传入参数是域名还是地址，分别做处理
+		url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+		return url;
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			
+    <div id="page-top" class="c-flexbox">
+    <span class="logowr">
+    <a class="logo" href="//xueshu.baidu.com/" ontouchstart="return ns_c_xs({'fm':'xueshu','tab':'logo'})"><img src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/img/logo_w2_21fb37b.png"/></a>
+    </span>
+    <div class="topform_wr">
+<form id="topform" action="/s" name="f">
+    <div class="iptwr">
+        <!--输入框-->
+        <input type="text" name="wd" id="kw" value="Sentence-State LSTM for Text Representation" maxlength="64" class="ipt" autocomplete="off">
+        <i class="c-icon searchicon">&#xe602;</i>
+        <span class="clear_btn">
+            <span class="clear_iconwr"><i class="c-icon clearicon OP_LOG_BTN" data-click="{'button_tp':'clear_wd','fm':'beha'}">&#xe605;</i></span>
+        </span>
+    </div>
+
+                <input type="hidden" name="tn" value="SE_baiduxueshuwise_y5e9t2rx">
+        <input type="hidden" name="cl" value="3">                    <input type="hidden" name="ie" value="utf-8">        <input type="hidden" name="bs" value="Sentence-State LSTM for Text Representation">
+    <input type="hidden" name="f" value="8">
+    <input type="hidden" name="rsv_bp" value="1">
+    <input type="hidden" name="rsv_sug2" value="1">
+    </form>
+</div>
+
+
+    <span class="loginwr">
+                <a class="login c-icon" href="http://wappass.baidu.com/passport/?login&tpl=xueshu&ssid=0&from=844b&uid=&pu=&bd_page_type=1&tn=&regtype=1&u=" ontouchstart="return ns_c_xs({'fm':'set','tab':'login'})">&#xe60a;</a>
+                <span class="ipt_cancel">取消</span>
+    </span>
+</div>
+
+			
+            
+    
+<div id="page-nav" class="c-flexbox xpath-log" data-click="{'fm':'beha'}">
+    <div class="flexitem1">
+    <!-- <div class="c-flexbox"> -->
+    	<a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="nav nav_sel" data-click="{'button_tp':'filter_all'}">全部</a>
+            	<a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B1%7D" class="nav " data-click="{'button_tp':'filter_jour'}">期刊</a>
+            	<a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B3%7D" class="nav " data-click="{'button_tp':'filter_conf'}">会议</a>
+                <a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B2%7D" class="nav " data-click="{'button_tp':'filter_degree'}">学位</a>
+    <!-- </div> -->
+    </div>
+            <div class="flexitem2 itemsingle">
+    <div class="c-flexbox">
+    <!--中英文切换组件-->
+        <!--排序下拉框-->
+    
+
+
+
+
+
+
+
+
+<div class="sortwr xpath-log" data-click="{'fm':'beha'}">
+    <!--<span class="text">时间不限</span>-->
+    <span class="filter_btn"><i class="c-icon iconfilter">&#xe609;</i>筛选</span>
+
+    <div class="content_wr">
+        <div class="filterlist c-flexbox">
+        <span class="label">筛选：</span>
+        <ul class="filterul">
+        <!--时间不限-->
+                <li class="select"><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="leftnav_sel_close" data-click="{'button_tp':'filter_close'}">时间不限</a></li>
+
+        <!--近3年以来-->
+                
+                                                                                        
+                                                                        <li >
+                <a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2019%2C%2B%7D" class="" data-val="2019以来" data-index="2019,+" data-click="{'button_tp':'filter_year'}">2019以来<span class="li_num">(            5
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2018%2C%2B%7D" class="" data-val="2018以来" data-index="2018,+" data-click="{'button_tp':'filter_year'}">2018以来<span class="li_num">(            85
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2017%2C%2B%7D" class="" data-val="2017以来" data-index="2017,+" data-click="{'button_tp':'filter_year'}">2017以来<span class="li_num">(            202
+    )</span></a>
+            </li>
+                </ul>
+        </div>
+        <div class="sortlist c-flexbox">
+        <!--按相关性、被引量、按时间降序-->
+                                            <span class="label">排序：</span>
+        <ul class="sortul c-flexbox">
+            <li class="select"><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8" data-click="{'fm':'beha','button_tp':'asso'}">按相关性</a></li>
+            <li ><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_cited" data-click="{'fm':'beha','button_tp':'refer_num'}">按被引量</a></li>
+            <li ><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_time" data-click="{'fm':'beha','button_tp':'pub_t'}">按时间降序</a></li>
+        </ul>
+        </div>
+    </div>
+<script>
+bds.ready(function() {
+    var $sortwr = $('.sortwr'),
+        $filterBtn = $('.sortwr .filter_btn'),
+        $ul = $sortwr.find('.sortlist'),
+        $a = $ul.find('a');
+
+    $filterBtn.on('touchend', function(event) {
+        $sortwr.toggleClass('sortopen');
+        if ($sortwr.hasClass('sortopen')) {
+            showBg();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "show_filter"
+            });
+        } else {
+            $('.w_sort_bgcover').hide();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "hide_filter"
+            });
+        }
+    });
+    function showBg () {
+        if (!$('.w_sort_bgcover').length) {
+            var top = $('#page-top').height() * 1 + $('#page-nav').height() * 1;
+            var html = '<div class="w_sort_bgcover" style="top:' + top + 'px;"></div>';
+            $(html).appendTo($('body'));
+        }
+        var h = Math.max($(window).height(), $('body').height());
+        $('.w_sort_bgcover').css({
+            height: h,
+            display: 'block'
+        });
+    }
+    $('body').on('touchend', '.w_sort_bgcover', function(event) {
+        $sortwr.removeClass('sortopen');
+        $('.w_sort_bgcover').hide();
+
+        // 防止事件透传
+        event.preventDefault();
+        event.stopPropagation();
+    });
+})
+</script>
+</div>
+    </div>
+    </div>
+</div>
+
+
+
+
+    <div id="content">
+	<div id="toolbar">
+				<span class="nums">
+    找到553条相关结果
+</span>
+			</div>
+
+	<div id="w_result_lists">
+        	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="1" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://arxiv.org/abs/1805.02474
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28ff6baa02058f38469b080f8cbee293ab%29&filter=sc_long_sign&sc_f_para=q%3DSentence-State%20LSTM%20for%20Text%20Representation&sc_us=10675885731855621770&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Sentence-State</em> <em>LSTM</em> <em>for</em> <em>Text</em> <em>Representation</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Zhang%2C%20Yue%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Y Zhang</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2018">2018</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://arxiv.org/abs/1805.02474
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28ff6baa02058f38469b080f8cbee293ab%29&filter=sc_long_sign&sc_f_para=q%3DSentence-State%20LSTM%20for%20Text%20Representation&sc_us=10675885731855621770&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    Abstract: Bi-directional <em>LSTM</em>s are a powerful tool <em>for</em> <em>text</em> <em>representation</em>. On the other hand, they have been shown to suffer various limitations due to their sequential nature. We investigate an alternative <em>LSTM</em> structure for encodin...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(ff6baa02058f38469b080f8cbee293ab)&sc_f_para=sc_cita%3D%7BSentence-State%20LSTM%20for%20Text%20Representation%2C%20%20%20%20%20%20%20%20%20%20%20%208%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            8
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    809.8K
+</p>
+                                    <p class="saveurl">http://www.aclweb.org/anthology/P18-1030</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    442.3K
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1805.02474</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="2" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://arxiv.org/abs/1805.07340
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2877f6b755e316bd775b278c81262f57d7%29&filter=sc_long_sign&sc_f_para=q%3DImproved%20Sentence%20Modeling%20using%20Suffix%20Bidirectional%20LSTM&sc_us=14582841265036456725&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Improved <em>Sentence</em> Modeling using Suffix Bidirectional <em>LSTM</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Brahma%2C%20Siddhartha%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">S Brahma</a>
+                    </span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2018">2018</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://arxiv.org/abs/1805.07340
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2877f6b755e316bd775b278c81262f57d7%29&filter=sc_long_sign&sc_f_para=q%3DImproved%20Sentence%20Modeling%20using%20Suffix%20Bidirectional%20LSTM&sc_us=14582841265036456725&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    Recurrent neural networks have become ubiquitous in computing representations of sequential data, especially textual data in natural language processing. In particular, Bidirectional <em>LSTM</em>s are at the heart of several neural models ach...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(77f6b755e316bd775b278c81262f57d7)&sc_f_para=sc_cita%3D%7BImproved%20Sentence%20Modeling%20using%20Suffix%20Bidirectional%20LSTM%2C%20%20%20%20%20%20%20%20%20%20%20%201%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            1
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Improved%20Sentence%20Modeling%20using%20Suffix%20Bidirectional%20LSTM&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://arxiv.org/pdf/1805.07340" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="3" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://www.computer.org/csdl/proceedings/cvpr/2017/0457/00/0457h254-abs.html
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28fd38a66056f22718738b2c8850449f86%29&filter=sc_long_sign&sc_f_para=q%3DInstance-Aware%20Image%20and%20Sentence%20Matching%20with%20Selective%20Multimodal%20LSTM&sc_us=16670918458108001719&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Instance-Aware Image and <em>Sentence</em> Matching with Selective Multimodal <em>LSTM</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Yan%20Huang%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">H Yan</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%284d65b4d422da6e4a%29%20IEEE%20Conference%20on%20Computer%20Vision%20%26%20Pattern%20Recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="IEEE Conference on Computer Vision &amp; Pattern Recognition">
+    IEEE Conference on...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://www.computer.org/csdl/proceedings/cvpr/2017/0457/00/0457h254-abs.html
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEE Computer Society
+    ">            IEEE Computer ...
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28fd38a66056f22718738b2c8850449f86%29&filter=sc_long_sign&sc_f_para=q%3DInstance-Aware%20Image%20and%20Sentence%20Matching%20with%20Selective%20Multimodal%20LSTM&sc_us=16670918458108001719&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Effective image and <em>sentence</em> matching depends on how to well measure their global visual-semantic similarity. Based on the observation that such a globa...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=ieee%20computer%20society&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            ieee computer society</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(fd38a66056f22718738b2c8850449f86)&sc_f_para=sc_cita%3D%7BInstance-Aware%20Image%20and%20Sentence%20Matching%20with%20Selective%20Multimodal%20LSTM%2C%20%20%20%20%20%20%20%20%20%20%20%2027%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            27
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Instance-Aware%20Image%20and%20Sentence%20Matching%20with%20Selective%20Multimodal%20LSTM&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.7M
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/e1b6/735f6ecb09e1d83b0aa9d2cde42993ee2eb0.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.4M
+</p>
+                                    <p class="saveurl">http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Instance-Aware_Image_and_CVPR_2017_paper.pdf</p>
+            <p class="saveanchor">openaccess.thecvf.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.7M
+</p>
+                                    <p class="saveurl">http://ir.ia.ac.cn/bitstream/173211/14818/1/Instance-aware%20Image%20and%20Sentence%20Matching%20with%20Selective%20Multimodal%20LSTM.pdf</p>
+            <p class="saveanchor">ir.ia.ac.cn</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.7M
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1611.05588</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.7M
+</p>
+                                    <p class="saveurl">http://159.226.21.68/bitstream/173211/14818/1/Instance-aware%20Image%20and%20Sentence%20Matching%20with%20Selective%20Multimodal%20LSTM.pdf</p>
+            <p class="saveanchor">159.226.21.68</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="4" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://www.ncbi.nlm.nih.gov/pubmed/29513748
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2834bc1e999514cfee2781c3f220f3b111%29&filter=sc_long_sign&sc_f_para=q%3DDependency-based%20Siamese%20long%20short-term%20memory%20network%20for%20learning%20sentence%20representations&sc_us=3364303064322048682&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Dependency-based Siamese long short-term memory network for learning <em>sentence</em> representations</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Zhu%20W%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">W Zhu</a>
+        ，                                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%287bb19b3839c04dad%29%20%E3%80%8APlos%20One%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Plos One》">
+    《Plos One》
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2018">2018</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://www.ncbi.nlm.nih.gov/pubmed/29513748
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            NCBI
+    ">            NCBI
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2834bc1e999514cfee2781c3f220f3b111%29&filter=sc_long_sign&sc_f_para=q%3DDependency-based%20Siamese%20long%20short-term%20memory%20network%20for%20learning%20sentence%20representations&sc_us=3364303064322048682&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                     fairly efficient models of learning short <em>text</em> representations have been ...Compared with the <em>representation</em> learned by the standard <em>LSTM</em>, the <em>sentence</em> ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Dependency-based%20Siamese%20long%20short-term%20memory%20network%20for%20learning%20sentence%20representations&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0193919&type=printable" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="5" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/document/7918438/
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2859f22584c49d4ddd3516892faed8d814%29&filter=sc_long_sign&sc_f_para=q%3DDialog%20state%20tracking%20for%20interview%20coaching%20using%20two-level%20LSTM&sc_us=9819237187985399865&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Dialog <em>state</em> tracking for interview coaching using two-level <em>LSTM</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Ming-Hsiang%20Su%29%20Department%20of%20Computer%20Science%20and%20Information%20Engineering%2C%20National%20Cheng%20Kung%20University%2C%20Tainan&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">MH Su</a>
+        ，                                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%289d306c2e494dad72%29%20International%20Symposium%20on%20Chinese%20Spoken%20Language%20Processing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="International Symposium on Chinese Spoken Language Processing">
+    International Symp...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/document/7918438/
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2859f22584c49d4ddd3516892faed8d814%29&filter=sc_long_sign&sc_f_para=q%3DDialog%20state%20tracking%20for%20interview%20coaching%20using%20two-level%20LSTM&sc_us=9819237187985399865&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Dialog <em>state</em> tracking for interview coaching using ...word <em>representation</em> by using the word2vec model....<em>sentence</em> hidden vector using the <em>LSTM</em>-based ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=dialog%20state%20tracking&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            dialog <em>state</em> tracking</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=interview%20coaching%20system&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            interview coaching system</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=long%20short-term%20memory&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            long short-term memory</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(59f22584c49d4ddd3516892faed8d814)&sc_f_para=sc_cita%3D%7BDialog%20state%20tracking%20for%20interview%20coaching%20using%20two-level%20LSTM%2C%20%20%20%20%20%20%20%20%20%20%20%202%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            2
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Dialog%20state%20tracking%20for%20interview%20coaching%20using%20two-level%20LSTM&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://sigport.org/sites/default/files/docs/ISCSLP-2016-1012-MH.pdf" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="6" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7404802
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2808b911b67d2a2df1445e54500435b426%29&filter=sc_long_sign&sc_f_para=q%3DIncremental%20sentence%20compression%20using%20LSTM%20recurrent%20networks&sc_us=16943511202865611830&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Incremental <em>sentence</em> compression using <em>LSTM</em> recurrent networks</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Sakriani%20Sakti%29%20Graduate%20School%20of%20Information%20Science%2C%20Nara%20Institute%20of%20Science%20and%20Technology%2C%20Japan&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">S Sakti</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%28e81a44a9244d465d%29%20Automatic%20Speech%20Recognition%20%26%20Understanding&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="Automatic Speech Recognition &amp; Understanding">
+    Automatic Speech R...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2015">2015</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7404802
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2808b911b67d2a2df1445e54500435b426%29&filter=sc_long_sign&sc_f_para=q%3DIncremental%20sentence%20compression%20using%20LSTM%20recurrent%20networks&sc_us=16943511202865611830&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Many of the current <em>sentence</em> compression techniques attempt to produce a shortened form of a <em>sentence</em> by relying on syntactic structure such as dependen...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Logic%20gates&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Logic gates</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Real-time%20systems&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Real-time systems</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Recurrent%20neural%20networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Recurrent neural networks</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Speech&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Speech</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Speech%20recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Speech recognition</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Training&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Training</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Training%20data&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Training data</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Sentence%20compression&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Sentence</em> compression</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=long%20short%20term%20memory&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            long short term memory</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=recurrent%20neural%20network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            recurrent neural network</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(08b911b67d2a2df1445e54500435b426)&sc_f_para=sc_cita%3D%7BIncremental%20sentence%20compression%20using%20LSTM%20recurrent%20networks%2C%20%20%20%20%20%20%20%20%20%20%20%203%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            3
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Incremental%20sentence%20compression%20using%20LSTM%20recurrent%20networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    289.7K
+</p>
+                                    <p class="saveurl">http://www.phontron.com/paper/sakti15asru.pdf</p>
+            <p class="saveanchor">phontron.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    289.7K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/4720/f79749d740e18bed4ade8d6b6b742c9dc112.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://www.ixueshu.com/document/574d6f28bdbc213d318947a18e7f9386.html</p>
+            <p class="saveanchor">爱学术</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="7" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-017-0468-7
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28af7067a63ebd2fb73d5270532dfe8a19%29&filter=sc_long_sign&sc_f_para=q%3DEntity%20recognition%20from%20clinical%20texts%20via%20recurrent%20neural%20network&sc_us=11548445953168072004&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Entity recognition from clinical <em>texts</em> via recurrent neural network</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Zengjian%20Liu%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Z Liu</a>
+        ，                                                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%288cd8ef46ed3ce61a%29%20%E3%80%8ABmc%20Medical%20Informatics%20%26%20Decision%20Making%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Bmc Medical Informatics &amp; Decision Making》">
+    《Bmc Medical Info...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-017-0468-7
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            BioMed Central
+    ">            BioMed Central
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28af7067a63ebd2fb73d5270532dfe8a19%29&filter=sc_long_sign&sc_f_para=q%3DEntity%20recognition%20from%20clinical%20texts%20via%20recurrent%20neural%20network&sc_us=11548445953168072004&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    <em>representation</em> of each word of a <em>sentence</em>; <em>LSTM</em> layer 鈥  outputs another ...identification, which is considerably competitive with other <em>state</em>-of-the-art...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(af7067a63ebd2fb73d5270532dfe8a19)&sc_f_para=sc_cita%3D%7BEntity%20recognition%20from%20clinical%20texts%20via%20recurrent%20neural%20network%2C%20%20%20%20%20%20%20%20%20%20%20%2013%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            13
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Entity%20recognition%20from%20clinical%20texts%20via%20recurrent%20neural%20network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    539.6K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Vladimir_Kulchitsky/post/Can_you_suggest_some_good_survey_papers_for_named_entity_recognition_using_deep_learning/attachment/5a7b246e4cde266d58897e86/AS%3A591431618015232%401518019694331/download/12911_2017_Article_468.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    535.9K
+</p>
+                                    <p class="saveurl">http://rd.springer.com/content/pdf/10.1186%2Fs12911-017-0468-7.pdf</p>
+            <p class="saveanchor">Springer</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    535.9K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/d5c0/7c90b2c02e8af013d562f1d375440906047d.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    535.9K
+</p>
+                                    <p class="saveurl">http://link.springer.com/content/pdf/10.1186%2Fs12911-017-0468-7.pdf</p>
+            <p class="saveanchor">Springer</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    535.9K
+</p>
+                                    <p class="saveurl">http://bmcmedinformdecismak.biomedcentral.com/track/pdf/10.1186/s12911-017-0468-7</p>
+            <p class="saveanchor">BioMed Central</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="8" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217679-abs.html
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%282bb6d4e47fd588e4da5c73217c464840%29&filter=sc_long_sign&sc_f_para=q%3DBiomedical%20named%20entity%20recognition%20based%20on%20the%20two%20channels%20and%20sentence-level%20reading%20control%20conditioned%20LSTM-CRF&sc_us=1209700667701354314&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Biomedical named entity recognition based on the two channels and <em>sentence</em>-level reading control conditioned <em>LSTM</em>-CRF</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Lishuang%20Li%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">L Li</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%2890299b7731f1caaa%29%20IEEE%20International%20Conference%20on%20Bioinformatics%20%26%20Biomedicine&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="IEEE International Conference on Bioinformatics &amp; Biomedicine">
+    IEEE International...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217679-abs.html
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEE Computer Society
+    ">            IEEE Computer ...
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%282bb6d4e47fd588e4da5c73217c464840%29&filter=sc_long_sign&sc_f_para=q%3DBiomedical%20named%20entity%20recognition%20based%20on%20the%20two%20channels%20and%20sentence-level%20reading%20control%20conditioned%20LSTM-CRF&sc_us=1209700667701354314&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Biomedical named entity recognition (Bio-NER) is an important preliminary step for many biomedical <em>text</em> mining tasks. The current mainstream methods for...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=ieee%20computer%20society&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            ieee computer society</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Biomedical%20named%20entity%20recognition%20based%20on%20the%20two%20channels%20and%20sentence-level%20reading%20control%20conditioned%20LSTM-CRF&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="9" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://www.sciencedirect.com/science/article/pii/S0957417416305929
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2805dfe7e23a9a13568c36c2020dc56d64%29&filter=sc_long_sign&sc_f_para=q%3DImproving%20sentiment%20analysis%20via%20sentence%20type%20classification%20using%20BiLSTM-CRF%20and%20CNN&sc_us=10792776763286425394&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Improving sentiment analysis via <em>sentence</em> type classification using Bi<em>LSTM</em>-CRF and CNN</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Tao%20Chen%29%20Shenzhen%20Engineering%20Laboratory%20of%20Performance%20Robots%20at%20Digital%20Stage%2C%20Shenzhen%20Graduate%20School%2C%20Harbin%20Institute%20of%20Technology%2C%20Shenzhen%2C%20China&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">C Tao</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%283e47ec45def3c282%29%20%E3%80%8AExpert%20Systems%20with%20Applications%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Expert Systems with Applications》">
+    《Expert Systems w...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://www.sciencedirect.com/science/article/pii/S0957417416305929
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Elsevier
+    ">            Elsevier
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2805dfe7e23a9a13568c36c2020dc56d64%29&filter=sc_long_sign&sc_f_para=q%3DImproving%20sentiment%20analysis%20via%20sentence%20type%20classification%20using%20BiLSTM-CRF%20and%20CNN&sc_us=10792776763286425394&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Improving sentiment analysis via <em>sentence</em> type classification using Bi<em>LSTM</em>-CRF ...<em>sentence</em>-level sentiment analysis; (2) the proposed approach achieves ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Natural%20language%20processing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Natural language processing</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Sentiment%20analysis&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Sentiment analysis</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Deep%20neural%20network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Deep neural network</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(05dfe7e23a9a13568c36c2020dc56d64)&sc_f_para=sc_cita%3D%7BImproving%20sentiment%20analysis%20via%20sentence%20type%20classification%20using%20BiLSTM-CRF%20and%20CNN%2C%20%20%20%20%20%20%20%20%20%20%20%2030%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            30
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Improving%20sentiment%20analysis%20via%20sentence%20type%20classification%20using%20BiLSTM-CRF%20and%20CNN&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    849.2K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Ruifeng_Xu2/publication/309897403_Improving_sentiment_analysis_via_sentence_type_classification_using_BiLSTM-CRF_and_CNN/links/586a15d708ae329d621012c6/Improving-sentiment-analysis-via-sentence-type-classification-using-BiLSTM-CRF-and-CNN.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.7K
+</p>
+                                    <p class="saveurl">http://research.aston.ac.uk/portal/files/21502271/Sentiment_analysis_via_sentence_type_classification_using_BiLSTM_CRF_and_CNN.pdf</p>
+            <p class="saveanchor">research.aston.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.7K
+</p>
+                                    <p class="saveurl">http://publications.aston.ac.uk/29427/1/Sentiment_analysis_via_sentence_type_classification_using_BiLSTM_CRF_and_CNN.pdf</p>
+            <p class="saveanchor">publications.aston.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.7K
+</p>
+                                    <p class="saveurl">http://eprints.aston.ac.uk/29427/1/Sentiment_analysis_via_sentence_type_classification_using_BiLSTM_CRF_and_CNN.pdf</p>
+            <p class="saveanchor">eprints.aston.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    333.6K
+</p>
+                                    <p class="saveurl">http://daneshyari.com/article/preview/4943428.pdf</p>
+            <p class="saveanchor">daneshyari.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    722.7K
+</p>
+                                    <p class="saveurl">http://core.ac.uk/download/pdf/77053205.pdf</p>
+            <p class="saveanchor">core.ac.uk</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="10" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://dl.acm.org/citation.cfm?id=3006227
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2883395a8bec2c65481f6891c52af41d19%29&filter=sc_long_sign&sc_f_para=q%3DAttention%20pooling-based%20convolutional%20neural%20network%20for%20sentence%20modelling&sc_us=2040771692898784758&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Attention pooling-based convolutional neural network <em>for</em> <em>sentence</em> modelling</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Meng%20Joo%20Er%29%20School%20of%20Electrical%20and%20Electronic%20Engineering%2C%20Nanyang%20Technological%20University%2C%2050%20Nanyang%20Avenue%2C%20639798%2C%20Singapore&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">JE Meng</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%281056bdd640d0ad3d%29%20%E3%80%8AInformation%20Sciences%20An%20International%20Journal%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Information Sciences An International Journal》">
+    《Information Scie...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://dl.acm.org/citation.cfm?id=3006227
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            ACM
+    ">            ACM
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2883395a8bec2c65481f6891c52af41d19%29&filter=sc_long_sign&sc_f_para=q%3DAttention%20pooling-based%20convolutional%20neural%20network%20for%20sentence%20modelling&sc_us=2040771692898784758&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Long-short term memory (<em>LSTMSentence</em> Modelling...An intermediate <em>sentence</em> <em>representation</em> generated by ...<em>state</em>-of-the-art approaches on seven benchmark ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Deep%20Learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Deep Learning</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Convolutional%20Neural%20Network%20%28CNN&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Convolutional Neural Network (CNN</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Long-short%20term%20memory%20%28LSTM&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Long-short term memory (<em>LSTM</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Sentence%20Modelling&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Sentence</em> Modelling</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Text%20Classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Text</em> Classification</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(83395a8bec2c65481f6891c52af41d19)&sc_f_para=sc_cita%3D%7BAttention%20pooling-based%20convolutional%20neural%20network%20for%20sentence%20modelling%2C%20%20%20%20%20%20%20%20%20%20%20%209%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            9
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Attention%20pooling-based%20convolutional%20neural%20network%20for%20sentence%20modelling&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://www.researchgate.net/profile/Mahardhika_Pratama/publication/307107581_Attention_Pooling-based_Convolutional_Neural_Network_for_Sentence_Modelling/links/57c19c1d08ae2f5eb334c46f.pdf" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                    </div>
+</div>
+    <div id="pager">
+				<i class="w-icon w-icon-left-def left"></i>
+	
+		<div class="pager_mid">
+	<strong><span class="pc">1</span></strong><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">2</span></a><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&pn=20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">3</span></a><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&pn=30&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">4</span></a><a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&pn=40&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">5</span></a>	</div>
+		<a href="/s?wd=Sentence-State%20LSTM%20for%20Text%20Representation&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1&rsv_page=1" class="n n_right"><i class="w-icon w-icon-right"></i></a>
+	</div>
+
+
+
+
+
+    <div id="wise_bombbox">
+	<div class="downloadBox">
+		<div class="dl_title">免费下载</div>
+		<div class="dl_content"></div>
+	</div>
+    <div class="box_close">取消</div>
+</div>
+
+    
+		</div>
+	</body>
+	
+    <div style="display:none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?43115ae30293b511088d3cbe41ec099c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/zepto/zepto.min_4064ae0.js"></script>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/webb/webb.min_08cab1e.js"></script>
+
+    <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/common_wise_a81c989.js" charset="utf-8"></script>
+        <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/page_wise_eb0edc1.js" charset="utf-8"></script>
+    
+</html>
+

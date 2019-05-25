@@ -1,0 +1,1759 @@
+
+<!DOCTYPE html>
+<!--STATUS OK-->
+
+
+ 
+ 
+ 
+ 
+
+
+	
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<html>
+	<head>
+		<meta name="referrer" content="always" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="Description" content="百度学术搜索，是一个提供海量中英文文献检索的学术资源搜索平台，涵盖了各类学术期刊、学位、会议论文，旨在为国内外学者提供最好的科研体验。">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="manifest" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/manifest_69e8554.json">
+		
+<title>
+Named Entity Recognition with Bidirectional LSTM-CNN_百度学术
+</title>
+
+		
+<style>
+/*解决iconfont跨越问题*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('/cache/mid/static/xueshu_wise/iconfont/iconfont.ttf') format('truetype'),
+        url('/cache/mid/static/xueshu_wise/iconfont/iconfont.svg#iconfont') format('svg');
+}
+</style>
+    	<link type="text/css" rel="stylesheet" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/css/page_wise_1eb6b91.css">
+    
+		
+	<script>
+var name,navigate,bdQid="e505acbe00048466";
+var bds={
+    se:{},
+    util:{},
+    //结果页js通用数据
+    comm : {
+        domain:"http://www.baidu.com",
+        ubsurl : "http://sclick.baidu.com/w.gif",
+        tn:"SE_baiduxueshuwise_y5e9t2rx",
+        queryEnc:"Named%2BEntity%2BRecognition%2Bwith%2BBidirectional%2BLSTM%252DCNN",
+        queryId:"e505acbe00048466",
+        ishome : 0,
+        isTransShow: 0,
+        query : "Named Entity Recognition with Bidirectional LSTM-CNN",
+        queryShow : "Named Entity Recognition with Bidirectional LSTM-CNN",
+        qid : "e505acbe00048466",
+        cid : "0",
+        sid : "",
+        f : "0",
+        pn : "0",
+        oq : "",
+        rsp : "",
+        sc_f_para : "",
+        stoken : "",
+        serverTime : "1558791452",
+        user : "",
+        username : "",
+        isLogin : "0",
+        loginAction : [],
+        useFavo : "",
+        pinyin : "",
+        favoOn : "",
+        personalData : "",
+        curResultNum:"10",
+        rightResultExist:false,
+        protectNum:0,
+        zxlNum:0,
+        pageNum:parseInt('1')||1,
+        pageSize:parseInt('10')||10,
+        taskTipsShow: 1,
+        subpro: 'xueshu_respage',
+        isSchoolShow: 0,
+        schoolEname: "",
+        resultTn:"SE_baiduxueshu_c1gjeupa",
+        scFrom:"",
+        scAsPara:"",
+        isdetailpage: 0,
+        // topBannerInfo: {
+        //     startDate: "2018\/05\/28",
+        //     endDate: "2018\/10\/11",
+        //     width: "260",
+        //     height: "130",
+        //     id: "jiangxuejin",
+        //     imgUrl: "http:\/\/ps-scholar-static.bj.bcebos.com\/homepage%2Fbaidujiangxuejing.jpeg",
+        //     jumpUrl: "http:\/\/scholarship.baidu.com\/"
+        // },
+        pageBannerInfo: {
+            startDate: "2018\/01\/01",
+			endDate: "2099\/01\/01",
+			id: "jiandan"
+        },
+        detailJumpVars: "scholar_single_hit=&scholar_single_hit_jump=&no_jump="
+    }
+};
+
+bds.comm.upn = {"browser":"safari","ie":"","os":"linux","win":"","browsertype":"safari"};
+
+var selfOpen = window.open;
+eval("var open = selfOpen;");
+
+function G(id){
+    return document.getElementById(id);
+}
+
+function TagQ(tag,obj){
+	return obj.getElementsByTagName(tag);
+}
+
+/**
+* @description 增加sclick统计
+* @function
+* @name c
+* @grammar c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function c(q){
+    var p = window.document.location.href, sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = escape(q[v]);
+                break;
+            default:
+                sV = q[v];
+        }
+        sQ += "&" + v + "=" + sV;
+    }
+    try{
+        if (("p2" in q)&&G(q["p1"]).getAttribute("mu") && q["fm"]!="pl") {
+            mu= "&mu=" + escape(G(q["p1"]).getAttribute("mu"));
+        }
+    }catch(e){};
+	img.src = "http://sclick.baidu.com/w.gif?q=" + bds.comm.queryEnc + sQ + mu + "&rsv_sid=" + bds.comm.sid + "&cid="+bds.comm.cid+"&qid="+bds.comm.qid+"&t="+new Date().getTime()+"&path="+p;
+    return true;
+}
+
+/**
+* @description 增加nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function ns_c(q){
+	ns_c_xs(q);
+}
+
+/**
+* @description 增加xueshu nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+
+function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd=bds.comm.queryEnc, sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+
+    // mod当前搜索是否为图书馆模式
+    var mod = bds.comm.schoolEname ? '&mod=lib_' + bds.comm.schoolEname : '';
+    //fr是否来自详情页
+    var fr = bds.comm.isdetailpage ? '&fr=detailpage' : '';
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&rsv_sid=" + bds.comm.sid + "&wd=" + wd + "&" + sQ + "f=" + bds.comm.f + "&oq=" + bds.comm.oq + "&rsp=" + bds.comm.rsp + "&path=" + p + "&tn=" + bds.comm.tn + "&t=" + new Date().getTime() + '&pn=' + bds.comm.pn + mod + fr;
+    return true;
+}
+
+/**
+* @description 为搜索请求添加query，并增加ie参数
+* @function
+* @name setHeadUrl
+* @grammar setHeadUrl(el)
+* @param {Object} el 点击的链接对象
+*/
+function setHeadUrl(el){
+    var word = G("kw").value;
+    word = encodeURIComponent(word);
+    var url = el.href;
+    url = url.replace(new RegExp("(" + el.getAttribute('wdfield') + "=)[^&]*"), '\x241' + word+"&ie=utf-8");
+    el.href = url;
+}
+
+bds.util.getWinWidth = function(){
+    return window.document.documentElement.clientWidth;
+};
+//设置页面主体宽度
+//由于此时tangram还没加载，所以不能使用baidu.dom.addClass/removeClass
+bds.util.setContainerWidth = function(){
+    var c = G('container'),w = G('wrapper'),
+    remove = function(r,o){o.className = o.className.replace(r, '');},
+
+    add = function(cls,o){o.className = (o.className+' '+cls).replace(/^\s+/g, "");},
+    has = function(r,o){return r.test(o.className)};
+    if(bds.util.getWinWidth()<1310){
+        remove(/\bcontainer_l\b/g,c);
+        remove(/\bwrapper_l\b/g,w);
+        if(!has(/\bcontainer_s\b/,c)) add('container_s',c);
+        if(!has(/\bwrapper_s\b/,w)) add('wrapper_s',w);
+    bds.comm.containerSize = "s";
+    }else{
+        remove(/\bcontainer_s\b/g,c);
+        remove(/\bwrapper_s\b/g,w);
+        if(!has(/\bcontainer_l\b/,c)) add('container_l',c);
+        if(!has(/\bwrapper_l\b/,w)) add('wrapper_l',w);
+    bds.comm.containerSize = "l";
+    }
+};
+// ie版本
+bds.util.Ieversion = function() {
+    var ua = navigator.userAgent,
+        iereg = /MSIE (\d+).*/,
+        version = ua.match(iereg);
+
+    if (version && version[1]) {
+        return parseInt(version[1]);
+    }
+    return -1;
+};
+
+//阿拉丁命名空间
+window.A =  bds.aladdin = {
+    ids: [],
+    has: true,
+    list: [],
+    logs: [],
+    loadTimes: []
+};
+
+(function(){
+    var fns = [], isReady = false;
+    var exec = function(fn, thisobj){
+        try{
+            fn.call(thisobj);
+        }catch(e){
+            if(window.debugFlag) throw e;
+        }
+    };
+
+    //在js基础库加载完成后执行fn
+    bds.ready = function(fn){
+        if(typeof fn != 'function') return;
+        if(isReady){exec(fn)}
+        else{fns.push(fn);}
+    };
+
+    //手动触发ready
+    bds.doReady = function(){
+        isReady = true;
+        while(fns.length) exec(fns.shift());
+    };
+
+    //通过json字符串获取对象
+    var getJson = function(jsonString){
+        var result = {};
+        if(jsonString){
+            try{
+                var r = new Function("return " + jsonString)();
+                if(r) result = r;
+            }catch(e){}
+        }
+        return result;
+    },
+
+
+    // 获取当前阿拉丁DOM容器
+    getCurrentAladdin = (function(){
+        var scripts = document.getElementsByTagName("script");
+        return function(){
+            var script = scripts[scripts.length - 1], container = script;
+            while(container){
+                if( container.className ){
+                    if( /(?:^|\s)result(?:-op)?(?:$|\s)/.test(container.className)){
+                        if( tplname = container.getAttribute("tpl") ){
+                            return container;
+                        }
+                    }
+                }
+                container = container.parentNode;
+            }
+        };
+    })(),
+
+    // 筛选出阿拉丁结果
+    getResults = function(){
+        var els = $(".result-op").get().concat( $(".result").get() ),
+        alaEls = {};
+
+        for(var i = 0, name, el; el = els[i]; i++ ){
+            if(name = el.getAttribute("tpl")){
+                if( alaEls[name] ){
+                    alaEls[name].push(el);
+                }else{
+                    alaEls[name] = [el];
+                }
+            }
+        }
+        return alaEls;
+    },
+
+    // 入口事件队列
+    readyedHandlers = [],
+
+    //销毁函数列表，每项内容为
+    //{obj:instance, fn: fn}
+    //每项执行fn后即删除
+    disposeOnceHandlers = [],
+
+    //每项格式同disposeOnceHandlers
+    //每项执行后仍保留
+    //即每次销毁实例时都执行一次
+    disposeAlwaysHandlers = [],
+
+    currentSetupContainer = null,
+
+    // merge在bds.ready前的队列
+    mergeHandlers = [],
+
+    // 阿拉丁实例构造函数
+    Ala = A._Aladdin = function(){
+        this.p1 = 0;
+        this.mu = null;
+    };
+
+    A.merge = function(tplname, fn){
+        mergeHandlers.push({tplname: tplname, fn: fn});
+    };
+
+    // 阿拉丁入口函数
+    A.init = A.setup = function(k, v){
+
+        // 页面可能存在的空 init
+        if( k === undefined || k === null){
+            return;
+        }
+
+        var object, container = currentSetupContainer || getCurrentAladdin();
+        if( !container){
+            return;
+        }
+
+        object = {container: container};
+
+        if(typeof k == "function"){
+            object.handler = k;
+
+        }else if(typeof k == 'object'){
+            object.data = k;
+
+        }else{
+            object.data = {};
+            object.data[k] = v;
+        }
+
+        readyedHandlers.push( object );
+    };
+
+    // 注册每次销毁均执行的函数
+    A.addDisposeHandler = function(item){
+        disposeAlwaysHandlers.push(item);
+    };
+
+    //全局阿拉丁销毁函数，在删除阿拉丁dom节点前调用
+    A.dispose = function(){
+        // 执行阿拉丁实例dispose队列
+        while(disposeOnceHandlers.length){
+            var d = disposeOnceHandlers.shift();
+            exec(d.fn, d.obj);
+        }
+        // 顺序执行销毁函数
+        var handlers = disposeAlwaysHandlers;
+        for(var i=0;i<handlers.length;i++){
+            var d = handlers[i];
+            exec(d.fn, d.obj);
+        }
+    };
+
+    // 遍历执行所有阿拉丁实例
+    bds.ready(function(){
+
+        // 将所有的merge队列转换为setup队列
+        if( mergeHandlers.length ){
+            var results = getResults();
+            for(var i = 0, item; item = mergeHandlers[i]; i++){
+                var els = results[item.tplname];
+                if(els){
+                    for(var j = 0, el; el = els[j]; j++){
+                        currentSetupContainer = el;
+                        item.fn();
+                        currentSetupContainer = null;
+                    }
+                }
+            }
+        }
+
+        // 整理出的每个Aladding JS数据
+        var groupData = [],
+        getGroupData = function(el){
+            if(!isNaN(el.initIndex)){
+                return  groupData[ el.initIndex * 1];
+            }
+            var data = { data:{}, handlers: [], container: el };
+            groupData.push(data);
+            el.initIndex = groupData.length - 1;
+            return data;
+        };
+
+        // 整理setup队列顺序
+        for(var i = 0, item; item = readyedHandlers[i]; i++){
+            var elData = getGroupData(item.container);
+
+            if( item.data ){
+                for(var k in item.data){
+                    if(item.data.hasOwnProperty(k)){
+                        elData.data[k] = item.data[k];
+                    }
+                }
+
+            }else if (item.handler){
+                elData.handlers.push( item.handler );
+            }
+        }
+
+        // 遍历所有的setup
+        for(var i = 0, item; item = groupData[i]; i++){
+            var fn,
+            sTime,
+            eTime,
+            obj = {},
+            ala = new Ala();
+
+            ala.data = item.data;
+            ala.container = item.container;
+            ala._init();
+            A.list.push(ala);
+
+            // 执行setup队列
+            sTime = new Date();
+            while( fn = item.handlers.shift() ){
+                exec(fn, ala);
+                //执行完fn后，如果示例上定义了dispose方法
+                //则将其保存到队列中
+                if(typeof ala.dispose == 'function'){
+                    disposeOnceHandlers.push({
+                        obj:ala,
+                        fn: ala.dispose
+                    });
+                    ala.dispose = null;
+                }
+            }
+            eTime = new Date();
+
+            // 统计执行时间
+            obj = { srcid: ala.srcid };
+            obj.tpl  = ala.container.getAttribute('tpl');
+            obj.time = eTime - sTime;
+            A.loadTimes.push( obj );
+
+            $.each( A._Aladdin.fixs, function(i, f){
+                f.call(ala, ala);
+            });
+        }
+
+    });
+
+    Ala.prototype = {
+
+        //初始化实例属性
+        _init: function() {
+            var attrs = getJson(this.container.getAttribute('data-click'));
+            this.p1 = attrs.p1 || this.container.id;
+            this.mu = attrs.mu || this.container.getAttribute('mu');
+            this.srcid = attrs.rsv_srcid || this.container.getAttribute('srcid');
+        }
+    };
+
+
+})();
+</script>
+<script type="text/javascript">
+																					            																										
+
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "upload.xueshu.baidu.com":"http://upload.xueshu.baidu.com",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+	var get = function(url) {
+		if(location.protocol === "http:") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+		matches = url.match(reg);
+		//判断传入参数是域名还是地址，分别做处理
+		url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+		return url;
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			
+    <div id="page-top" class="c-flexbox">
+    <span class="logowr">
+    <a class="logo" href="//xueshu.baidu.com/" ontouchstart="return ns_c_xs({'fm':'xueshu','tab':'logo'})"><img src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/img/logo_w2_21fb37b.png"/></a>
+    </span>
+    <div class="topform_wr">
+<form id="topform" action="/s" name="f">
+    <div class="iptwr">
+        <!--输入框-->
+        <input type="text" name="wd" id="kw" value="Named Entity Recognition with Bidirectional LSTM-CNN" maxlength="64" class="ipt" autocomplete="off">
+        <i class="c-icon searchicon">&#xe602;</i>
+        <span class="clear_btn">
+            <span class="clear_iconwr"><i class="c-icon clearicon OP_LOG_BTN" data-click="{'button_tp':'clear_wd','fm':'beha'}">&#xe605;</i></span>
+        </span>
+    </div>
+
+                <input type="hidden" name="tn" value="SE_baiduxueshuwise_y5e9t2rx">
+        <input type="hidden" name="cl" value="3">                    <input type="hidden" name="ie" value="utf-8">        <input type="hidden" name="bs" value="Named Entity Recognition with Bidirectional LSTM-CNN">
+    <input type="hidden" name="f" value="8">
+    <input type="hidden" name="rsv_bp" value="1">
+    <input type="hidden" name="rsv_sug2" value="1">
+    </form>
+</div>
+
+
+    <span class="loginwr">
+                <a class="login c-icon" href="http://wappass.baidu.com/passport/?login&tpl=xueshu&ssid=0&from=844b&uid=&pu=&bd_page_type=1&tn=&regtype=1&u=" ontouchstart="return ns_c_xs({'fm':'set','tab':'login'})">&#xe60a;</a>
+                <span class="ipt_cancel">取消</span>
+    </span>
+</div>
+
+			
+            
+    
+<div id="page-nav" class="c-flexbox xpath-log" data-click="{'fm':'beha'}">
+    <div class="flexitem1">
+    <!-- <div class="c-flexbox"> -->
+    	<a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="nav nav_sel" data-click="{'button_tp':'filter_all'}">全部</a>
+            	<a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B1%7D" class="nav " data-click="{'button_tp':'filter_jour'}">期刊</a>
+            	<a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B3%7D" class="nav " data-click="{'button_tp':'filter_conf'}">会议</a>
+                <a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B2%7D" class="nav " data-click="{'button_tp':'filter_degree'}">学位</a>
+    <!-- </div> -->
+    </div>
+            <div class="flexitem2 itemsingle">
+    <div class="c-flexbox">
+    <!--中英文切换组件-->
+        <!--排序下拉框-->
+    
+
+
+
+
+
+
+
+
+<div class="sortwr xpath-log" data-click="{'fm':'beha'}">
+    <!--<span class="text">时间不限</span>-->
+    <span class="filter_btn"><i class="c-icon iconfilter">&#xe609;</i>筛选</span>
+
+    <div class="content_wr">
+        <div class="filterlist c-flexbox">
+        <span class="label">筛选：</span>
+        <ul class="filterul">
+        <!--时间不限-->
+                <li class="select"><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="leftnav_sel_close" data-click="{'button_tp':'filter_close'}">时间不限</a></li>
+
+        <!--近3年以来-->
+                
+                                                                                        
+                                                                        <li >
+                <a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2019%2C%2B%7D" class="" data-val="2019以来" data-index="2019,+" data-click="{'button_tp':'filter_year'}">2019以来<span class="li_num">(            30
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2018%2C%2B%7D" class="" data-val="2018以来" data-index="2018,+" data-click="{'button_tp':'filter_year'}">2018以来<span class="li_num">(            430
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2017%2C%2B%7D" class="" data-val="2017以来" data-index="2017,+" data-click="{'button_tp':'filter_year'}">2017以来<span class="li_num">(            739
+    )</span></a>
+            </li>
+                </ul>
+        </div>
+        <div class="sortlist c-flexbox">
+        <!--按相关性、被引量、按时间降序-->
+                                            <span class="label">排序：</span>
+        <ul class="sortul c-flexbox">
+            <li class="select"><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8" data-click="{'fm':'beha','button_tp':'asso'}">按相关性</a></li>
+            <li ><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_cited" data-click="{'fm':'beha','button_tp':'refer_num'}">按被引量</a></li>
+            <li ><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_time" data-click="{'fm':'beha','button_tp':'pub_t'}">按时间降序</a></li>
+        </ul>
+        </div>
+    </div>
+<script>
+bds.ready(function() {
+    var $sortwr = $('.sortwr'),
+        $filterBtn = $('.sortwr .filter_btn'),
+        $ul = $sortwr.find('.sortlist'),
+        $a = $ul.find('a');
+
+    $filterBtn.on('touchend', function(event) {
+        $sortwr.toggleClass('sortopen');
+        if ($sortwr.hasClass('sortopen')) {
+            showBg();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "show_filter"
+            });
+        } else {
+            $('.w_sort_bgcover').hide();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "hide_filter"
+            });
+        }
+    });
+    function showBg () {
+        if (!$('.w_sort_bgcover').length) {
+            var top = $('#page-top').height() * 1 + $('#page-nav').height() * 1;
+            var html = '<div class="w_sort_bgcover" style="top:' + top + 'px;"></div>';
+            $(html).appendTo($('body'));
+        }
+        var h = Math.max($(window).height(), $('body').height());
+        $('.w_sort_bgcover').css({
+            height: h,
+            display: 'block'
+        });
+    }
+    $('body').on('touchend', '.w_sort_bgcover', function(event) {
+        $sortwr.removeClass('sortopen');
+        $('.w_sort_bgcover').hide();
+
+        // 防止事件透传
+        event.preventDefault();
+        event.stopPropagation();
+    });
+})
+</script>
+</div>
+    </div>
+    </div>
+</div>
+
+
+
+
+    <div id="content">
+	<div id="toolbar">
+				<span class="nums">
+    找到约6,830条相关结果
+</span>
+			</div>
+
+	<div id="w_result_lists">
+        	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="1" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://arxiv.org/abs/1511.08308
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28995499661ccaa95ca3688318f4bc594b%29&filter=sc_long_sign&sc_f_para=q%3DNamed%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs&sc_us=14130444594064699095&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Named</em> <em>Entity</em> <em>Recognition</em> <em>with</em> <em>Bidirectional</em> <em>LSTM-CNN</em>s</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Chiu%2C%20Jason%20P.%20C.%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">JPC Chiu</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%281f0d55a7606b5f37%29%20%E3%80%8AComputer%20Science%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Computer Science》">
+    《Computer Science》
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://arxiv.org/abs/1511.08308
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28995499661ccaa95ca3688318f4bc594b%29&filter=sc_long_sign&sc_f_para=q%3DNamed%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs&sc_us=14130444594064699095&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Abstract: <em>Named</em> <em>entity</em> <em>recognition</em> is a challenging task that has traditionally required large amounts of knowledge in the form of feature engineering a...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Computer%20Science%20-%20Computation%20and%20Language&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Computation and Lan...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Learning</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Neural%20and%20Evolutionary%20Computing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Neural and Evolutio...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=68T50&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            68T50</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=I.2.7&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            I.2.7</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(995499661ccaa95ca3688318f4bc594b)&sc_f_para=sc_cita%3D%7BNamed%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs%2C%20%20%20%20%20%20%20%20%20%20%20%20255%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            255
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    328.3K
+</p>
+                                    <p class="saveurl">http://www.transacl.org/ojs/index.php/tacl/article/download/792/202</p>
+            <p class="saveanchor">transacl.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    328.3K
+</p>
+                                    <p class="saveurl">http://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00104</p>
+            <p class="saveanchor">mitpressjournals.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    410.2K
+</p>
+                                    <p class="saveurl">http://www.arxiv.org/pdf/1511.08308.pdf</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    328.3K
+</p>
+                                    <p class="saveurl">http://www.aclweb.org/anthology/Q/Q16/Q16-1026.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    391.8K
+</p>
+                                    <p class="saveurl">http://read.pudn.com/downloads759/sourcecode/math/3018042/paper/Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs.pdf</p>
+            <p class="saveanchor">read.pudn.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    328.3K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/10a4/db59e81d26b2e0e896d3186ef81b4458b93f.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    389.8K
+</p>
+                                    <p class="saveurl">http://lib-arxiv-008.serverfarm.cornell.edu/pdf/1511.08308.pdf</p>
+            <p class="saveanchor">lib-arxiv-008.serverfarm.cornell.edu</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    410.2K
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1511.08308</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    328.3K
+</p>
+                                    <p class="saveurl">http://anthology.aclweb.org/Q/Q16/Q16-1026.pdf</p>
+            <p class="saveanchor">anthology.aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    328.3K
+</p>
+                                    <p class="saveurl">http://aclweb.org/anthology/Q/Q16/Q16-1026.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                    <div class="sc_savelink_item" data-type="">
+                            <p class="savesize"></p>
+                                    <p class="saveurl">http://www.ixueshu.com/document/467ea733ea4c96d005d245eaa5878b66.html</p>
+            <p class="saveanchor">爱学术</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="2" class="result xpath-log normal_result" srcid="1599" tpl="se_st_sc_default" mu="	http://arxiv.org/abs/1511.08308v1
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28150g04f0ky440ct0w82h0vt0xw431515%29&filter=sc_long_sign&sc_f_para=q%3DNamed%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs&sc_us=8539378807753878189&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Named</em> <em>Entity</em> <em>Recognition</em> <em>with</em> <em>Bidirectional</em> <em>LSTM-CNN</em>s</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Chiu%2C%20Jason%20P.%20C.%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Chiu, Jason P. C.</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2015">2015</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://arxiv.org/abs/1511.08308v1
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28150g04f0ky440ct0w82h0vt0xw431515%29&filter=sc_long_sign&sc_f_para=q%3DNamed%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs&sc_us=8539378807753878189&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    Abstract: <em>Named</em> <em>entity</em> <em>recognition</em> is a challenging task that has traditionally required large amounts of knowledge in the form of feature engineering and lexicons to achieve high performance. In this paper, we present a novel neural ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNNs&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="3" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://link.springer.com/article/10.1186/s12911-018-0690-y
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%281p600jc0jm670ev08e690t1031441004%29&filter=sc_long_sign&sc_f_para=q%3DSBLC%3A%20a%20hybrid%20model%20for%20disease%20named%20entity%20recognition%20based%20on%20semantic%20bidirectional%20LSTMs%20and%20conditional%20random%20fields&sc_us=13718451854257980222&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">SBLC: a hybrid model for disease <em>named</em> <em>entity</em> <em>recognition</em> based on semantic <em>bidirectional</em> <em>LSTM</em>s and conditional random fields</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Kai%20Xu%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Kai Xu</a>
+        ，                                            ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2018">2018</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://link.springer.com/article/10.1186/s12911-018-0690-y
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%281p600jc0jm670ev08e690t1031441004%29&filter=sc_long_sign&sc_f_para=q%3DSBLC%3A%20a%20hybrid%20model%20for%20disease%20named%20entity%20recognition%20based%20on%20semantic%20bidirectional%20LSTMs%20and%20conditional%20random%20fields&sc_us=13718451854257980222&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    SBLC: a hybrid model for disease <em>named</em> <em>entity</em> <em>recognition</em> based on semantic <em>bidirectional</em> <em>LSTM</em>s and conditional random fieldsBackground Disease <em>named</em> <em>entity</em> ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=SBLC%3A%20a%20hybrid%20model%20for%20disease%20named%20entity%20recognition%20based%20on%20semantic%20bidirectional%20LSTMs%20and%20conditional%20random%20fields&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="4" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://www.dspace.cam.ac.uk/handle/1810/261962
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28eca499f88421ed7549a2f42a6344631f%29&filter=sc_long_sign&sc_f_para=q%3DBidirectional%20LSTM%20for%20Named%20Entity%20Recognition%20in%20Twitter%20Messages&sc_us=7824630185844870542&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Bidirectional</em> <em>LSTM</em> for <em>Named</em> <em>Entity</em> <em>Recognition</em> in Twitter Messages</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Limsopatham%2C%20Nut%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">N Limsopatham</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://www.dspace.cam.ac.uk/handle/1810/261962
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            dspace.cam.ac.uk
+    ">            dspace.cam.ac.uk
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28eca499f88421ed7549a2f42a6344631f%29&filter=sc_long_sign&sc_f_para=q%3DBidirectional%20LSTM%20for%20Named%20Entity%20Recognition%20in%20Twitter%20Messages&sc_us=7824630185844870542&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    In this paper, we present our approach for <em>named</em> <em>entity</em> <em>recognition</em> in Twitter messages that we used in our participation in the <em>Named</em> <em>Entity</em> <em>Recognition</em> in Twitter shared task at the COLING 2016 Workshop on Noisy User-generated text ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(eca499f88421ed7549a2f42a6344631f)&sc_f_para=sc_cita%3D%7BBidirectional%20LSTM%20for%20Named%20Entity%20Recognition%20in%20Twitter%20Messages%2C%20%20%20%20%20%20%20%20%20%20%20%2017%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            17
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Bidirectional%20LSTM%20for%20Named%20Entity%20Recognition%20in%20Twitter%20Messages&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://www.repository.cam.ac.uk/bitstream/1810/261962/1/Limsopatham_and_Collier-2016-WNUT2016-VoR.pdf</p>
+            <p class="saveanchor">repository.cam.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://www.dspace.cam.ac.uk/bitstream/handle/1810/261962/Limsopatham_and_Collier-2016-WNUT2016-VoR.pdf?sequence=1&isAllowed=y</p>
+            <p class="saveanchor">dspace.cam.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://www.aclweb.org/anthology/W/W16/W16-3920.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://wing.comp.nus.edu.sg/~antho/W/W16/W16-3920.pdf</p>
+            <p class="saveanchor">wing.comp.nus.edu.sg</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/3e9c/6c36f8330251d9e2ee52767d1923c86258e2.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://noisy-text.github.io/2016/pdf/WNUT20.pdf</p>
+            <p class="saveanchor">noisy-text.github.io</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://core.ac.uk/download/pdf/77415966.pdf</p>
+            <p class="saveanchor">core.ac.uk</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://anthology.aclweb.org/W/W16/W16-3920.pdf</p>
+            <p class="saveanchor">anthology.aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    287.6K
+</p>
+                                    <p class="saveurl">http://aclweb.org/anthology/W/W16/W16-3920.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="5" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://link.springer.com/10.1007/978-3-319-64861-3_33
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28055f67dcfb63887f48263a6cc3827577%29&filter=sc_long_sign&sc_f_para=q%3DA%20Bidirectional%20LSTM%20and%20Conditional%20Random%20Fields%20Approach%20to%20Medical%20Named%20Entity%20Recognition&sc_us=1451137989596592758&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">A <em>Bidirectional</em> <em>LSTM</em> and Conditional Random Fields Approach to Medical <em>Named</em> <em>Entity</em> <em>Recognition</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Kai%20Xu%29%20Guangdong%20University%20of%20Technology&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">X Kai</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://link.springer.com/10.1007/978-3-319-64861-3_33
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Springer
+    ">            Springer
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28055f67dcfb63887f48263a6cc3827577%29&filter=sc_long_sign&sc_f_para=q%3DA%20Bidirectional%20LSTM%20and%20Conditional%20Random%20Fields%20Approach%20to%20Medical%20Named%20Entity%20Recognition&sc_us=1451137989596592758&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    A <em>Bidirectional</em> <em>LSTM</em> and Conditional Random Fields Approach to Medical <em>Named</em> <em>Entity</em> <em>Recognition</em>Medical <em>named</em> <em>entity</em> <em>recognition</em> is a fundamental and essential ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(055f67dcfb63887f48263a6cc3827577)&sc_f_para=sc_cita%3D%7BA%20Bidirectional%20LSTM%20and%20Conditional%20Random%20Fields%20Approach%20to%20Medical%20Named%20Entity%20Recognition%2C%20%20%20%20%20%20%20%20%20%20%20%201%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            1
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=A%20Bidirectional%20LSTM%20and%20Conditional%20Random%20Fields%20Approach%20to%20Medical%20Named%20Entity%20Recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="6" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/document/8300596/
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2882d4c8059cdac0696dcbbdf381ee056c%29&filter=sc_long_sign&sc_f_para=q%3DOn%20the%20use%20of%20machine%20translation-based%20approaches%20for%20vietnamese%20diacritic%20restoration&sc_us=10901068577141236820&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">On the use of machine translation-based approaches for vietnamese diacritic restoration</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Thai-Hoang%20Pham%29%20Alt%20Inc%2C%20Hanoi%2C%20Vietnam&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">TH Pham</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%28651c872289b8673f%29%20International%20Conference%20on%20Asian%20Language%20Processing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="International Conference on Asian Language Processing">
+    International Conf...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/document/8300596/
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2882d4c8059cdac0696dcbbdf381ee056c%29&filter=sc_long_sign&sc_f_para=q%3DOn%20the%20use%20of%20machine%20translation-based%20approaches%20for%20vietnamese%20diacritic%20restoration&sc_us=10901068577141236820&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                 tagging, chunking, <em>Named</em> <em>Entity</em> <em>Recognition</em> (NER...Our toolkit is a combination of <em>bidirectional</em> Long...(Bi-<em>LSTM</em>), Convolutional Neural Network (<em>CNN</em>), ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=machine%20translation&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            machine translation</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Vietnamese&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Vietnamese</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=diacritic%20restoration&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            diacritic restoration</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=phrase-based&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            phrase-based</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=neural-based&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            neural-based</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Moses&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Moses</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=OpenNMT&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            OpenNMT</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(82d4c8059cdac0696dcbbdf381ee056c)&sc_f_para=sc_cita%3D%7BOn%20the%20use%20of%20machine%20translation-based%20approaches%20for%20vietnamese%20diacritic%20restoration%2C%20%20%20%20%20%20%20%20%20%20%20%202%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            2
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=On%20the%20use%20of%20machine%20translation-based%20approaches%20for%20vietnamese%20diacritic%20restoration&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://arxiv.org/pdf/1709.07104" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="7" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://adsabs.harvard.edu/abs/2018JPhCS.978a2078N
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28d3cb244e8b75f1af3a3c3c9ac8f13dda%29&filter=sc_long_sign&sc_f_para=q%3D5W1H%20Information%20Extraction%20with%20CNN-Bidirectional%20LSTM&sc_us=12124717524385912904&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">5W1H Information Extraction <em>with</em> <em>CNN</em>-<em>Bidirectional</em> <em>LSTM</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Nurdin%2C%20A%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">A Nurdin</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%281c9abf7900f6dc28%29%20Journal%20of%20Physics%20Conference%20Series&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="Journal of Physics Conference Series">
+    Journal of Physics...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2018">2018</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://adsabs.harvard.edu/abs/2018JPhCS.978a2078N
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            adsabs.harvard.edu
+    ">            adsabs.harvard...
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28d3cb244e8b75f1af3a3c3c9ac8f13dda%29&filter=sc_long_sign&sc_f_para=q%3D5W1H%20Information%20Extraction%20with%20CNN-Bidirectional%20LSTM&sc_us=12124717524385912904&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    In this work, information about who, did what, when, where, why, and how on Indonesian news articles were extracted by combining Convolutional Neural Network and <em>Bidirectional</em> Long Short-Term Memory. Convolutional Neural Network can l...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(d3cb244e8b75f1af3a3c3c9ac8f13dda)&sc_f_para=sc_cita%3D%7B5W1H%20Information%20Extraction%20with%20CNN-Bidirectional%20LSTM%2C%20%20%20%20%20%20%20%20%20%20%20%201%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            1
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=5W1H%20Information%20Extraction%20with%20CNN-Bidirectional%20LSTM&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    627.7K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/publication/323802780_5W1H_Information_Extraction_with_CNN-Bidirectional_LSTM/fulltext/5aabb7340f7e9b840b5916d8/323802780_5W1H_Information_Extraction_with_CNN-Bidirectional_LSTM.pdf?origin=publication_detail</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    627.7K
+</p>
+                                    <p class="saveurl">http://iopscience.iop.org/article/10.1088/1742-6596/978/1/012078/pdf</p>
+            <p class="saveanchor">IOP</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="8" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/abstract/document/8411809/
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28126w0ms0e13s0j90um4500a06p265617%29&filter=sc_long_sign&sc_f_para=q%3DChinese%20Clinical%20Entity%20Recognition%20via%20Attention-Based%20CNN-LSTM-CRF&sc_us=13276364236746263653&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Chinese Clinical <em>Entity</em> <em>Recognition</em> via Attention-Based <em>CNN</em>-<em>LSTM</em>-CRF</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Zengjian%20Liu%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Zengjian Liu</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2018">2018</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/abstract/document/8411809/
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28126w0ms0e13s0j90um4500a06p265617%29&filter=sc_long_sign&sc_f_para=q%3DChinese%20Clinical%20Entity%20Recognition%20via%20Attention-Based%20CNN-LSTM-CRF&sc_us=13276364236746263653&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Chinese clinical <em>entity</em> <em>recognition</em> is a fundamental task of Chinese clinical natural language processing, which has attracted plenty of attention. In t...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=conditional-random-field&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            conditional-random-field</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=long-short-term-memory&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            long-short-term-memory</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Chinese-clinical-entity-recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Chinese-clinical-<em>entity</em>-<em>recognition</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=neural-network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            neural-network</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=convolutional-neural-network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            convolutional-neural-network</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Chinese%20Clinical%20Entity%20Recognition%20via%20Attention-Based%20CNN-LSTM-CRF&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="9" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://europepmc.org/abstract/MED/29718118
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28f84500fde1446b98bfe07a7473212269%29&filter=sc_long_sign&sc_f_para=q%3DD3NER%3A%20Biomedical%20named%20entity%20recognition%20using%20CRF-biLSTM%20improved%20with%20fine-tuned%20embeddings%20of%20various%20linguistic%20information.&sc_us=10184627779112527770&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">D3NER: Biomedical <em>named</em> <em>entity</em> <em>recognition</em> using CRF-bi<em>LSTM</em> improved with fine-tuned embeddings of various linguistic information.</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28HQ%20Le%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">HQ Le</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%286bb08f9d1b4c591c%29%20%E3%80%8ABioinformatics%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Bioinformatics》">
+    《Bioinformatics》
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2018">2018</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://europepmc.org/abstract/MED/29718118
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Europe PMC
+    ">            Europe PMC
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28f84500fde1446b98bfe07a7473212269%29&filter=sc_long_sign&sc_f_para=q%3DD3NER%3A%20Biomedical%20named%20entity%20recognition%20using%20CRF-biLSTM%20improved%20with%20fine-tuned%20embeddings%20of%20various%20linguistic%20information.&sc_us=10184627779112527770&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    D3NER: Biomedical <em>named</em> <em>entity</em> <em>recognition</em> using CRF-bi<em>LSTM</em> improved with ...(NER) using conditional random fields and <em>bidirectional</em> long short-term ...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(f84500fde1446b98bfe07a7473212269)&sc_f_para=sc_cita%3D%7BD3NER%3A%20Biomedical%20named%20entity%20recognition%20using%20CRF-biLSTM%20improved%20with%20fine-tuned%20embeddings%20of%20various%20linguistic%20information.%2C%20%20%20%20%20%20%20%20%20%20%20%202%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            2
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=D3NER%3A%20Biomedical%20named%20entity%20recognition%20using%20CRF-biLSTM%20improved%20with%20fine-tuned%20embeddings%20of%20various%20linguistic%20information.&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="10" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://www.aclweb.org/anthology/C/C16/C16-1087.pdf
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28c16e946a69bb1f9a94c533ef174238c1%29&filter=sc_long_sign&sc_f_para=q%3DCharNER%3A%20Character-Level%20Named%20Entity%20Recognition&sc_us=71738481970224549&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">CharNER: Character-Level <em>Named</em> <em>Entity</em> <em>Recognition</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Onur%20Kuru%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">O Kuru</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://www.aclweb.org/anthology/C/C16/C16-1087.pdf
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            aclweb.org
+    ">            aclweb.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28c16e946a69bb1f9a94c533ef174238c1%29&filter=sc_long_sign&sc_f_para=q%3DCharNER%3A%20Character-Level%20Named%20Entity%20Recognition&sc_us=71738481970224549&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    We describe and evaluate a character-level tagger for language-independent <em>Named</em> <em>Entity</em> <em>Recognition</em> (NER). Instead of words, a sentence is represented as a sequence of characters. The model consists of stacked <em>bidirectional</em> <em>LSTM</em>s whic...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(c16e946a69bb1f9a94c533ef174238c1)&sc_f_para=sc_cita%3D%7BCharNER%3A%20Character-Level%20Named%20Entity%20Recognition%2C%20%20%20%20%20%20%20%20%20%20%20%2013%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            13
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=CharNER%3A%20Character-Level%20Named%20Entity%20Recognition&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    318.8K
+</p>
+                                    <p class="saveurl">http://www.aclweb.org/anthology/C/C16/C16-1087.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    318.8K
+</p>
+                                    <p class="saveurl">http://wing.comp.nus.edu.sg/~antho/C/C16/C16-1087.pdf</p>
+            <p class="saveanchor">wing.comp.nus.edu.sg</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    318.8K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/d95f/72fd2c84a4c412eb519b660e402db51d154a.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    318.8K
+</p>
+                                    <p class="saveurl">http://anthology.aclweb.org/C/C16/C16-1087.pdf</p>
+            <p class="saveanchor">anthology.aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    318.8K
+</p>
+                                    <p class="saveurl">http://aclweb.org/anthology/C/C16/C16-1087.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    318.8K
+</p>
+                                    <p class="saveurl">http://aclanthology.info/pdf/C/C16/C16-1087.pdf</p>
+            <p class="saveanchor">aclanthology.info</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                    </div>
+</div>
+    <div id="pager">
+				<i class="w-icon w-icon-left-def left"></i>
+	
+		<div class="pager_mid">
+	<strong><span class="pc">1</span></strong><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">2</span></a><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&pn=20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">3</span></a><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&pn=30&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">4</span></a><a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&pn=40&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">5</span></a>	</div>
+		<a href="/s?wd=Named%20Entity%20Recognition%20with%20Bidirectional%20LSTM-CNN&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1&rsv_page=1" class="n n_right"><i class="w-icon w-icon-right"></i></a>
+	</div>
+
+
+
+
+
+    <div id="wise_bombbox">
+	<div class="downloadBox">
+		<div class="dl_title">免费下载</div>
+		<div class="dl_content"></div>
+	</div>
+    <div class="box_close">取消</div>
+</div>
+
+    
+		</div>
+	</body>
+	
+    <div style="display:none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?43115ae30293b511088d3cbe41ec099c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/zepto/zepto.min_4064ae0.js"></script>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/webb/webb.min_08cab1e.js"></script>
+
+    <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/common_wise_a81c989.js" charset="utf-8"></script>
+        <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/page_wise_eb0edc1.js" charset="utf-8"></script>
+    
+</html>
+

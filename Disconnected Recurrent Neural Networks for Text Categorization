@@ -1,0 +1,1863 @@
+
+<!DOCTYPE html>
+<!--STATUS OK-->
+
+
+ 
+ 
+ 
+ 
+
+
+	
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<html>
+	<head>
+		<meta name="referrer" content="always" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="Description" content="百度学术搜索，是一个提供海量中英文文献检索的学术资源搜索平台，涵盖了各类学术期刊、学位、会议论文，旨在为国内外学者提供最好的科研体验。">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="manifest" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/manifest_69e8554.json">
+		
+<title>
+Disconnected Recurrent Neural Networks for Text Categorization_百度学术
+</title>
+
+		
+<style>
+/*解决iconfont跨越问题*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('/cache/mid/static/xueshu_wise/iconfont/iconfont.ttf') format('truetype'),
+        url('/cache/mid/static/xueshu_wise/iconfont/iconfont.svg#iconfont') format('svg');
+}
+</style>
+    	<link type="text/css" rel="stylesheet" href="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/css/page_wise_1eb6b91.css">
+    
+		
+	<script>
+var name,navigate,bdQid="ad3e793400071d06";
+var bds={
+    se:{},
+    util:{},
+    //结果页js通用数据
+    comm : {
+        domain:"http://www.baidu.com",
+        ubsurl : "http://sclick.baidu.com/w.gif",
+        tn:"SE_baiduxueshuwise_y5e9t2rx",
+        queryEnc:"Disconnected%2BRecurrent%2BNeural%2BNetworks%2Bfor%2BText%2BCategorization",
+        queryId:"ad3e793400071d06",
+        ishome : 0,
+        isTransShow: 0,
+        query : "Disconnected Recurrent Neural Networks for Text Categorization",
+        queryShow : "Disconnected Recurrent Neural Networks for Text Categorization",
+        qid : "ad3e793400071d06",
+        cid : "0",
+        sid : "",
+        f : "0",
+        pn : "0",
+        oq : "",
+        rsp : "",
+        sc_f_para : "",
+        stoken : "",
+        serverTime : "1558791451",
+        user : "",
+        username : "",
+        isLogin : "0",
+        loginAction : [],
+        useFavo : "",
+        pinyin : "",
+        favoOn : "",
+        personalData : "",
+        curResultNum:"10",
+        rightResultExist:false,
+        protectNum:0,
+        zxlNum:0,
+        pageNum:parseInt('1')||1,
+        pageSize:parseInt('10')||10,
+        taskTipsShow: 1,
+        subpro: 'xueshu_respage',
+        isSchoolShow: 0,
+        schoolEname: "",
+        resultTn:"SE_baiduxueshu_c1gjeupa",
+        scFrom:"",
+        scAsPara:"",
+        isdetailpage: 0,
+        // topBannerInfo: {
+        //     startDate: "2018\/05\/28",
+        //     endDate: "2018\/10\/11",
+        //     width: "260",
+        //     height: "130",
+        //     id: "jiangxuejin",
+        //     imgUrl: "http:\/\/ps-scholar-static.bj.bcebos.com\/homepage%2Fbaidujiangxuejing.jpeg",
+        //     jumpUrl: "http:\/\/scholarship.baidu.com\/"
+        // },
+        pageBannerInfo: {
+            startDate: "2018\/01\/01",
+			endDate: "2099\/01\/01",
+			id: "jiandan"
+        },
+        detailJumpVars: "scholar_single_hit=&scholar_single_hit_jump=&no_jump="
+    }
+};
+
+bds.comm.upn = {"browser":"safari","ie":"","os":"linux","win":"","browsertype":"safari"};
+
+var selfOpen = window.open;
+eval("var open = selfOpen;");
+
+function G(id){
+    return document.getElementById(id);
+}
+
+function TagQ(tag,obj){
+	return obj.getElementsByTagName(tag);
+}
+
+/**
+* @description 增加sclick统计
+* @function
+* @name c
+* @grammar c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function c(q){
+    var p = window.document.location.href, sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = escape(q[v]);
+                break;
+            default:
+                sV = q[v];
+        }
+        sQ += "&" + v + "=" + sV;
+    }
+    try{
+        if (("p2" in q)&&G(q["p1"]).getAttribute("mu") && q["fm"]!="pl") {
+            mu= "&mu=" + escape(G(q["p1"]).getAttribute("mu"));
+        }
+    }catch(e){};
+	img.src = "http://sclick.baidu.com/w.gif?q=" + bds.comm.queryEnc + sQ + mu + "&rsv_sid=" + bds.comm.sid + "&cid="+bds.comm.cid+"&qid="+bds.comm.qid+"&t="+new Date().getTime()+"&path="+p;
+    return true;
+}
+
+/**
+* @description 增加nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+function ns_c(q){
+	ns_c_xs(q);
+}
+
+/**
+* @description 增加xueshu nsclick统计
+* @function
+* @name c
+* @grammar ns_c(1)
+* @param {Object} q 字段集合
+* @return {Boolean} 当发送成功时返回true
+*/
+
+function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd=bds.comm.queryEnc, sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+
+    // mod当前搜索是否为图书馆模式
+    var mod = bds.comm.schoolEname ? '&mod=lib_' + bds.comm.schoolEname : '';
+    //fr是否来自详情页
+    var fr = bds.comm.isdetailpage ? '&fr=detailpage' : '';
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&rsv_sid=" + bds.comm.sid + "&wd=" + wd + "&" + sQ + "f=" + bds.comm.f + "&oq=" + bds.comm.oq + "&rsp=" + bds.comm.rsp + "&path=" + p + "&tn=" + bds.comm.tn + "&t=" + new Date().getTime() + '&pn=' + bds.comm.pn + mod + fr;
+    return true;
+}
+
+/**
+* @description 为搜索请求添加query，并增加ie参数
+* @function
+* @name setHeadUrl
+* @grammar setHeadUrl(el)
+* @param {Object} el 点击的链接对象
+*/
+function setHeadUrl(el){
+    var word = G("kw").value;
+    word = encodeURIComponent(word);
+    var url = el.href;
+    url = url.replace(new RegExp("(" + el.getAttribute('wdfield') + "=)[^&]*"), '\x241' + word+"&ie=utf-8");
+    el.href = url;
+}
+
+bds.util.getWinWidth = function(){
+    return window.document.documentElement.clientWidth;
+};
+//设置页面主体宽度
+//由于此时tangram还没加载，所以不能使用baidu.dom.addClass/removeClass
+bds.util.setContainerWidth = function(){
+    var c = G('container'),w = G('wrapper'),
+    remove = function(r,o){o.className = o.className.replace(r, '');},
+
+    add = function(cls,o){o.className = (o.className+' '+cls).replace(/^\s+/g, "");},
+    has = function(r,o){return r.test(o.className)};
+    if(bds.util.getWinWidth()<1310){
+        remove(/\bcontainer_l\b/g,c);
+        remove(/\bwrapper_l\b/g,w);
+        if(!has(/\bcontainer_s\b/,c)) add('container_s',c);
+        if(!has(/\bwrapper_s\b/,w)) add('wrapper_s',w);
+    bds.comm.containerSize = "s";
+    }else{
+        remove(/\bcontainer_s\b/g,c);
+        remove(/\bwrapper_s\b/g,w);
+        if(!has(/\bcontainer_l\b/,c)) add('container_l',c);
+        if(!has(/\bwrapper_l\b/,w)) add('wrapper_l',w);
+    bds.comm.containerSize = "l";
+    }
+};
+// ie版本
+bds.util.Ieversion = function() {
+    var ua = navigator.userAgent,
+        iereg = /MSIE (\d+).*/,
+        version = ua.match(iereg);
+
+    if (version && version[1]) {
+        return parseInt(version[1]);
+    }
+    return -1;
+};
+
+//阿拉丁命名空间
+window.A =  bds.aladdin = {
+    ids: [],
+    has: true,
+    list: [],
+    logs: [],
+    loadTimes: []
+};
+
+(function(){
+    var fns = [], isReady = false;
+    var exec = function(fn, thisobj){
+        try{
+            fn.call(thisobj);
+        }catch(e){
+            if(window.debugFlag) throw e;
+        }
+    };
+
+    //在js基础库加载完成后执行fn
+    bds.ready = function(fn){
+        if(typeof fn != 'function') return;
+        if(isReady){exec(fn)}
+        else{fns.push(fn);}
+    };
+
+    //手动触发ready
+    bds.doReady = function(){
+        isReady = true;
+        while(fns.length) exec(fns.shift());
+    };
+
+    //通过json字符串获取对象
+    var getJson = function(jsonString){
+        var result = {};
+        if(jsonString){
+            try{
+                var r = new Function("return " + jsonString)();
+                if(r) result = r;
+            }catch(e){}
+        }
+        return result;
+    },
+
+
+    // 获取当前阿拉丁DOM容器
+    getCurrentAladdin = (function(){
+        var scripts = document.getElementsByTagName("script");
+        return function(){
+            var script = scripts[scripts.length - 1], container = script;
+            while(container){
+                if( container.className ){
+                    if( /(?:^|\s)result(?:-op)?(?:$|\s)/.test(container.className)){
+                        if( tplname = container.getAttribute("tpl") ){
+                            return container;
+                        }
+                    }
+                }
+                container = container.parentNode;
+            }
+        };
+    })(),
+
+    // 筛选出阿拉丁结果
+    getResults = function(){
+        var els = $(".result-op").get().concat( $(".result").get() ),
+        alaEls = {};
+
+        for(var i = 0, name, el; el = els[i]; i++ ){
+            if(name = el.getAttribute("tpl")){
+                if( alaEls[name] ){
+                    alaEls[name].push(el);
+                }else{
+                    alaEls[name] = [el];
+                }
+            }
+        }
+        return alaEls;
+    },
+
+    // 入口事件队列
+    readyedHandlers = [],
+
+    //销毁函数列表，每项内容为
+    //{obj:instance, fn: fn}
+    //每项执行fn后即删除
+    disposeOnceHandlers = [],
+
+    //每项格式同disposeOnceHandlers
+    //每项执行后仍保留
+    //即每次销毁实例时都执行一次
+    disposeAlwaysHandlers = [],
+
+    currentSetupContainer = null,
+
+    // merge在bds.ready前的队列
+    mergeHandlers = [],
+
+    // 阿拉丁实例构造函数
+    Ala = A._Aladdin = function(){
+        this.p1 = 0;
+        this.mu = null;
+    };
+
+    A.merge = function(tplname, fn){
+        mergeHandlers.push({tplname: tplname, fn: fn});
+    };
+
+    // 阿拉丁入口函数
+    A.init = A.setup = function(k, v){
+
+        // 页面可能存在的空 init
+        if( k === undefined || k === null){
+            return;
+        }
+
+        var object, container = currentSetupContainer || getCurrentAladdin();
+        if( !container){
+            return;
+        }
+
+        object = {container: container};
+
+        if(typeof k == "function"){
+            object.handler = k;
+
+        }else if(typeof k == 'object'){
+            object.data = k;
+
+        }else{
+            object.data = {};
+            object.data[k] = v;
+        }
+
+        readyedHandlers.push( object );
+    };
+
+    // 注册每次销毁均执行的函数
+    A.addDisposeHandler = function(item){
+        disposeAlwaysHandlers.push(item);
+    };
+
+    //全局阿拉丁销毁函数，在删除阿拉丁dom节点前调用
+    A.dispose = function(){
+        // 执行阿拉丁实例dispose队列
+        while(disposeOnceHandlers.length){
+            var d = disposeOnceHandlers.shift();
+            exec(d.fn, d.obj);
+        }
+        // 顺序执行销毁函数
+        var handlers = disposeAlwaysHandlers;
+        for(var i=0;i<handlers.length;i++){
+            var d = handlers[i];
+            exec(d.fn, d.obj);
+        }
+    };
+
+    // 遍历执行所有阿拉丁实例
+    bds.ready(function(){
+
+        // 将所有的merge队列转换为setup队列
+        if( mergeHandlers.length ){
+            var results = getResults();
+            for(var i = 0, item; item = mergeHandlers[i]; i++){
+                var els = results[item.tplname];
+                if(els){
+                    for(var j = 0, el; el = els[j]; j++){
+                        currentSetupContainer = el;
+                        item.fn();
+                        currentSetupContainer = null;
+                    }
+                }
+            }
+        }
+
+        // 整理出的每个Aladding JS数据
+        var groupData = [],
+        getGroupData = function(el){
+            if(!isNaN(el.initIndex)){
+                return  groupData[ el.initIndex * 1];
+            }
+            var data = { data:{}, handlers: [], container: el };
+            groupData.push(data);
+            el.initIndex = groupData.length - 1;
+            return data;
+        };
+
+        // 整理setup队列顺序
+        for(var i = 0, item; item = readyedHandlers[i]; i++){
+            var elData = getGroupData(item.container);
+
+            if( item.data ){
+                for(var k in item.data){
+                    if(item.data.hasOwnProperty(k)){
+                        elData.data[k] = item.data[k];
+                    }
+                }
+
+            }else if (item.handler){
+                elData.handlers.push( item.handler );
+            }
+        }
+
+        // 遍历所有的setup
+        for(var i = 0, item; item = groupData[i]; i++){
+            var fn,
+            sTime,
+            eTime,
+            obj = {},
+            ala = new Ala();
+
+            ala.data = item.data;
+            ala.container = item.container;
+            ala._init();
+            A.list.push(ala);
+
+            // 执行setup队列
+            sTime = new Date();
+            while( fn = item.handlers.shift() ){
+                exec(fn, ala);
+                //执行完fn后，如果示例上定义了dispose方法
+                //则将其保存到队列中
+                if(typeof ala.dispose == 'function'){
+                    disposeOnceHandlers.push({
+                        obj:ala,
+                        fn: ala.dispose
+                    });
+                    ala.dispose = null;
+                }
+            }
+            eTime = new Date();
+
+            // 统计执行时间
+            obj = { srcid: ala.srcid };
+            obj.tpl  = ala.container.getAttribute('tpl');
+            obj.time = eTime - sTime;
+            A.loadTimes.push( obj );
+
+            $.each( A._Aladdin.fixs, function(i, f){
+                f.call(ala, ala);
+            });
+        }
+
+    });
+
+    Ala.prototype = {
+
+        //初始化实例属性
+        _init: function() {
+            var attrs = getJson(this.container.getAttribute('data-click'));
+            this.p1 = attrs.p1 || this.container.id;
+            this.mu = attrs.mu || this.container.getAttribute('mu');
+            this.srcid = attrs.rsv_srcid || this.container.getAttribute('srcid');
+        }
+    };
+
+
+})();
+</script>
+<script type="text/javascript">
+																					            																										
+
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "upload.xueshu.baidu.com":"http://upload.xueshu.baidu.com",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+	var get = function(url) {
+		if(location.protocol === "http:") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+		matches = url.match(reg);
+		//判断传入参数是域名还是地址，分别做处理
+		url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+		return url;
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			
+    <div id="page-top" class="c-flexbox">
+    <span class="logowr">
+    <a class="logo" href="//xueshu.baidu.com/" ontouchstart="return ns_c_xs({'fm':'xueshu','tab':'logo'})"><img src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/img/logo_w2_21fb37b.png"/></a>
+    </span>
+    <div class="topform_wr">
+<form id="topform" action="/s" name="f">
+    <div class="iptwr">
+        <!--输入框-->
+        <input type="text" name="wd" id="kw" value="Disconnected Recurrent Neural Networks for Text Categorization" maxlength="64" class="ipt" autocomplete="off">
+        <i class="c-icon searchicon">&#xe602;</i>
+        <span class="clear_btn">
+            <span class="clear_iconwr"><i class="c-icon clearicon OP_LOG_BTN" data-click="{'button_tp':'clear_wd','fm':'beha'}">&#xe605;</i></span>
+        </span>
+    </div>
+
+                <input type="hidden" name="tn" value="SE_baiduxueshuwise_y5e9t2rx">
+        <input type="hidden" name="cl" value="3">                    <input type="hidden" name="ie" value="utf-8">        <input type="hidden" name="bs" value="Disconnected Recurrent Neural Networks for Text Categorization">
+    <input type="hidden" name="f" value="8">
+    <input type="hidden" name="rsv_bp" value="1">
+    <input type="hidden" name="rsv_sug2" value="1">
+    </form>
+</div>
+
+
+    <span class="loginwr">
+                <a class="login c-icon" href="http://wappass.baidu.com/passport/?login&tpl=xueshu&ssid=0&from=844b&uid=&pu=&bd_page_type=1&tn=&regtype=1&u=" ontouchstart="return ns_c_xs({'fm':'set','tab':'login'})">&#xe60a;</a>
+                <span class="ipt_cancel">取消</span>
+    </span>
+</div>
+
+			
+            
+    
+<div id="page-nav" class="c-flexbox xpath-log" data-click="{'fm':'beha'}">
+    <div class="flexitem1">
+    <!-- <div class="c-flexbox"> -->
+    	<a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="nav nav_sel" data-click="{'button_tp':'filter_all'}">全部</a>
+            	<a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B1%7D" class="nav " data-click="{'button_tp':'filter_jour'}">期刊</a>
+            	<a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B3%7D" class="nav " data-click="{'button_tp':'filter_conf'}">会议</a>
+                <a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_type%3D%7B2%7D" class="nav " data-click="{'button_tp':'filter_degree'}">学位</a>
+    <!-- </div> -->
+    </div>
+            <div class="flexitem2 itemsingle">
+    <div class="c-flexbox">
+    <!--中英文切换组件-->
+        <!--排序下拉框-->
+    
+
+
+
+
+
+
+
+
+<div class="sortwr xpath-log" data-click="{'fm':'beha'}">
+    <!--<span class="text">时间不限</span>-->
+    <span class="filter_btn"><i class="c-icon iconfilter">&#xe609;</i>筛选</span>
+
+    <div class="content_wr">
+        <div class="filterlist c-flexbox">
+        <span class="label">筛选：</span>
+        <ul class="filterul">
+        <!--时间不限-->
+                <li class="select"><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8" class="leftnav_sel_close" data-click="{'button_tp':'filter_close'}">时间不限</a></li>
+
+        <!--近3年以来-->
+                
+                                                                                        
+                                                                        <li >
+                <a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2019%2C%2B%7D" class="" data-val="2019以来" data-index="2019,+" data-click="{'button_tp':'filter_year'}">2019以来<span class="li_num">(            6
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2018%2C%2B%7D" class="" data-val="2018以来" data-index="2018,+" data-click="{'button_tp':'filter_year'}">2018以来<span class="li_num">(            74
+    )</span></a>
+            </li>
+                                                        <li >
+                <a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&bcp=2&ie=utf-8&filter=sc_year%3D%7B2017%2C%2B%7D" class="" data-val="2017以来" data-index="2017,+" data-click="{'button_tp':'filter_year'}">2017以来<span class="li_num">(            171
+    )</span></a>
+            </li>
+                </ul>
+        </div>
+        <div class="sortlist c-flexbox">
+        <!--按相关性、被引量、按时间降序-->
+                                            <span class="label">排序：</span>
+        <ul class="sortul c-flexbox">
+            <li class="select"><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8" data-click="{'fm':'beha','button_tp':'asso'}">按相关性</a></li>
+            <li ><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_cited" data-click="{'fm':'beha','button_tp':'refer_num'}">按被引量</a></li>
+            <li ><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&sc_hit=1&ie=utf-8&sort=sc_time" data-click="{'fm':'beha','button_tp':'pub_t'}">按时间降序</a></li>
+        </ul>
+        </div>
+    </div>
+<script>
+bds.ready(function() {
+    var $sortwr = $('.sortwr'),
+        $filterBtn = $('.sortwr .filter_btn'),
+        $ul = $sortwr.find('.sortlist'),
+        $a = $ul.find('a');
+
+    $filterBtn.on('touchend', function(event) {
+        $sortwr.toggleClass('sortopen');
+        if ($sortwr.hasClass('sortopen')) {
+            showBg();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "show_filter"
+            });
+        } else {
+            $('.w_sort_bgcover').hide();
+            ns_c_xs({
+                'fm' : 'beha',
+                'button_tp' : "hide_filter"
+            });
+        }
+    });
+    function showBg () {
+        if (!$('.w_sort_bgcover').length) {
+            var top = $('#page-top').height() * 1 + $('#page-nav').height() * 1;
+            var html = '<div class="w_sort_bgcover" style="top:' + top + 'px;"></div>';
+            $(html).appendTo($('body'));
+        }
+        var h = Math.max($(window).height(), $('body').height());
+        $('.w_sort_bgcover').css({
+            height: h,
+            display: 'block'
+        });
+    }
+    $('body').on('touchend', '.w_sort_bgcover', function(event) {
+        $sortwr.removeClass('sortopen');
+        $('.w_sort_bgcover').hide();
+
+        // 防止事件透传
+        event.preventDefault();
+        event.stopPropagation();
+    });
+})
+</script>
+</div>
+    </div>
+    </div>
+</div>
+
+
+
+
+    <div id="content">
+	<div id="toolbar">
+				<span class="nums">
+    找到约7,830条相关结果
+</span>
+			</div>
+
+	<div id="w_result_lists">
+        	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="1" class="result xpath-log normal_result" srcid="1599" tpl="se_st_sc_default" mu="	http://www.aclweb.org/anthology/P18-1215
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%281r270tk0m60600e0u26c0c40qx568684%29&filter=sc_long_sign&sc_f_para=q%3DDisconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&sc_us=6278564989820600976&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Disconnected</em> <em>Recurrent</em> <em>Neural</em> <em>Networks</em> <em>for</em> <em>Text</em> <em>Categorization</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Baoxin%20Wang%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">Baoxin Wang</a>
+                    </span>        
+        
+        
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://www.aclweb.org/anthology/P18-1215
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            aclweb.org
+    ">            aclweb.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%281r270tk0m60600e0u26c0c40qx568684%29&filter=sc_long_sign&sc_f_para=q%3DDisconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&sc_us=6278564989820600976&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                    <em>Recurrent</em> <em>neural</em> network (RNN) has achieved remarkable performance in <em>text</em> <em>categorization</em>. RNN can model the en- tire sequence and capture long-term de- pendencies, but it does not do well in ex- tracting key patterns. In contrast, co...
+        </a>
+        </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+            <span>
+            被引量:            0
+    
+    </span>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="2" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://www.sciencedirect.com/science/article/pii/S0957417405000679
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%286ef4820ca0140e4fc9527f3858c93366%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20neural%20networks%20employing%20Lyapunov%20exponents%20for%20EEG%20signals%20classification&sc_us=18153647727527581539&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Recurrent</em> <em>neural</em> <em>networks</em> employing Lyapunov exponents for EEG signals classification</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Nihal%20Fatma%20G%C3%BCler%29%20Department%20of%20Electronics%20and%20Computer%20Education%2C%20Faculty%20of%20Technical%20Education%2C%20Gazi%20University%2C%20Teknikokullar%2C%2006500%20Ankara%2C%20Turkey&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">NF Güler</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%283e47ec45def3c282%29%20%E3%80%8AExpert%20Systems%20with%20Applications%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Expert Systems with Applications》">
+    《Expert Systems w...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2005">2005</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://www.sciencedirect.com/science/article/pii/S0957417405000679
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Elsevier
+    ">            Elsevier
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%286ef4820ca0140e4fc9527f3858c93366%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20neural%20networks%20employing%20Lyapunov%20exponents%20for%20EEG%20signals%20classification&sc_us=18153647727527581539&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                There are a number of different quantitative models that can be used in a medical diagnostic decision support system including parametric methods, non-p...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Recurrent%20neural%20networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Recurrent</em> <em>neural</em> <em>networks</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Levenberg%E2%80%93Marquardt%20algorithm&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Levenberg–Marquardt algorithm</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Electroencephalogram%20%28EEG%29%20signals&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Electroencephalogram (EEG) signals</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Chaotic%20signal&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Chaotic signal</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Lyapunov%20exponents&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Lyapunov exponents</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(6ef4820ca0140e4fc9527f3858c93366)&sc_f_para=sc_cita%3D%7BRecurrent%20neural%20networks%20employing%20Lyapunov%20exponents%20for%20EEG%20signals%20classification%2C%20%20%20%20%20%20%20%20%20%20%20%20380%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            380
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Recurrent%20neural%20networks%20employing%20Lyapunov%20exponents%20for%20EEG%20signals%20classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://www.researchgate.net/profile/Inan_Guler/publication/222517850_Recurrent_neural_networks_employing_Lyapunov_exponents_for_EEG_signals_classification/links/53fee3340cf283c3583bf473.pdf?ev=pub_ext_doc_dl_meta" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="3" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://arxiv.org/abs/1605.05101
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2855c87a8566543c206403233d8e99905f%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20Neural%20Network%20for%20Text%20Classification%20with%20Multi-Task%20Learning&sc_us=16522293048132723077&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Recurrent</em> <em>Neural</em> Network <em>for</em> <em>Text</em> Classification with Multi-Task Learning</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Liu%2C%20Pengfei%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">P Liu</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://arxiv.org/abs/1605.05101
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2855c87a8566543c206403233d8e99905f%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20Neural%20Network%20for%20Text%20Classification%20with%20Multi-Task%20Learning&sc_us=16522293048132723077&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                <em>Neural</em> <em>network</em> based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Computer%20Science%20-%20Computation%20and%20Language&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Computation and Lan...</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(55c87a8566543c206403233d8e99905f)&sc_f_para=sc_cita%3D%7BRecurrent%20Neural%20Network%20for%20Text%20Classification%20with%20Multi-Task%20Learning%2C%20%20%20%20%20%20%20%20%20%20%20%2081%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            81
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Recurrent%20Neural%20Network%20for%20Text%20Classification%20with%20Multi-Task%20Learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.6M
+</p>
+                                    <p class="saveurl">http://www.ijcai.org/Proceedings/16/Papers/408.pdf</p>
+            <p class="saveanchor">ijcai.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    408.6K
+</p>
+                                    <p class="saveurl">http://qngw2014.bj.bcebos.com/upload/2016/05/liupengfei.pdf</p>
+            <p class="saveanchor">qngw2014.bj.bcebos.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.6M
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/93eb/7d6592290e0b0fa6ee1cde7cb08d2f4aceb6.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    1.6M
+</p>
+                                    <p class="saveurl">http://ijcai.org/Proceedings/16/Papers/408.pdf</p>
+            <p class="saveanchor">ijcai.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    791.6K
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1605.05101</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    791.6K
+</p>
+                                    <p class="saveurl">http://128.84.21.199/pdf/1605.05101.pdf</p>
+            <p class="saveanchor">128.84.21.199</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="4" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://arxiv.org/abs/1603.03827
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28c53bdc62e3603f13e8f4ea9b28624ed4%29&filter=sc_long_sign&sc_f_para=q%3DSequential%20Short-Text%20Classification%20with%20Recurrent%20and%20Convolutional%20Neural%20Networks&sc_us=565980952258705053&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Sequential Short-<em>Text</em> Classification with <em>Recurrent</em> and Convolutional <em>Neural</em> <em>Networks</em></a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Lee%2C%20Ji%20Young%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">JY Lee</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://arxiv.org/abs/1603.03827
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28c53bdc62e3603f13e8f4ea9b28624ed4%29&filter=sc_long_sign&sc_f_para=q%3DSequential%20Short-Text%20Classification%20with%20Recurrent%20and%20Convolutional%20Neural%20Networks&sc_us=565980952258705053&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                Recent approaches based on artificial <em>neural</em> <em>networks</em> (ANNs) have shown promising results for short-<em>text</em> classification. However, many short <em>texts</em> occur...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Computer%20Science%20-%20Computation%20and%20Language&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Computation and Lan...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Artificial%20Intelligence&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Artificial Intellig...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Learning</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Computer%20Science%20-%20Neural%20and%20Evolutionary%20Computing&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - <em>Neural</em> and Evolutio...</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Statistics%20-%20Machine%20Learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Statistics - Machine Learning</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(c53bdc62e3603f13e8f4ea9b28624ed4)&sc_f_para=sc_cita%3D%7BSequential%20Short-Text%20Classification%20with%20Recurrent%20and%20Convolutional%20Neural%20Networks%2C%20%20%20%20%20%20%20%20%20%20%20%2087%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            87
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Sequential%20Short-Text%20Classification%20with%20Recurrent%20and%20Convolutional%20Neural%20Networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    205.4K
+</p>
+                                    <p class="saveurl">http://www.semanticscholar.org/paper/Sequential-Short-Text-Classification-with-Lee-Dernoncourt/0a7c04c252621633992810bf0f184f287610c461/pdf</p>
+            <p class="saveanchor">semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    205.4K
+</p>
+                                    <p class="saveurl">http://www.m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1062.pdf</p>
+            <p class="saveanchor">m-mitchell.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    205.4K
+</p>
+                                    <p class="saveurl">http://www.aclweb.org/anthology/N/N16/N16-1062.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    205.4K
+</p>
+                                    <p class="saveurl">http://wing.comp.nus.edu.sg/~antho/N/N16/N16-1062.pdf</p>
+            <p class="saveanchor">wing.comp.nus.edu.sg</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    308.5K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/0a7c/04c252621633992810bf0f184f287610c461.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    205.4K
+</p>
+                                    <p class="saveurl">http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1062.pdf</p>
+            <p class="saveanchor">m-mitchell.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    296.6K
+</p>
+                                    <p class="saveurl">http://francky.me/doc/2016naacl.pdf</p>
+            <p class="saveanchor">francky.me</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    308.5K
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1603.03827</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    205.4K
+</p>
+                                    <p class="saveurl">http://anthology.aclweb.org/N/N16/N16-1062.pdf</p>
+            <p class="saveanchor">anthology.aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    205.4K
+</p>
+                                    <p class="saveurl">http://aclweb.org/anthology/N/N16/N16-1062.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="5" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://www.sciencedirect.com/science/article/pii/S0925231201007068
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%285adf5e00ceb5cdaebc2a2e2d70646b43%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20neural%20networks%20for%20time%20series%20classification&sc_us=18140416394847174566&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Recurrent</em> <em>neural</em> <em>networks</em> <em>for</em> time series classification</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Michael%20H%C3%BCsken%29%20Institut%20f%C3%BCr%20Neuroinformatik%2C%20Ruhr-Universit%C3%A4t%20Bochum%2C%2044780%20Bochum%2C%20Germany&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">M Hüsken</a>
+        ，                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%28738b17840f6f93f4%29%20%E3%80%8ANeurocomputing%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《Neurocomputing》">
+    《Neurocomputing》
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2003">2003</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://www.sciencedirect.com/science/article/pii/S0925231201007068
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            Elsevier
+    ">            Elsevier
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%285adf5e00ceb5cdaebc2a2e2d70646b43%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20neural%20networks%20for%20time%20series%20classification&sc_us=18140416394847174566&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                <em>Recurrent</em> <em>neural</em> <em>networks</em> (RNN) are a widely used tool for the prediction of time series. In this paper we use the dynamic behaviour of the RNN to categ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Recurrent%20neural%20network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>Recurrent</em> <em>neural</em> network</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Classification</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Time%20series&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Time series</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Multitask%20learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Multitask learning</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=Generalization&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Generalization</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(5adf5e00ceb5cdaebc2a2e2d70646b43)&sc_f_para=sc_cita%3D%7BRecurrent%20neural%20networks%20for%20time%20series%20classification%2C%20%20%20%20%20%20%20%20%20%20%20%20113%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            113
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Recurrent%20neural%20networks%20for%20time%20series%20classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    228.6K
+</p>
+                                    <p class="saveurl">http://read.pudn.com/downloads403/doc/1721540/RNN-2012%20(41).pdf</p>
+            <p class="saveanchor">read.pudn.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    229.2K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/530d/2b07898a610a3c7de19c01b71dc4b5a6dd5d.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    229.2K
+</p>
+                                    <p class="saveurl">http://gabriel.prat.name/wiki/upload/Recurrent_NN_for_Time_Series_Clasification.PDF</p>
+            <p class="saveanchor">gabriel.prat.name</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    229.2K
+</p>
+                                    <p class="saveurl">http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=05540B9BE0C51A7AD73C501115425C8E?doi=10.1.1.8.8697&rep=rep1&type=pdf</p>
+            <p class="saveanchor">Citeseer</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="6" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/document/7914752
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%287816c1dd8e3be8bee57eb075047b03a5%29&filter=sc_long_sign&sc_f_para=q%3DDeep%20Recurrent%20Neural%20Networks%20for%20Hyperspectral%20Image%20Classification&sc_us=13603149262497818652&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Deep <em>Recurrent</em> <em>Neural</em> <em>Networks</em> <em>for</em> Hyperspectral Image Classification</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Lichao%20Mou%29%20German%20Aerospace%20Center%2C%20Remote%20Sensing%20Technology%20Institute%2C%20Wessling%2C%20Germany&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">L Mou</a>
+        ，                            ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=journaluri%3A%2824a799cc3357477f%29%20%E3%80%8AIEEE%20Transactions%20on%20Geoscience%20%26%20Remote%20Sensing%E3%80%8B&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="《IEEE Transactions on Geoscience &amp; Remote Sensing》">
+    《IEEE Transaction...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/document/7914752
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%287816c1dd8e3be8bee57eb075047b03a5%29&filter=sc_long_sign&sc_f_para=q%3DDeep%20Recurrent%20Neural%20Networks%20for%20Hyperspectral%20Image%20Classification&sc_us=13603149262497818652&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                In recent years, vector-based machine learning algorithms, such as random forests, support vector machines, and 1-D convolutional <em>neural</em> <em>networks</em>, have ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Convolutional%20neural%20network%20%28CNN%29&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Convolutional <em>neural</em> <em>network</em> (CNN)</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=deep%20learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            deep learning</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=gated%20recurrent%20unit%20%28GRU%29&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            gated <em>recurrent</em> unit (GRU)</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=hyperspectral%20image%20classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            hyperspectral image classification</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=long%20short-term%20memory%20%28LSTM%29&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            long short-term memory (LSTM)</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=recurrent%20neural%20network%20%28RNN%29&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>recurrent</em> <em>neural</em> network (RNN)</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(7816c1dd8e3be8bee57eb075047b03a5)&sc_f_para=sc_cita%3D%7BDeep%20Recurrent%20Neural%20Networks%20for%20Hyperspectral%20Image%20Classification%2C%20%20%20%20%20%20%20%20%20%20%20%2036%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            36
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Deep%20Recurrent%20Neural%20Networks%20for%20Hyperspectral%20Image%20Classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    5.1M
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Pedram_Ghamisi/publication/316572572_Deep_Recurrent_Neural_Networks_for_Hyperspectral_Image_Classification/links/5910f059458515bbcb682ad3/Deep-Recurrent-Neural-Networks-for-Hyperspectral-Image-Classification.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    5.0M
+</p>
+                                    <p class="saveurl">http://ieeexplore.ieee.org/ielx7/36/7955031/07914752.pdf?tp=&arnumber=7914752&isnumber=7955031</p>
+            <p class="saveanchor">IEEEXplore</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    5.0M
+</p>
+                                    <p class="saveurl">http://elib.dlr.de/114208/1/07914752.pdf</p>
+            <p class="saveanchor">elib.dlr.de</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="7" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://lanl.arxiv.org/abs/1605.07333
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%287dc1ef4854fd0213d4f54b4c3ae4ee4b%29&filter=sc_long_sign&sc_f_para=q%3DCombining%20Recurrent%20and%20Convolutional%20Neural%20Networks%20for%20Relation%20Classification&sc_us=2556289382695482788&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Combining <em>Recurrent</em> and Convolutional <em>Neural</em> <em>Networks</em> <em>for</em> Relation Classification</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Vu%2C%20Ngoc%20Thang%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">NT Vu</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%286c6361614e%29%20Naacl&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="Naacl">
+    Naacl
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2016">2016</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://lanl.arxiv.org/abs/1605.07333
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            arXiv.org
+    ">            arXiv.org
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%287dc1ef4854fd0213d4f54b4c3ae4ee4b%29&filter=sc_long_sign&sc_f_para=q%3DCombining%20Recurrent%20and%20Convolutional%20Neural%20Networks%20for%20Relation%20Classification&sc_us=2556289382695482788&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                This paper investigates two different <em>neural</em> architectures for the task of relation classification: convolutional <em>neural</em> <em>networks</em> and <em>recurrent</em> <em>neural</em> n...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Computer%20Science%20-%20Computation%20and%20Language&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Computer Science - Computation and Lan...</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(7dc1ef4854fd0213d4f54b4c3ae4ee4b)&sc_f_para=sc_cita%3D%7BCombining%20Recurrent%20and%20Convolutional%20Neural%20Networks%20for%20Relation%20Classification%2C%20%20%20%20%20%20%20%20%20%20%20%2041%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            41
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Combining%20Recurrent%20and%20Convolutional%20Neural%20Networks%20for%20Relation%20Classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+    <a href="javascript:;" class="sc_download" target="_blank" data-click="{'button_tp':'download'}" data-type="2">免费下载</a>
+
+    <div style="display:none;" class="sc_savalink_content">
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    220.1K
+</p>
+                                    <p class="saveurl">http://www.researchgate.net/profile/Heike_Adel/publication/305334383_Combining_Recurrent_and_Convolutional_Neural_Networks_for_Relation_Classification/links/57907dda08ae64311c0f1fe6.pdf</p>
+            <p class="saveanchor">ResearchGate</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    167.3K
+</p>
+                                    <p class="saveurl">http://www.m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1065.pdf</p>
+            <p class="saveanchor">m-mitchell.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    167.3K
+</p>
+                                    <p class="saveurl">http://www.aclweb.org/anthology/N/N16/N16-1065.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    167.3K
+</p>
+                                    <p class="saveurl">http://wing.comp.nus.edu.sg/~antho/N/N16/N16-1065.pdf</p>
+            <p class="saveanchor">wing.comp.nus.edu.sg</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    250.7K
+</p>
+                                    <p class="saveurl">http://pdfs.semanticscholar.org/258d/08e8dab99820361cd91364caded4975f5c3e.pdf</p>
+            <p class="saveanchor">pdfs.semanticscholar.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    167.3K
+</p>
+                                    <p class="saveurl">http://m-mitchell.com/NAACL-2016/NAACL-HLT2016/pdf/N16-1065.pdf</p>
+            <p class="saveanchor">m-mitchell.com</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    250.7K
+</p>
+                                    <p class="saveurl">http://arxiv.org/pdf/1605.07333</p>
+            <p class="saveanchor">arXiv.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    167.3K
+</p>
+                                    <p class="saveurl">http://anthology.aclweb.org/N/N16/N16-1065.pdf</p>
+            <p class="saveanchor">anthology.aclweb.org</p>
+        </div>
+                                                    <div class="sc_savelink_item" data-type="pdf">
+                            <p class="savesize">    167.3K
+</p>
+                                    <p class="saveurl">http://aclweb.org/anthology/N/N16/N16-1065.pdf</p>
+            <p class="saveanchor">aclweb.org</p>
+        </div>
+        </div>
+
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="8" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	https://ieeexplore.ieee.org/document/7952585/
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%2806ffaf118a20a8cdcc3774e515f3718d%29&filter=sc_long_sign&sc_f_para=q%3DConvolutional%20recurrent%20neural%20networks%20for%20music%20classification&sc_us=10610463634348131046&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">Convolutional <em>recurrent</em> <em>neural</em> <em>networks</em> <em>for</em> music classification</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                                            
+                                            
+                                            
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Keunwoo%20Choi%29%20Queen%20Mary%20University%20of%20London%2C%20UK&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">K Choi</a>
+        ，                                    ...</span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%287af3fe311d354573%29%20IEEE%20International%20Conference%20on%20Acoustics&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="IEEE International Conference on Acoustics">
+    IEEE International...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2017">2017</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	https://ieeexplore.ieee.org/document/7952585/
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            IEEEXplore
+    ">            IEEEXplore
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%2806ffaf118a20a8cdcc3774e515f3718d%29&filter=sc_long_sign&sc_f_para=q%3DConvolutional%20recurrent%20neural%20networks%20for%20music%20classification&sc_us=10610463634348131046&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                We introduce a convolutional <em>recurrent</em> <em>neural</em> network (CRNN) for music tagging. CRNNs take advantage of convolutional <em>neural</em> <em>networks</em> (CNNs) for local f...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=convolutional%20neural%20networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            convolutional <em>neural</em> <em>networks</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=recurrent%20neural%20networks&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>recurrent</em> <em>neural</em> <em>networks</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=music%20classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            music classification</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(06ffaf118a20a8cdcc3774e515f3718d)&sc_f_para=sc_cita%3D%7BConvolutional%20recurrent%20neural%20networks%20for%20music%20classification%2C%20%20%20%20%20%20%20%20%20%20%20%2031%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            31
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Convolutional%20recurrent%20neural%20networks%20for%20music%20classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="9" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://dl.acm.org/citation.cfm?id=1331869
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%28a249e60ce79d94610dcb996ce62b1d46%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20Neural%20Networks%20for%20Robust%20Real-World%20Text%20Classification&sc_us=5396651307346971311&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}"><em>Recurrent</em> <em>Neural</em> <em>Networks</em> <em>for</em> Robust Real-World <em>Text</em> Classification</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Garen%20Arevian%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">G Arevian</a>
+                    </span>&nbsp;-&nbsp;        
+                <span>
+        
+        <a href="        /s?wd=confuri%3A%283bac57a305bfe5cf%29%20IEEE%2FWIC%2FACM%20International%20Conference%20on%20Web%20Intelligence&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dpublish&sort=sc_cited" data-click="{'button_tp':'publish'}" title="IEEE/WIC/ACM International Conference on Web Intelligence">
+    IEEE/WIC/ACM Inter...
+</a>
+        </span>
+        
+        &nbsp;-&nbsp;<span class="sc_time" data-year="2007">2007</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://dl.acm.org/citation.cfm?id=1331869
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            ACM
+    ">            ACM
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%28a249e60ce79d94610dcb996ce62b1d46%29&filter=sc_long_sign&sc_f_para=q%3DRecurrent%20Neural%20Networks%20for%20Robust%20Real-World%20Text%20Classification&sc_us=5396651307346971311&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                This paper explores the application of <em>recurrent</em> <em>neural</em> <em>networks</em> <em>for</em> the task of robust <em>text</em> classification of a real-world benchmarking corpus. There a...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=ieee%20computer%20society&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            ieee computer society</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(a249e60ce79d94610dcb996ce62b1d46)&sc_f_para=sc_cita%3D%7BRecurrent%20Neural%20Networks%20for%20Robust%20Real-World%20Text%20Classification%2C%20%20%20%20%20%20%20%20%20%20%20%2016%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            16
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=Recurrent%20Neural%20Networks%20for%20Robust%20Real-World%20Text%20Classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+            </div>
+</div>
+</div>
+
+
+	        	                	                                
+
+
+
+
+
+
+
+            
+	        	        	        	            
+
+
+
+
+
+
+
+
+
+
+
+<div id="10" class="result xpath-log normal_result" srcid="3875" tpl="se_st_sc_default" mu="	http://dl.acm.org/citation.cfm?id=206336
+">
+<div class="sc_content">
+    <h3 class="c-title">
+        <a href="/s?wd=paperuri%3A%282d6c91705f005bdfe8de9dab36a3770e%29&filter=sc_long_sign&sc_f_para=q%3DA%20method%20for%20training%20recurrent%20neural%20networks%20for%20classification%20by%20building%20basins%20of%20attraction&sc_us=7894644371150460899&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'title'}">A method for training <em>recurrent</em> <em>neural</em> <em>networks</em> <em>for</em> classification by building basins of attraction</a>
+    </h3>
+
+    <div class="sc_info">
+                <span>                                
+                        
+        
+                                
+                        
+        <a href="
+        
+        
+/s?wd=author%3A%28Roelof%20K.%20Brouwer%29%20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_f_para=sc_hilight%3Dperson" data-click="{'button_tp':'author'}">RK Brouwer</a>
+                    </span>&nbsp;-&nbsp;        
+        
+        <span class="sc_time" data-year="1995">1995</span>
+                        <span class="sc_line">&nbsp;-&nbsp;</span>
+                <a target="_blank" href="	http://dl.acm.org/citation.cfm?id=206336
+" class="c-gray" data-click="{'button_tp':'from_nm'}" title="            ACM
+    ">            ACM
+    </a>
+        
+        </div>
+        <div class="c-abstract">
+        <a href="/s?wd=paperuri%3A%282d6c91705f005bdfe8de9dab36a3770e%29&filter=sc_long_sign&sc_f_para=q%3DA%20method%20for%20training%20recurrent%20neural%20networks%20for%20classification%20by%20building%20basins%20of%20attraction&sc_us=7894644371150460899&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+                The main contribution of this report is the suggestion, development, and trial of a new way of using a Hopfield <em>network</em> <em>for</em> classification. Rather than ...
+        </a>
+        </div>
+                <div class="sc_kw" data-click="{'button_tp':'keyword'}">
+            <span>关键词：</span>
+                                    <span><a href="/s?wd=Hopfield%20network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            Hopfield <em>network</em></a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=basin%20of%20attraction&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            basin of attraction</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=classification&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            classification</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=perceptron%20learning&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            perceptron learning</a></span>
+                                    <span>&nbsp;/&nbsp;<a href="/s?wd=recurrent%20neural%20network&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8">
+            <em>recurrent</em> <em>neural</em> network</a></span>
+                    </div>
+        </div>
+<div class="sc_ext c-flexbox">
+    <div class="flexitem_l">
+    
+                    <a href="/s?wd=refpaperuri:(2d6c91705f005bdfe8de9dab36a3770e)&sc_f_para=sc_cita%3D%7BA%20method%20for%20training%20recurrent%20neural%20networks%20for%20classification%20by%20building%20basins%20of%20attraction%2C%20%20%20%20%20%20%20%20%20%20%20%2026%0A%20%20%20%20%7D&sort=sc_cited&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8" data-click="{'button_tp':'sc_cited'}">
+            被引量:            26
+    
+    </a>    </div>
+    <div class="flexitem_r">
+        <a href="/s?wd=A%20method%20for%20training%20recurrent%20neural%20networks%20for%20classification%20by%20building%20basins%20of%20attraction&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1" data-click="{'button_tp':'asso_article'}">相关文章</a>
+                    
+
+                        
+    <a href="http://www.ixueshu.com/document/f1cf7f280ec25831318947a18e7f9386.html" class="sc_download" target="_blank" data-click="{'button_tp':'download'}">免费下载</a>
+
+            </div>
+</div>
+</div>
+
+
+	        	                    </div>
+</div>
+    <div id="pager">
+				<i class="w-icon w-icon-left-def left"></i>
+	
+		<div class="pager_mid">
+	<strong><span class="pc">1</span></strong><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">2</span></a><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&pn=20&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">3</span></a><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&pn=30&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">4</span></a><a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&pn=40&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1"><span class="pc">5</span></a>	</div>
+		<a href="/s?wd=Disconnected%20Recurrent%20Neural%20Networks%20for%20Text%20Categorization&pn=10&tn=SE_baiduxueshuwise_y5e9t2rx&ie=utf-8&sc_hit=1&rsv_page=1" class="n n_right"><i class="w-icon w-icon-right"></i></a>
+	</div>
+
+
+
+
+
+    <div id="wise_bombbox">
+	<div class="downloadBox">
+		<div class="dl_title">免费下载</div>
+		<div class="dl_content"></div>
+	</div>
+    <div class="box_close">取消</div>
+</div>
+
+    
+		</div>
+	</body>
+	
+    <div style="display:none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?43115ae30293b511088d3cbe41ec099c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/zepto/zepto.min_4064ae0.js"></script>
+    <script src="http://s1.bdstatic.com/r/www/cache/mid/static/webb/webb.min_08cab1e.js"></script>
+
+    <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/common_wise_a81c989.js" charset="utf-8"></script>
+        <script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/mid/static/xueshu_wise/js/page_wise_eb0edc1.js" charset="utf-8"></script>
+    
+</html>
+
